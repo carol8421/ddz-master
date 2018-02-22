@@ -1,0 +1,483 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "live": [
+            {
+                "title": "大牌连连看0825",
+                "cover": "https://dn-WB3iKO2J.qbox.me/7e960711a6876df46804.jpg",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fc058a95be7626c29e95e.m3u8",
+                "status": 1,
+                "chatroom_id": "599fc0585c497d0065a73ed4",
+                "viewer_num": 946
+            },
+            {
+                "title": "大濛濛濛的直播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/cc118dad667a8b66e605.png",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fe63aa95be7626c2b4c83.m3u8",
+                "status": 1,
+                "chatroom_id": "599fe63aa0bb9f005898ee51",
+                "viewer_num": 21
+            },
+            {
+                "title": "你爱我像谁",
+                "cover": "https://dn-WB3iKO2J.qbox.me/af214632b73ceb584d73.jpg",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fe59fa95be7626c2b468f.m3u8",
+                "status": 1,
+                "chatroom_id": "599fe5a0128fe1005b849570",
+                "viewer_num": 23
+            },
+            {
+                "title": "来啊斗地主啊 小哥哥",
+                "cover": "https://dn-WB3iKO2J.qbox.me/5773c84b8c29e6d8a5a9.jpg",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fe59ca95be7626c2b4670.m3u8",
+                "status": 1,
+                "chatroom_id": "599fe59c8d6d810057d0a079",
+                "viewer_num": 24
+            },
+            {
+                "title": "豆都输光了，一起唱k吧",
+                "cover": "https://dn-WB3iKO2J.qbox.me/840f49f5529cc790f0f7.jpg",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fdec3d425e156de2b0396.m3u8",
+                "status": 1,
+                "chatroom_id": "599fdec38d6d810057d03e5b",
+                "viewer_num": 133
+            },
+            {
+                "title": "来来来带你飞",
+                "cover": "https://dn-WB3iKO2J.qbox.me/e1971fc4cbf133878fde.jpg",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fdaefa3d5ec50f02ada1b.m3u8",
+                "status": 1,
+                "chatroom_id": "599fdaef5c497d0065a8caff",
+                "viewer_num": 153
+            },
+            {
+                "title": "安娜的直播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/1e5da3fc66a292b9bdba.png",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fda9ad425e156de2adb9b.m3u8",
+                "status": 1,
+                "chatroom_id": "599fda9a128fe1005b83ec43",
+                "viewer_num": 173
+            },
+            {
+                "title": "安娜baby",
+                "cover": "https://dn-WB3iKO2J.qbox.me/faa3cfdd7a03e0a07fb3.jpg",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fd81f20a05d70942ac11a.m3u8",
+                "status": 1,
+                "chatroom_id": "599fd81f61ff4b00628effb2",
+                "viewer_num": 178
+            },
+            {
+                "title": "2017唯一的直播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/c596042662b088c4775e.png",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fd7baa3d5ec50f02abbe7.m3u8",
+                "status": 1,
+                "chatroom_id": "599fd7ba1b69e6006a48dc0d",
+                "viewer_num": 171
+            },
+            {
+                "title": "你是我的哈哈哈的直播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/eb924f6e76130404f234.png",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fd544d425e156de2aa845.m3u8",
+                "status": 1,
+                "chatroom_id": "599fd544a0bb9f005897f3f4",
+                "viewer_num": 214
+            },
+            {
+                "title": "yuko豆瓣酱的直播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/81035440d6feec51ebf3.png",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fce6da95be7626c2a6914.m3u8",
+                "status": 1,
+                "chatroom_id": "599fce6d61ff4b00628e6daa",
+                "viewer_num": 1
+            },
+            {
+                "title": "神仙姐姐打斗地主",
+                "cover": "https://dn-WB3iKO2J.qbox.me/60bebeda52244a7a9058.jpg",
+                "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fcda620a05d70942a5f3d.m3u8",
+                "status": 1,
+                "chatroom_id": "599fcda661ff4b00628e5fb7",
+                "viewer_num": 620
+            }
+        ],
+        "playback": [
+            {
+                "title": "天天德州-SNG揭秘&TPT海选赛",
+                "cover": "https://dn-WB3iKO2J.qbox.me/aa6370357fbad496fe43.jpg",
+                "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599fc14dd425e156de29f030/599fc14dd425e156de29f030.mp4",
+                "status": 0,
+                "chatroom_id": "599fc14d128fe1005b826cca",
+                "viewer_num": 644
+            },
+            {
+                "title": "大超人的直播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/b89267731831e784995f.png",
+                "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599fdd63a95be7626c2af612/599fdd63a95be7626c2af612.mp4",
+                "status": 0,
+                "chatroom_id": "599fdd638d6d810058230c21",
+                "viewer_num": 66
+            },
+            {
+                "title": "大超人的直播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/4f6e6d5407f2b410c10f.png",
+                "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599fcd29a95be7626c2a5db7/599fcd29a95be7626c2a5db7.mp4",
+                "status": 0,
+                "chatroom_id": "599fcd2a128fe1005b832384",
+                "viewer_num": 115
+            },
+            {
+                "title": "进屋随便撩😉",
+                "cover": "https://dn-WB3iKO2J.qbox.me/e47276316de783c6e150.png",
+                "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599fcce520a05d70942a582c/599fcce520a05d70942a582c.mp4",
+                "status": 0,
+                "chatroom_id": "599fcce661ff4b00628e547b",
+                "viewer_num": 83
+            }
+        ],
+        "videos": [
+            {
+                "uid": 1002229,
+                "list": [
+                    {
+                        "title": "大牌连连看0824",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/c9322d204f737ec6b100.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599e6ef2d425e156de201ba7/599e6ef2d425e156de201ba7.mp4",
+                        "status": 0,
+                        "chatroom_id": "599e6ef2570c35006caeb46a",
+                        "viewer_num": 906
+                    },
+                    {
+                        "title": "大牌连连看0823",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/21ee91603cfdd2cf4538.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d1826d425e156de15efe4/599d1826d425e156de15efe4.mp4",
+                        "status": 0,
+                        "chatroom_id": "599d18265c497d006582d3d8",
+                        "viewer_num": 597
+                    },
+                    {
+                        "title": "大牌连连看0822",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/7235d958b605ba45389a.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599bcfcca95be7626c0c5565/599bcfcca95be7626c0c5565.mp4",
+                        "status": 0,
+                        "chatroom_id": "599bcfcca22b9df82fbc5c59",
+                        "viewer_num": 1000
+                    },
+                    {
+                        "title": "大牌连连看0821",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/2787010b81b09da435b1.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599a8603a3d5ec50f002e556/599a8603a3d5ec50f002e556.mp4",
+                        "status": 0,
+                        "chatroom_id": "599a860361ff4b0058f66c90",
+                        "viewer_num": 698
+                    },
+                    {
+                        "title": "大牌连连看0820",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/17ac2b961fecc9a39243.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59993106d425e113ffb409ee/59993106d425e113ffb409ee.mp4",
+                        "status": 0,
+                        "chatroom_id": "59993106a22b9df82f9bda45",
+                        "viewer_num": 396
+                    },
+                    {
+                        "title": "大牌连连看0819",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/fb317d670ea37b9927c7.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5997d24e20a05d4c8daa1b3e/5997d24e20a05d4c8daa1b3e.mp4",
+                        "status": 0,
+                        "chatroom_id": "5997d250570c350060672d31",
+                        "viewer_num": 3051
+                    },
+                    {
+                        "title": "大牌连连看0818",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/01c3115c3c8821036bdb.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599682eda95be73db1a79f98/599682eda95be73db1a79f98.mp4",
+                        "status": 0,
+                        "chatroom_id": "599682ed570c350060590857",
+                        "viewer_num": 1011
+                    },
+                    {
+                        "title": "大牌连连看0817",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/20b8db229a82754abde0.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59953476a3d5ec524e9718b4/59953476a3d5ec524e9718b4.mp4",
+                        "status": 0,
+                        "chatroom_id": "599534765c497d0057d5bb46",
+                        "viewer_num": 927
+                    },
+                    {
+                        "title": "大牌连连看0816",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/5abfea342534476a1bb1.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5993e4e5a95be73db1947b1e/5993e4e5a95be73db1947b1e.mp4",
+                        "status": 0,
+                        "chatroom_id": "5993e4e5a22b9d005720aaf8",
+                        "viewer_num": 1006
+                    },
+                    {
+                        "title": "大牌连连看0815",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/7GmMo0BgXCv1BODeKTKop7Tvv9pgqj58p85sPytx.png",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59929164a95be73db18ae2dc/59929164a95be73db18ae2dc.mp4",
+                        "status": 0,
+                        "chatroom_id": "599291648d6d810058b74f92",
+                        "viewer_num": 859
+                    },
+                    {
+                        "title": "大牌连连看0814",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/daa845b0f4a97d25c896.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599148ffa3d5ec524e7abf90/599148ffa3d5ec524e7abf90.mp4",
+                        "status": 0,
+                        "chatroom_id": "599148ffa22b9d0057fe2ca7",
+                        "viewer_num": 496
+                    },
+                    {
+                        "title": "大牌连连看0813",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/666698385205dc336945.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598ff94fd425e113ff715244/598ff94fd425e113ff715244.mp4",
+                        "status": 0,
+                        "chatroom_id": "598ff94fa22b9d0057ec725c",
+                        "viewer_num": 368
+                    }
+                ]
+            },
+            {
+                "uid": 1011936,
+                "list": [
+                    {
+                        "title": "地主来了（处女秀）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/7f85a02f076ce6e1143f.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59927f47a95be73db18a3f5c/59927f47a95be73db18a3f5c.mp4",
+                        "status": 0,
+                        "chatroom_id": "59927f47570c35006b7c444b",
+                        "viewer_num": 507
+                    },
+                    {
+                        "title": "双飞斗地主0815",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/d33131f43c124039c373.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5992505920a05d4c8d817540/5992505920a05d4c8d817540.mp4",
+                        "status": 0,
+                        "chatroom_id": "599250598d6d810058b332e9",
+                        "viewer_num": 318
+                    },
+                    {
+                        "title": "CALL不call（处女秀）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/cded2fb1ef5e91edc9ea.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59918919a95be73db1841f53/59918919a95be73db1841f53.mp4",
+                        "status": 0,
+                        "chatroom_id": "59918919570c35006b701957",
+                        "viewer_num": 310
+                    },
+                    {
+                        "title": "嗨翻两小时",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/fc0f51084f177f2b034c.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597f5208a95be727c21565b6/597f5208a95be727c21565b6.mp4",
+                        "status": 0,
+                        "chatroom_id": "597f5208ac502e0069ee5adf",
+                        "viewer_num": 194
+                    },
+                    {
+                        "title": "红白大对抗（月决赛）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/6b1af955d548ca527b7a.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597f3c54a3d5ec51c514cf2d/597f3c54a3d5ec51c514cf2d.mp4",
+                        "status": 0,
+                        "chatroom_id": "597f3c558d6d810058eebc90",
+                        "viewer_num": 242
+                    },
+                    {
+                        "title": "红白大对抗",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/ae18ff75a19b3c2176aa.jpeg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597f2fb2a95be727c2146486/597f2fb2a95be727c2146486.mp4",
+                        "status": 0,
+                        "chatroom_id": "597f2fb2a0bb9f00582d3f7c",
+                        "viewer_num": 86
+                    },
+                    {
+                        "title": "直击MTT（儿童节）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/3ebf960e8f66009feeaa.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59301121d425e14e433b8fe7/59301121d425e14e433b8fe7.mp4",
+                        "status": 0,
+                        "chatroom_id": "593011210ce4630057eae9b0",
+                        "viewer_num": 258
+                    },
+                    {
+                        "title": "直击MTT（儿童节）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/4490bfc434a5919a51c1.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5930096120a05d5c483b5718/5930096120a05d5c483b5718.mp4",
+                        "status": 0,
+                        "chatroom_id": "593009612f301e005825c6fc",
+                        "viewer_num": 111
+                    },
+                    {
+                        "title": "直击MTT（儿童节）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/661386bc40bd3dbe4d61.jpg",
+                        "status": 0,
+                        "chatroom_id": "59300442b123db0064ed6d23",
+                        "viewer_num": 26
+                    },
+                    {
+                        "title": "大牌连连看",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/ad3f0ab347c14b9d6fe9.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59267506d425e14e4300c5a9/59267506d425e14e4300c5a9.mp4",
+                        "status": 0,
+                        "chatroom_id": "5926750744d9040064028bf2",
+                        "viewer_num": 503
+                    },
+                    {
+                        "title": "直击MTT",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/69fea66a763f3f541efb.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.592575daa3d5ec5ef202d0d8/592575daa3d5ec5ef202d0d8.mp4",
+                        "status": 0,
+                        "chatroom_id": "592575da44d904006cf49802",
+                        "viewer_num": 325
+                    },
+                    {
+                        "title": "直击MTT",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/44GOSCcWREUqSLRN8RdYuhPz5vM0Duv66U8ESdwV.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5912b90ca3d5ec6135041cf5/5912b90ca3d5ec6135041cf5.mp4",
+                        "status": 0,
+                        "chatroom_id": "5912b90cac502e00656186f4",
+                        "viewer_num": 525
+                    }
+                ]
+            },
+            {
+                "uid": 1040731,
+                "list": [
+                    {
+                        "title": "WSOP-24K王者单挑赛第七周周决赛",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/d90e3d8adcf6f37188dd.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599eb0a0a3d5ec50f022a414/599eb0a0a3d5ec50f022a414.mp4",
+                        "status": 0,
+                        "chatroom_id": "599eb0a05c497d00659ba65d",
+                        "viewer_num": 1196
+                    },
+                    {
+                        "title": "WSOP-24K王者单挑赛第7周半决赛！",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/f9b709555f6a362c41d5.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d4886d425e156de17ce46/599d4886d425e156de17ce46.mp4",
+                        "status": 0,
+                        "chatroom_id": "599d48895c497d006586aa22",
+                        "viewer_num": 2443
+                    },
+                    {
+                        "title": "WSOP-24K王者单挑赛第七周初赛B组",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/5dd80430408099fcc1e1.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599c1dd7d425e156de0f5f0a/599c1dd7d425e156de0f5f0a.mp4",
+                        "status": 0,
+                        "chatroom_id": "599c1dd75c497d00574ab58c",
+                        "viewer_num": 1825
+                    },
+                    {
+                        "title": "WSOP-24K王者单挑赛第七周初赛B组",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/ef735b124ec7783c4f39.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599c0b48a95be7626c0ea3d9/599c0b48a95be7626c0ea3d9.mp4",
+                        "status": 0,
+                        "chatroom_id": "599c0b495c497d005748c697",
+                        "viewer_num": 851
+                    },
+                    {
+                        "title": "WSOP-24K王者单挑赛第七周初赛A组",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/10272c7337fbd93e35b4.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599abc63d425e156de04f384/599abc63d425e156de04f384.mp4",
+                        "status": 0,
+                        "chatroom_id": "599abc6361ff4b0058fa45d7",
+                        "viewer_num": 557
+                    },
+                    {
+                        "title": "WSOP-24K王者单挑赛第6周决赛",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/8d44d37fbe98a7adafd8.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59956e25a3d5ec524e9941ba/59956e25a3d5ec524e9941ba.mp4",
+                        "status": 0,
+                        "chatroom_id": "59956e261b69e60058232b9a",
+                        "viewer_num": 6033
+                    },
+                    {
+                        "title": "WSOP-24K王者单挑赛第六周复赛",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/ce0cf019562c4dae6f1a.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59941b26a3d5ec524e8fa23b/59941b26a3d5ec524e8fa23b.mp4",
+                        "status": 0,
+                        "chatroom_id": "59941b26570c35006b92140b",
+                        "viewer_num": 3059
+                    },
+                    {
+                        "title": "WSOP-24K王者单挑赛第六周初赛B组",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/3042c9d91efd6040f294.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5992d38ed425e113ff864d1b/5992d38ed425e113ff864d1b.mp4",
+                        "status": 0,
+                        "chatroom_id": "5992d38e128fe1005813959e",
+                        "viewer_num": 2792
+                    },
+                    {
+                        "title": "WOSP-24K王者单挑赛第六周初赛A组",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/039eca22ed2ed90c853a.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59918194d425e113ff7cca1e/59918194d425e113ff7cca1e.mp4",
+                        "status": 0,
+                        "chatroom_id": "599181948d6d810058aa0071",
+                        "viewer_num": 5840
+                    },
+                    {
+                        "title": "WOSP-24K王者单挑赛第五周周决赛",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/6b6ff434ec2abb99077d.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598c3458a3d5ec524e56d803/598c3458a3d5ec524e56d803.mp4",
+                        "status": 0,
+                        "chatroom_id": "598c3458a22b9d006103ae74",
+                        "viewer_num": 3668
+                    },
+                    {
+                        "title": "WSOP-24K王者单挑赛第五周复赛",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/de5a0dda65227c826988.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598adf59d425e113ff4d2961/598adf59d425e113ff4d2961.mp4",
+                        "status": 0,
+                        "chatroom_id": "598adf59a0bb9f00575765db",
+                        "viewer_num": 4186
+                    },
+                    {
+                        "title": "WSOP-24K王者单挑赛第五周初赛B组",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/854680bdf2e5ae6bf782.jpg",
+                        "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5989971fa95be73db1487378/5989971fa95be73db1487378.mp4",
+                        "status": 0,
+                        "chatroom_id": "5989971fac502e00696fbbb3",
+                        "viewer_num": 8187
+                    }
+                ]
+            }
+        ],
+        "top": {
+            "title": "夏花老师战胜天天德州",
+            "cover": "https://dn-WB3iKO2J.qbox.me/DOX5S2IfGJXM3pdSPMhGBS7wHGtX1hDBsTpzjYBl.jpg",
+            "url": "http://pili-live-hls.dasheng.appgame.com/monkeykingtv/599fc14dd425e156de29f030.m3u8",
+            "status": 1,
+            "chatroom_id": "top",
+            "viewer_num": 0
+        },
+        "recommend": [],
+        "banner": [
+            {
+                "pic": "https://dn-WB3iKO2J.qbox.me/GvSTmVgKncfNndTsCvs9uc9FzpptwoxqPBy2wTfC.png",
+                "url": "https://dasheng.appgame.com/activity/poker/index.html?uid=&nick="
+            }
+        ],
+        "trail_info": [
+            {
+                "title": "24K王者单挑赛总决赛",
+                "time": "1504368000"
+            },
+            {
+                "title": "24K王者单挑赛月决赛",
+                "time": "1504332000"
+            },
+            {
+                "title": "24K王者单挑赛-八周A组",
+                "time": "1503918000"
+            },
+            {
+                "title": "夏花老师战胜天天德州",
+                "time": "1503740700"
+            },
+            {
+                "title": "大牌连连看",
+                "time": "1503730800"
+            },
+            {
+                "title": "冰火对决之征战WSOP",
+                "time": "1503672300"
+            }
+        ]
+    }
+}

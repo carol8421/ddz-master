@@ -1,0 +1,224 @@
+.main-home {
+    height: 100%;
+    display: flex;
+
+    .home-title {
+        height: 0.63rem;
+        line-height: 0.63rem;
+        font-size: 0.24rem;
+        color: #e4dcff;
+        flex-shrink: 0;
+        background-repeat: no-repeat;
+        background-position: 0.12rem center;
+        background-size: auto 0.34rem;
+        background-color: #4b3380;
+        border-radius: 0.08rem 0.08rem 0 0;
+        padding-right: 0.12rem;
+
+        .more {
+            float: right;
+            font-size: 0.22rem;
+            color: #a396cd;
+            padding-right: 0.17rem;
+            background-image: url(../images/hall/arraw.png);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: 0.11rem auto;
+        }
+    }
+
+    .home-left {
+        padding-top: 0.2rem;
+        width: 8.5rem;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+
+        .home-video {
+            height: 10px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+
+            .home-video-header {
+                padding-left: 1.22rem;
+
+                &.icon-live {
+                    background-image: url(../images/hall/icon-live.png);
+                }
+
+                &.icon-playback {
+                    background-image: url(../images/hall/icon-playback.png);
+                }
+
+                b {
+                    float: right;
+                    padding-left: 0.28rem;
+                    color: #e4dcff;
+                    font-size: 0.22rem;
+                    font-weight: normal;
+                    line-height: 0.63rem;
+                    background-image: url(../images/hall/icon-role.png);
+                    background-position: left center;
+                    background-repeat: no-repeat;
+                    background-size: 0.2rem auto;
+                }
+            }
+
+            .home-video-poster {
+                height: 10px;
+                flex-grow: 1;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+
+                &:before {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    background-image: url(../images/hall/icon-play.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 1.08rem;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+        }
+
+        .home-banner {
+            height: 0.82rem;
+            flex-shrink: 0;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 0.15rem;
+        }
+    }
+
+    .home-right {
+        padding-top: 0.2rem;
+        width: 10px;
+        flex-grow: 1;
+        padding-left: 0.2rem;
+        height: 100%;
+
+        .home-live {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            header {
+                background-image: url(../images/hall/icon-start.png);
+                padding-left: 0.58rem;
+                position: relative;
+                z-index: 2;
+            }
+
+            .swiper-live {
+                width: 100%;
+                height: 10px;
+                flex-grow: 1;
+                background-color: #381758;
+                margin-top: -0.1rem;
+
+                .swiper-slide {
+                    height: 2.36rem;
+                    padding-top: 0.1rem;
+
+                    a {
+                        display: block;
+
+                        i {
+                            display: block;
+                            padding-top: 55.65%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+
+                        p {
+                            font-size: 0.22rem;
+                            line-height: 0.42rem;
+                            height: 0.42rem;
+                            overflow: hidden;
+                            color: #e4dcff;
+                            padding: 0 0.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (orientation: portrait) {
+    .main-home {
+        flex-direction: column;
+        padding-bottom: 0.15rem;
+
+        .home-left {
+            padding-top: 0;
+            width: 100%;
+
+            .home-video{
+                height: auto;
+
+                .home-video-poster {
+                    padding-top: 55.56%;
+                }
+            }
+        }
+
+        .home-right {
+            width: 100%;
+            flex-grow: 1;
+            display: flex;
+            padding-left: 0;
+
+            .home-live {
+                height: auto;
+                width: 100%;
+
+                .swiper-live{
+
+                    .swiper-slide {
+                        height: 100%;
+
+                        a {
+                            display: flex;
+                            flex-direction: column;
+                            height: 100%;
+
+                            i {
+                                padding: 0;
+                                width: 100%;
+                                height: 10px;
+                                flex-grow: 1;
+                            }
+
+                            p {
+                                font-size: 0.36rem;
+                                line-height: 0.64rem;
+                                height: 0.64rem;
+                                flex-shrink: 0;
+                                padding: 0 0.2rem 0.2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.swiper-lazy{
+    opacity: 0;
+    transition-duration: 150ms;
+
+    &.swiper-lazy-loaded {
+        opacity: 1;
+    }
+}

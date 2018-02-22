@@ -1,0 +1,187 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "videos": [
+      {
+        "name": "德扑新手课堂",
+        "desc": "天天德州推出精品视频栏目《德扑新手课堂》，十分适合萌新收看，这系列视频不仅给萌新讲解德扑基础规则，还会教大家什么样的牌型值得入池，关于位置的讲究、下注与加注的技巧等，涵盖了德扑的方方面面的技巧，让新手可以一步一步地了解德扑的玩法。",
+        "icon": "./images/hall/bhdj.jpg",
+        "list": [
+          {
+            "title": "冰与火的对抗！阿贵带你吐槽主播们的比赛！",
+            "cover": "https://dn-WB3iKO2J.qbox.me/073753b7da4c4ec4a58a.jpg",
+            "nickname": "V+博击会",
+            "uid": 1045148,
+            "viewer_num": 298,
+            "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598edfeca95be73db1713025/598edfeca95be73db1713025.m3u8",
+            "chatroom_id": "598edfeca95be73db1713025"
+          }
+        ]
+      },
+      {
+        "name": "德扑进阶之路",
+        "desc": "集高手进阶与实用技巧于一身，每期主持人司文都会由浅而深地教大家德扑的进阶知识，其中包括针对自身的筹码深浅做出应对策略，如何诈唬对手，如何观察对方的行动····多种高端进阶技巧都能在《德扑进阶路》中学习到，一步步地带领大家走进德扑高手的大门。",
+        "icon": "./images/hall/dpllk.jpg",
+        "list": [
+          {
+            "title": "大牌连连看0801",
+            "cover": "https://dn-WB3iKO2J.qbox.me/64fee893b3fa6376d55d.jpg",
+            "nickname": "24K-大牌连连看",
+            "uid": 1002229,
+            "viewer_num": 355,
+            "url": "http://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5980230a20a05d2cd11a9f37/5980230a20a05d2cd11a9f37.m3u8",
+            "chatroom_id": "5980230a20a05d2cd11a9f37"
+          }
+        ]
+      },
+      {
+        "name": "主播星计划",
+        "desc": "全国首档将选秀与德扑比赛结合的真人竞技节目。导师团有德扑大神郭东、甜心电竞主播沐沐、德扑魔法师司文。谁能逆转王牌？谁能一战成名？谁又能拥有百万合约，成为实力与运气的新宠儿？",
+        "icon": "./images/hall/zbxjh.jpg",
+        "list": [
+          {
+            "title": "精彩回放的直播回放",
+            "cover": "https://dn-WB3iKO2J.qbox.me/2540b4cee53806db2d0a.jpg",
+            "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5992cadaa3d5ec524e860d4a/5992cadaa3d5ec524e860d4a.m3u8",
+            "status": 0,
+            "chatroom_id": "5992cadaa3d5ec524e860d4a",
+            "viewer_num": 125
+          },
+          {
+            "title": "我不是米奇的直播回放",
+            "cover": "https://dn-WB3iKO2J.qbox.me/ce5a958078b13e025a7c.jpg",
+            "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598144bdd425e113ff005c94/598144bdd425e113ff005c94.m3u8",
+            "status": 0,
+            "chatroom_id": "598144bdd425e113ff005c94",
+            "viewer_num": 3225
+          }
+        ]
+      },
+      {
+        "name": "郭东讲坛",
+        "desc": "腾讯棋牌文化推广大使郭东，开设牌局精讲课程。聆听大神讲座，参与牌局分享，提高你的德扑技巧",
+        "icon": "./images/hall/gdjt.jpg",
+        "list": [
+          {
+            "title": "郭东讲坛第一期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/accd6d8456423a7d6771.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 103,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f0dbad425e16bec122c4f/590f0dbad425e16bec122c4f.m3u8",
+            "chatroom_id": "590f0dbad425e16bec122c4f"
+          },
+          {
+            "title": "郭东讲坛第二期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/ea1dba40c7e888eddad5.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 98,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1223a95be74dd31a4518/590f1223a95be74dd31a4518.m3u8",
+            "chatroom_id": "590f1223a95be74dd31a4518"
+          },
+          {
+            "title": "郭东讲坛第三期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/613acf4a688b26c189b1.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 48,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1813d425e16bec127f14/590f1813d425e16bec127f14.m3u8",
+            "chatroom_id": "590f1813d425e16bec127f14"
+          },
+          {
+            "title": "郭东讲坛第四期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/d88f4519c252fe3e6819.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 70,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1a27a3d5ec542412958f/590f1a27a3d5ec542412958f.m3u8",
+            "chatroom_id": "590f1a27a3d5ec542412958f"
+          },
+          {
+            "title": "郭东讲坛第五期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/767d1f7c8fe16157c4f7.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 36,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1d21a95be74dd31a9ba7/590f1d21a95be74dd31a9ba7.m3u8",
+            "chatroom_id": "590f1d21a95be74dd31a9ba7"
+          },
+          {
+            "title": "郭东讲坛第六期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/4b4960bc0d7e5ac1c8a4.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 34,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591027b7a95be74dd32038dd/591027b7a95be74dd32038dd.m3u8",
+            "chatroom_id": "591027b7a95be74dd32038dd"
+          },
+          {
+            "title": "郭东讲坛第七期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/96d11e38758e5f540e6f.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 58,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59102af7d425e16bec186368/59102af7d425e16bec186368.m3u8",
+            "chatroom_id": "59102af7d425e16bec186368"
+          },
+          {
+            "title": "郭东讲坛第八期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/eeb686f7c9ce2fa5ce6b.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 64,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59102dfea95be74dd3206a7c/59102dfea95be74dd3206a7c.m3u8",
+            "chatroom_id": "59102dfea95be74dd3206a7c"
+          },
+          {
+            "title": "郭东讲坛第九期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/a9d290b2073478274cbd.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 65,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.5910313420a05d35441a4a57/5910313420a05d35441a4a57.m3u8",
+            "chatroom_id": "5910313420a05d35441a4a57"
+          },
+          {
+            "title": "郭东讲坛第十期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/1c2f32049d79cdc013d2.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 85,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591033c8a95be74dd32097e5/591033c8a95be74dd32097e5.m3u8",
+            "chatroom_id": "591033c8a95be74dd32097e5"
+          },
+          {
+            "title": "郭东讲坛第十一期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/771d60b946439d669928.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 41,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59103cccd425e16bec18f348/59103cccd425e16bec18f348.m3u8",
+            "chatroom_id": "59103cccd425e16bec18f348"
+          },
+          {
+            "title": "郭东讲坛十二期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/877013a19a7147f4cd55.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 46,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59103f6ad425e16bec19098e/59103f6ad425e16bec19098e.m3u8",
+            "chatroom_id": "59103f6ad425e16bec19098e"
+          },
+          {
+            "title": "郭东讲坛第十三期",
+            "cover": "https://dn-WB3iKO2J.qbox.me/d75d2757eca2046e3c5e.png",
+            "nickname": "德扑大神-郭东",
+            "uid": 1016279,
+            "viewer_num": 65,
+            "url": "http://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591041a4a3d5ec5424191e36/591041a4a3d5ec5424191e36.m3u8",
+            "chatroom_id": "591041a4a3d5ec5424191e36"
+          }
+        ]
+      }
+    ]
+  }
+}

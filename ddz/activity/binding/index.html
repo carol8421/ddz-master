@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta content="email=no" name="format-detection" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--[if lt IE 9]>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" >
+    <![endif]-->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" itemprop="description" content="精彩赛事，尽在大圣Live！">
+    <meta itemprop="name" content="精彩赛事，尽在大圣Live！">
+    <meta itemprop="image" content="https://web.ddz.dasheng.tv/images/hall/share.png">
+    <meta name="keywords" content="精彩赛事，尽在大圣Live！">
+    <meta name="description" content="精彩赛事，尽在大圣Live！">
+    <title>精彩赛事，尽在大圣Live！</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+        html,body {
+            height: 100%;
+        }
+        .main {
+            height: 100%;
+            background-color: #fff6e4;
+        }
+        .body {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -99px;
+            margin-top: -84px;
+        }
+        .main table {
+            font-size: 12px;
+            line-height: 32px;
+            color: #000;
+        }
+        .main table td {
+            padding: 5px;
+        }
+        .main table input {
+            font-size: 12px;
+            width: 128px;
+            height: 32px;
+            padding: 10px;
+            border: 1px #e5e5e5 solid;
+        }
+        .main table input:focus {
+            outline: none;
+        }
+        .main table a#getCode {
+            color: #00afff;
+            text-decoration: underline;
+        }
+        .main table a#send {
+            display: block;
+            background-color: #ff9524;
+            color: #fff;
+            text-align: center;
+            width: 128px;
+            border-radius: 5px;
+            margin: 0 auto;
+        }
+        #tips {
+            display: none;
+            width: 100%;
+            font-size: 12px;
+            line-height: 20px;
+            color: #f00;
+            position: absolute;
+            left: 0;
+            bottom: -40px;
+            padding-right: 70px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="body">
+        <table cellspacing="0" cellpadding="0">
+            <tr>
+                <td align="center" colspan="2">红包数 × <span id="redpacket">0</span></td>
+            </tr>
+            <tr>
+                <td width="60px">手机号码</td>
+                <td><input type="text" id="phone" placeholder="输入手机号码" maxlength="11"></td>
+                <td><a id="getCode">获取验证码</a></td>
+            </tr>
+            <tr>
+                <td>验证码</td>
+                <td colspan="2"><input type="text" id="code" placeholder="输入验证码" maxlength="6"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a id="send">拆红包</a></td>
+            </tr>
+        </table>
+        <div id="tips">请到苹果商店搜索下载大圣Live拆红包，用该绑定手机号登陆。</div>
+    </div>
+</div>
+<script>
+    document.getElementById('redpacket').innerHTML = sessionStorage.getItem('redpacketNum')||0;
+    var uin = localStorage.uin;
+    var android = navigator.userAgent.indexOf('Android') > -1 ? true : false;
+
+    var hostUrl = window.location.href.match(/web.app.dasheng.tv/) ? 'https://api.dasheng.tv:4431' : 'https://api.ttt.dasheng.tv:4433';
+    var DdzRedpacket = {
+        getMsg: '/v1/guessing/ddz-user/send-captcha',
+        login: '/v1/guessing/ddz-user/bind-user'
+    };
+
+    var xmlhttp;
+    if(window.ActiveXObject) {
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    } else if(window.XMLHttpRequest) {
+        xmlhttp = new XMLHttpRequest()
+    } else {
+        alert("Your browser does not support XMLHTTP.");
+    }
+
+    var getCode = document.getElementById('getCode');
+    getCode.onclick = function () {
+        var phone = document.getElementById('phone').value;
+
+        xmlhttp.open("GET", hostUrl + DdzRedpacket.getMsg + '?phonenum=' + phone, true);
+        xmlhttp.onreadystatechange = function () {
+            console.log(xmlhttp.readyState)
+            if (xmlhttp.readyState == 4) {
+                var info = JSON.parse(xmlhttp.responseText);
+                if(info.code==0){
+                    alert('注意查收短信');
+                }
+                else{
+                    alert(info.msg);
+                }
+            }
+        };
+        xmlhttp.send(null);
+    }
+
+    var send = document.getElementById('send');
+    send.onclick = function () {
+        var phone = document.getElementById('phone');
+        var code = document.getElementById('code');
+
+        xmlhttp.open("GET", hostUrl + DdzRedpacket.login + '?uin=' + uin + '&phonenum=' + phone.value + '&phone_captcha=' + code.value, true);
+        xmlhttp.onreadystatechange = function () {
+            console.log(xmlhttp.readyState)
+            if (xmlhttp.readyState == 4) {
+                var info = JSON.parse(xmlhttp.responseText);
+                if(info.code==0){
+                    if(android){
+                        window.location = 'https://file.dasheng.tv/apk/v2.3.0/MonkeyKingTV-doudizhuduijiang-release.apk';
+                    }
+                    else{
+                        document.getElementById('tips').style.display = 'block';
+                    }
+                }
+                else{
+                    alert(info.msg);
+                    code.value = '';
+                }
+            }
+        };
+        xmlhttp.send(null);
+    };
+</script>
+<div style="display: none">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1263596597'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1263596597' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
+</html>

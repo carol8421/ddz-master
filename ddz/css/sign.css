@@ -1,0 +1,618 @@
+#TCaptcha {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10002;
+  width: 100%;
+  height: 100%;
+  display: none; }
+
+.sign {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10002;
+  display: none; }
+  .sign .title {
+    height: 0.32rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%; }
+    .sign .title.t1 {
+      background-image: url(../images/sign/t1.png);
+      margin-bottom: 0.14rem; }
+    .sign .title.t2 {
+      background-image: url(../images/sign/t2.png);
+      margin-bottom: 0.1rem; }
+    .sign .title.t3 {
+      background-image: url(../images/sign/t3.png);
+      margin-bottom: 0.4rem; }
+  .sign .close {
+    display: block;
+    width: 0.42rem;
+    height: 0.42rem;
+    background-image: url(../images/sign/close.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: -0.45rem;
+    top: -0.36rem;
+    z-index: 9; }
+  .sign .sButton {
+    display: block;
+    text-indent: -9999px;
+    width: 2.19rem;
+    height: 0.74rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .sign .sButton.getGift {
+      background-image: url(../images/sign/button_normal.png); }
+    .sign .sButton.disable {
+      background-image: url(../images/sign/button_geted.png);
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%); }
+    .sign .sButton.login {
+      background-image: url(../images/sign/button_login.png); }
+  .sign .sMain {
+    background-color: #ffeec8;
+    border-radius: 0.1rem;
+    overflow: hidden;
+    position: relative;
+    z-index: 2; }
+  .sign .main-page {
+    width: 7.41rem;
+    height: 4.11rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: url(../images/sign/bg1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem; }
+    .sign .main-page.sign-home {
+      padding-top: 0.23rem; }
+      .sign .main-page.sign-home:before {
+        content: '';
+        width: 1.55rem;
+        height: 1.9rem;
+        background-image: url(../images/sign/dizhu.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0.39rem;
+        top: -0.92rem; }
+      .sign .main-page.sign-home:after {
+        content: '';
+        width: 1.97rem;
+        height: 1.84rem;
+        background-image: url(../images/sign/nongming.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0.15rem;
+        top: -0.86rem; }
+      .sign .main-page.sign-home .sMain {
+        padding: 0.16rem .1rem; }
+        .sign .main-page.sign-home .sMain .block {
+          float: left;
+          padding: 0 0.06rem; }
+          .sign .main-page.sign-home .sMain .block.block-1 {
+            width: 24.58%; }
+          .sign .main-page.sign-home .sMain .block.block-2 {
+            width: 50.84%; }
+          .sign .main-page.sign-home .sMain .block.normal:not(.active) .blockC .bMain:before {
+            content: '';
+            width: 3.83rem;
+            height: 3.84rem;
+            background-image: url(../images/sign/light.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 3.83rem auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -webkit-animation: move linear 5s normal infinite;
+            animation: move linear 5s normal infinite;
+            z-index: 3; }
+          .sign .main-page.sign-home .sMain .block.active .blockC .bMain i:before {
+            width: 100%;
+            height: 0.86rem;
+            background-image: url(../images/sign/geted.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+          .sign .main-page.sign-home .sMain .block.active.block-1 .blockC .bMain i:before {
+            content: ''; }
+          .sign .main-page.sign-home .sMain .block.active.block-2.cur_3 .blockC .bMain ul li:nth-child(1) i:before {
+            content: ''; }
+          .sign .main-page.sign-home .sMain .block.active.block-2.cur_4 .blockC .bMain ul li:nth-child(2) i:before {
+            content: ''; }
+          .sign .main-page.sign-home .sMain .block .blockC {
+            border-radius: 0.1rem;
+            background-color: #ffb511;
+            overflow: hidden;
+            position: relative; }
+            .sign .main-page.sign-home .sMain .block .blockC:before, .sign .main-page.sign-home .sMain .block .blockC:after {
+              width: 1.16rem;
+              height: 0.84rem;
+              background-color: #ffde5a;
+              border-radius: 0.1rem;
+              position: absolute;
+              top: 0.54rem;
+              z-index: 1; }
+            .sign .main-page.sign-home .sMain .block .blockC.single:before {
+              content: '';
+              left: 50%;
+              -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+            .sign .main-page.sign-home .sMain .block .blockC.double:before {
+              content: '';
+              top: 0.54rem;
+              left: 50%;
+              -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+              margin-left: -0.14rem; }
+            .sign .main-page.sign-home .sMain .block .blockC.double:after {
+              content: '';
+              top: 0.54rem;
+              left: 50%;
+              margin-left: 0.14rem; }
+            .sign .main-page.sign-home .sMain .block .blockC .bTitle {
+              font-size: 0.24rem;
+              font-weight: bold;
+              color: #fff;
+              line-height: 0.42rem;
+              text-align: center;
+              background-color: #ff9000; }
+            .sign .main-page.sign-home .sMain .block .blockC .bMain {
+              padding-top: 0.12rem;
+              position: relative;
+              z-index: 2;
+              overflow: hidden; }
+              .sign .main-page.sign-home .sMain .block .blockC .bMain ul {
+                padding: 0 0.18rem;
+                overflow: hidden;
+                position: relative; }
+                .sign .main-page.sign-home .sMain .block .blockC .bMain ul:before {
+                  content: '';
+                  width: 0.49rem;
+                  height: 0.49rem;
+                  background-image: url(../images/sign/or.png);
+                  background-position: center center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  position: absolute;
+                  left: 50%;
+                  top: 0.42rem;
+                  -webkit-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%);
+                  z-index: 5; }
+                .sign .main-page.sign-home .sMain .block .blockC .bMain ul li {
+                  width: 50%;
+                  float: left;
+                  padding: 0 0.14rem; }
+                  .sign .main-page.sign-home .sMain .block .blockC .bMain ul li p {
+                    margin: 0 -0.14rem; }
+              .sign .main-page.sign-home .sMain .block .blockC .bMain i {
+                width: 1.16rem;
+                height: 0.84rem;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: block;
+                margin: 0 auto;
+                position: relative;
+                z-index: 4; }
+              .sign .main-page.sign-home .sMain .block .blockC .bMain p {
+                font-size: 0.24rem;
+                line-height: 0.44rem;
+                color: #a95b09;
+                text-align: center;
+                position: relative;
+                z-index: 4; }
+      .sign .main-page.sign-home .footer {
+        overflow: hidden;
+        padding-top: 0.12rem; }
+        .sign .main-page.sign-home .footer p {
+          font-size: 0.22rem;
+          line-height: 0.3rem;
+          color: #db3f01;
+          margin-bottom: 0.06rem; }
+        .sign .main-page.sign-home .footer .check {
+          color: #00a0ff;
+          font-size: 0.22rem;
+          display: block;
+          line-height: 0.3rem;
+          float: left;
+          border-bottom: 1px #00a0ff solid; }
+        .sign .main-page.sign-home .footer .sButton {
+          float: right; }
+    .sign .main-page.sign-record {
+      padding-top: 0.23rem; }
+      .sign .main-page.sign-record .tips {
+        font-size: 0.22rem;
+        line-height: 0.3rem;
+        color: rgba(219, 63, 1, 0.5);
+        margin: 0 -0.3rem;
+        text-align: center;
+        margin-bottom: 0.1rem; }
+      .sign .main-page.sign-record .sMain {
+        padding: 0.15rem 0.1rem;
+        height: 2.76rem;
+        overflow: hidden; }
+        .sign .main-page.sign-record .sMain ul {
+          height: 100%;
+          padding: 0 0.2rem;
+          overflow: auto;
+          position: relative; }
+          .sign .main-page.sign-record .sMain ul::-webkit-scrollbar {
+            width: 0.06rem; }
+          .sign .main-page.sign-record .sMain ul::-webkit-scrollbar-thumb {
+            border-radius: 0.03rem;
+            background-color: #ffcf5c; }
+          .sign .main-page.sign-record .sMain ul span {
+            color: rgba(219, 63, 1, 0.5);
+            font-size: 0.3rem;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+          .sign .main-page.sign-record .sMain ul li {
+            font-size: 0.22rem;
+            line-height: 0.52rem;
+            padding-top: 0.15rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            display: -webkit-flex;
+            border-bottom: 1px #fedf95 solid; }
+            .sign .main-page.sign-record .sMain ul li:first-child {
+              padding-top: 0; }
+            .sign .main-page.sign-record .sMain ul li:last-child {
+              border-bottom: none; }
+            .sign .main-page.sign-record .sMain ul li time, .sign .main-page.sign-record .sMain ul li code {
+              color: rgba(219, 63, 1, 0.8); }
+            .sign .main-page.sign-record .sMain ul li button {
+              cursor: pointer;
+              -webkit-appearance: none;
+              border: none;
+              background-color: transparent;
+              font-weight: bold;
+              color: #db3f01; }
+            .sign .main-page.sign-record .sMain ul li.w1 time, .sign .main-page.sign-record .sMain ul li.w1 code {
+              width: 50%;
+              text-align: center; }
+            .sign .main-page.sign-record .sMain ul li.w2 code {
+              text-align: center;
+              -webkit-box-flex: 1;
+                  -ms-flex-positive: 1;
+                      flex-grow: 1; }
+    .sign .main-page.sign-login {
+      padding-top: 0.45rem; }
+      .sign .main-page.sign-login ul {
+        width: 5.2rem;
+        margin: 0 auto 0.16rem; }
+        .sign .main-page.sign-login ul li {
+          margin-bottom: 0.25rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          .sign .main-page.sign-login ul li:nth-child(1) input {
+            border-radius: 0.1rem 0 0 0.1rem; }
+          .sign .main-page.sign-login ul li:nth-child(3) {
+            margin-bottom: 0; }
+          .sign .main-page.sign-login ul li input {
+            width: 100%;
+            height: 0.6rem;
+            padding-top: 0.1rem;
+            padding-bottom: 0.1rem;
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+            background-color: #fff;
+            border: none;
+            font-size: 0.22rem;
+            color: #db3f01;
+            border-radius: 0.1rem;
+            -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                    flex-grow: 1; }
+            .sign .main-page.sign-login ul li input::-webkit-input-placeholder {
+              color: rgba(219, 63, 1, 0.5); }
+            .sign .main-page.sign-login ul li input:focus {
+              outline: none; }
+          .sign .main-page.sign-login ul li a {
+            display: block;
+            border-radius: 0 0.1rem 0.1rem 0;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+            line-height: 0.6rem;
+            text-align: center;
+            color: #fff;
+            background-color: #ff7441;
+            font-size: 0.22rem;
+            padding: 0 0.1rem; }
+            .sign .main-page.sign-login ul li a.disable {
+              cursor: none;
+              -webkit-filter: grayscale(100%);
+                      filter: grayscale(100%); }
+          .sign .main-page.sign-login ul li img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 0.6rem;
+            border-radius: 0 0.1rem 0.1rem 0;
+            cursor: pointer; }
+      .sign .main-page.sign-login .sButton {
+        margin: 0 auto; }
+  .sign .main-box {
+    width: 5.92rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 0.2rem;
+    background-color: #fff8e9;
+    -webkit-box-shadow: 0 0 7px #ffae00;
+    box-shadow: 0 0 7px #ffae00;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#ffe9bb), to(#ffce59));
+    background-image: linear-gradient(to top, #ffe9bb, #ffce59); }
+    .sign .main-box .cMain {
+      padding: 0.38rem;
+      position: relative;
+      overflow: hidden; }
+      .sign .main-box .cMain .light {
+        width: 100%;
+        height: 3.02rem;
+        position: absolute;
+        left: 0;
+        top: 0.11rem;
+        z-index: 1;
+        overflow: hidden; }
+        .sign .main-box .cMain .light:before {
+          content: '';
+          width: 5.48rem;
+          height: 5.48rem;
+          background-image: url(../images/sign/light.png);
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: 5.48rem auto;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          -webkit-animation: move linear 5s normal infinite;
+          animation: move linear 5s normal infinite;
+          z-index: 1; }
+      .sign .main-box .cMain .gift {
+        width: 2.3rem;
+        border-radius: 0.1rem;
+        background-color: #ffb511;
+        padding: 0.2rem 0.38rem 0;
+        margin: 0 auto 0.27rem;
+        position: relative;
+        z-index: 2; }
+        .sign .main-box .cMain .gift i {
+          display: block;
+          height: 1.05rem;
+          background-color: #ffde5a;
+          background-position: center center;
+          background-size: auto 1.05rem;
+          background-repeat: no-repeat;
+          border-radius: 0.1rem; }
+        .sign .main-box .cMain .gift p {
+          margin: 0 -0.38rem;
+          text-align: center;
+          font-size: 0.24rem;
+          line-height: 0.64rem;
+          color: #a95b09; }
+      .sign .main-box .cMain code {
+        background-color: #fffaee;
+        font-size: 0.24rem;
+        line-height: 0.6rem;
+        border-radius: 0.1rem;
+        font-weight: bold;
+        text-align: center;
+        color: #db3f01;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: -webkit-flex;
+        position: relative;
+        z-index: 2; }
+        .sign .main-box .cMain code span {
+          -webkit-box-flex: 1;
+              -ms-flex-positive: 1;
+                  flex-grow: 1; }
+        .sign .main-box .cMain code button {
+          -webkit-appearance: none;
+          border: none;
+          background-color: #ffb511;
+          color: rgba(219, 63, 1, 0.8);
+          border-radius: 0 0.1rem 0.1rem 0;
+          width: 0.8rem; }
+      .sign .main-box .cMain p {
+        font-size: 0.2rem;
+        line-height: 0.28rem;
+        padding: 0.11rem 0;
+        color: rgba(219, 63, 1, 0.8);
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        margin: 0 -0.38rem; }
+  .sign .pk-box {
+    width: 7.36rem;
+    height: 4.37rem;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f0ab05), to(#f7c51f));
+    background-image: linear-gradient(to top, #f0ab05, #f7c51f);
+    border-radius: 0.16rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .sign .pk-box:before {
+      content: '';
+      width: 6.95rem;
+      height: 3.98rem;
+      border-radius: 0.16rem;
+      background-color: #e9ead1;
+      background-image: url(../images/sign/pk-box-title.png);
+      background-position: center 0.17rem;
+      background-repeat: no-repeat;
+      background-size: 4.03rem auto;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+    .sign .pk-box .pk-content {
+      width: 6.4rem;
+      height: 1.75rem;
+      background-image: -webkit-gradient(linear, left bottom, left top, from(#ffb61b), to(#ffd644));
+      background-image: linear-gradient(to top, #ffb61b, #ffd644);
+      -webkit-box-shadow: inset 0.11rem 0 0.13rem rgba(254, 205, 167, 0.52);
+              box-shadow: inset 0.11rem 0 0.13rem rgba(254, 205, 167, 0.52);
+      position: relative;
+      border-radius: 0.1rem;
+      margin: 1.3rem auto 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0.16rem;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .sign .pk-box .pk-content .pk-gift {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(#f5a803), to(#f3c729));
+        background-image: linear-gradient(to top, #f5a803, #f3c729);
+        border-radius: 0.1rem;
+        font-size: 0.17rem;
+        color: #c2300a;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 1.08rem; }
+        .sign .pk-box .pk-content .pk-gift img {
+          max-height: 0.75rem; }
+      .sign .pk-box .pk-content .pk-gift-get {
+        width: 1.46rem;
+        height: 0.55rem;
+        background-image: url(../images/sign/btn-get.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+    .sign .pk-box .pk-download {
+      display: block;
+      width: 3.22rem;
+      height: 0.71rem;
+      background-image: url(../images/sign/btn-download.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0.18rem auto 0;
+      position: relative; }
+  .sign .opendiv {
+    width: 7.13rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0); }
+    .sign .opendiv .link {
+      display: block;
+      width: 1.96rem;
+      height: 0.76rem;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes move {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0);
+    transform: translate(-50%, -50%) rotate(0); }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg); } }
+.sign-aside {
+  position: fixed;
+  right: 0.2rem;
+  bottom: 0.2rem;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+  z-index: 10001; }
+  .sign-aside.show {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  .sign-aside .signBtn {
+    display: block;
+    width: 1.47rem;
+    height: 1.47rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    cursor: pointer; }
+    .sign-aside .signBtn.icon-see {
+      background-image: url(../images/sign/button-see.png); }
+    .sign-aside .signBtn.icon-login {
+      background-image: url(../images/sign/button.png); }
+    .sign-aside .signBtn.icon-get {
+      background-image: url(../images/sign/button-get.png); }
+  .sign-aside .close {
+    display: block;
+    width: 0.28rem;
+    height: 0.28rem;
+    position: absolute;
+    top: 0.07rem;
+    right: 0.08rem;
+    cursor: pointer; }
+
+/*# sourceMappingURL=data:application/json;base64,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 */

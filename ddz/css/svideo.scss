@@ -1,0 +1,887 @@
+@charset "utf-8";
+
+.sv-header {
+    overflow: hidden;
+
+    .sv-header-left {
+        width: 60.23%;
+        float: left;
+
+        .swiper-container {
+            background-color: #333;
+            border-radius: 0.1rem;
+            overflow: hidden;
+        }
+
+        .swiper-slide a {
+            display: block;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 52.92%;
+            position: relative;
+            cursor: pointer;
+
+            &:before {
+                content: '';
+                width: 100%;
+                height: 100%;
+                background-image: url(../images/hall/play_deep.png);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: 1.28rem;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 2;
+            }
+
+            &:after {
+                content: '';
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.5));
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 1;
+            }
+        }
+    }
+
+    .sv-header-right {
+        width: 36.91%;
+        float: right;
+
+        ul {
+
+            li {
+                text-align: center;
+                border-radius: 0.1rem;
+                border: 0.02rem solid #946634;
+                margin-bottom: 0.18rem;
+                font-size: 0.24rem;
+                line-height: 0.44rem;
+                color: #703c09;
+                cursor: pointer;
+
+                &.current {
+                    background-color: rgba(255,192,83,0.25);
+                }
+            }
+        }
+    }
+}
+
+.swiper-sv-title, .swiper-_29s-title {
+    flex-grow: 1;
+    padding: 0.05rem 0;
+
+    .swiper-slide {
+        width: auto;
+        font-size: 0.22rem;
+        line-height: 0.36rem;
+        height: auto;
+        border: 0.02rem #703c09 solid;
+        color: #703c09;
+        padding: 0 0.14rem;
+        border-radius: 0.04rem;
+        margin-right: 0.32rem;
+        font-weight: normal;
+        opacity: 0.5;
+
+        &.active {
+            opacity: 1;
+            background-color: rgba(255,192,83,0.5);
+        }
+
+        strong {
+            font-weight: normal;
+            color: #ffa545;
+        }
+    }
+}
+
+._29s-db {
+    width: 11.91rem;
+    height: 3.84rem;
+    background-image: url(../images/hall/29sbg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 0.1rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._29s-db_main {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+
+._29s-item {
+    border-radius: 0.1rem;
+    overflow: hidden;
+
+    &._pk-win {
+        position: relative;
+        overflow: visible;
+
+        &:before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            border-radius: 0.1rem;
+            border: 0.02rem #b83911 solid;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2;
+        }
+
+        &:after {
+            content: '';
+            width: 0.55rem;
+            height: 0.36rem;
+            background-image: url(../images/hall/win.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 50%;
+            top: -0.32rem;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+    }
+
+    &._pk-lost {
+
+        a i:before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: rgba(0,0,0,0.5);
+        }
+    }
+
+    ._29s-item-border {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        &:before, &:after {
+            content: '';
+            width: 0.28rem;
+            height: 0.32rem;
+            position: absolute;
+            background-image: url(../images/hall/radio.png);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        &.top {
+
+            &:before {
+                top: -0.08rem;
+                left: -0.08rem;
+            }
+
+            &:after {
+                top: -0.08rem;
+                right: -0.08rem;
+                -webkit-transform: scaleX(-1);
+                transform: scaleX(-1);
+            }
+        }
+
+        &.bottom {
+
+            &:before {
+                bottom: -0.08rem;
+                left: -0.08rem;
+                -webkit-transform: scaleY(-1);
+                transform: scaleY(-1);
+            }
+
+            &:after {
+                bottom: -0.08rem;
+                right: -0.08rem;
+                -webkit-transform: scale(-1);
+                transform: scale(-1);
+            }
+        }
+    }
+
+    a {
+        display: block;
+        position: relative;
+        padding-top: 133.3333%;
+        overflow: hidden;
+        border-radius: 0.1rem;
+
+        &:before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            background-image: url(../images/hall/play_black.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 35% auto;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 2;
+        }
+
+        &:after {
+            content: '';
+            width: 100%;
+            height: 50%;
+            background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.75));
+            position: absolute;
+            left: 0;
+            top: 70%;
+            z-index: 1;
+        }
+
+        i {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+
+        span {
+
+            &.topicDetail {
+                padding-left: 0.05rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 3;
+            }
+
+            &.topicTitle {
+                color: #fff;
+                font-size: 0.2rem;
+                line-height: 0.24rem;
+                background-color: rgba(0,0,0,0.5);
+                border-radius: 0.16rem;
+                padding: 0.04rem 0.1rem;
+                margin-bottom: 0.06rem;
+
+                strong {
+                    color: #ffa545;
+                    font-weight: normal;
+                }
+            }
+
+            &.topicLike {
+                font-size: 0.2rem;
+                line-height: 1;
+                color: #fff;
+                padding-left: 0.28rem;
+                background-image: url(../images/hall/love.png);
+                background-position: left center;
+                background-repeat: no-repeat;
+                background-size: auto 0.17rem;
+                margin: 0.04rem 0 0.1rem;
+            }
+        }
+    }
+}
+
+._pk-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.1rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border-radius: 0.1rem;
+
+    &._pk-main {
+        background-image: url(../images/hall/pk_bg.png);
+
+        ._29s-item {
+            width: 1.44rem;
+
+            &:nth-child(1) {
+                order: 1;
+            }
+
+            &:nth-child(2) {
+                order: 3;
+            }
+        }
+
+        ._pk-body {
+            width: 3rem;
+            display: flex;
+            align-items: center;
+            position: relative;
+            margin-top: 0.23rem;
+            order: 2;
+
+            ._pk-message {
+                position: absolute;
+                width: 100%;
+                left: 0;
+                bottom: 1rem;
+                height: 0.38rem;
+                line-height: 0.38rem;
+                background-color: #ffca64;
+                border-radius: 0.19rem;
+                font-size: 0.2rem;
+                color: #c25d39;
+                background-image: url(../images/hall/voice.png);
+                background-position: 0.1rem center;
+                background-repeat: no-repeat;
+                background-size: 0.19rem auto;
+                padding-left: 0.4rem;
+                overflow: hidden;
+            }
+
+            ._pk-proportion {
+                height: 0.23rem;
+                width: 10px;
+                flex-grow: 1;
+                background-color: #63c2fe;
+                position: relative;
+                z-index: 1;
+                margin: 0 -0.04rem;
+
+                dl {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0.28rem;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 0.1rem;
+
+                    dt {
+                        font-size: 0.18rem;
+                        color: #8e7154;
+                        line-height: 1;
+                        display: none;
+                    }
+                }
+
+                ._pk-proportion-line {
+                    height: 100%;
+                    position: absolute;
+                    background-color: #fe7745;
+
+                    &:before {
+                        content: '';
+                        border-left: 0.1rem transparent solid;
+                        border-right: 0.1rem transparent solid;
+                        border-top: 0.23rem #fe7745 solid;
+                        position: absolute;
+                        right: -0.1rem;
+                        top: 0;
+                    }
+                }
+            }
+
+            ._pk-control {
+                width: 0.74rem;
+                height: 0.74rem;
+                flex-shrink: 0;
+                border-radius: 50%;
+                border: 0.02rem #fff solid;
+                position: relative;
+                z-index: 2;
+                cursor: pointer;
+
+                b {
+                    display: block;
+                    width: 0.26rem;
+                    height: 0.19rem;
+                    background-image: url(../images/hall/plus.png);
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: absolute;
+                    left: 50%;
+                    top: 0;
+                    transform: translate(-50%,-120%);
+
+                    &.add {
+                        animation: add 1500ms linear normal forwards;
+                    }
+                }
+
+                &:before {
+                    content: '';
+                    width: 0.36rem;
+                    height: 0.37rem;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -0.18rem;
+                    margin-top: -0.185rem;
+                    background-image: url(../images/hall/voteBtn.png);
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                &:after {
+                    content: attr(data-name);
+                    font-size: 0.2rem;
+                    line-height: 1;
+                    height: 0.2rem;
+                    overflow: hidden;
+                    color: #8e7154;
+                    width: 1.28rem;
+                    position: absolute;
+                    top: 0.8rem;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+
+                &._pk-control-orange {
+                    background-image: linear-gradient(to right, #ffa030, #fe7200);
+
+                    &:after {
+                        left: 0;
+                    }
+                }
+
+                &._pk-control-blue {
+                    background-image: linear-gradient(to right, #78cbff, #40b5ff);
+
+                    &:before {
+                        transform: scaleX(-1);
+                    }
+
+                    &:after {
+                        right: 0;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+
+    &._pk-result {
+        background-image: url(../images/hall/pk-result_bg.png);
+
+        ._29s-item {
+            width: 1.44rem;
+
+            &:nth-child(1) {
+                order: 1;
+            }
+
+            &:nth-child(2) {
+                order: 3;
+            }
+        }
+
+        ._pk-body {
+            width: 1.74rem;
+            display: flex;
+            position: relative;
+            margin-top: 0.3rem;
+            order: 2;
+
+            ._pk-title {
+                width: 100%;
+                line-height: 1;
+                font-size: 0.24rem;
+                color: #b02e00;
+                font-weight: bold;
+                text-align: center;
+                position: absolute;
+                left: 50%;
+                bottom: 0.84rem;
+                transform: translateX(-50%);
+            }
+
+            ._pk-proportion {
+                height: 0.21rem;
+                width: 10px;
+                flex-grow: 1;
+                background-color: #63c2fe;
+                position: relative;
+                z-index: 1;
+                border-radius: 0.105rem;
+
+                dl {
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    dt {
+                        color: #8e7154;
+                        height: 0.21rem;
+                        flex-grow: 1;
+                        position: relative;
+
+                        &:nth-child(2) {
+                            text-align: right;
+                        }
+
+                        span {
+                            display: block;
+                            position: absolute;
+                            width: 100%;
+                            font-size: 0.2rem;
+                            line-height: 0.24rem;
+
+                            &:nth-child(1) {
+                                bottom: 0.26rem;
+                            }
+
+                            &:nth-child(2) {
+                                top: 0.26rem;
+
+                                &.nick {
+                                    right: 0;
+                                }
+                            }
+
+                            &.nick {
+                                width: 150%;
+                                font-weight: bold;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                overflow: hidden;
+                                height: 0.24rem;
+                            }
+                        }
+                    }
+                }
+
+                ._pk-proportion-line {
+                    height: 100%;
+                    position: absolute;
+                    background-color: #fe7745;
+                    border-radius: 0.105rem 0 0 0.105rem;
+
+                    &:before {
+                        content: '';
+                        border-left: 0.1rem transparent solid;
+                        border-right: 0.1rem transparent solid;
+                        border-top: 0.23rem #fe7745 solid;
+                        position: absolute;
+                        right: -0.1rem;
+                        top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+._award {
+
+    ._award-body {
+
+        ._award-title {
+            font-size: 0.24rem;
+            line-height: 0.4rem;
+            color: #b02e00;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 0.29rem;
+        }
+
+        p {
+            font-size: 0.2rem;
+            line-height: 0.28rem;
+            height: 0.28rem;
+            color: #a95b09;
+            text-align: center;
+            margin-bottom: 0.1rem;
+        }
+
+        ._award-list {
+            display: flex;
+            justify-content: space-around;
+
+            span {
+                height: 0.99rem;
+                width: 1.08rem;
+                background-color: #fdd977;
+                border-radius: 0.1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 0.28rem;
+                font-size: 0.16rem;
+                color: #a95b09;
+                flex-direction: column;
+
+                img {
+                    height: 0.51rem;
+                }
+            }
+
+            a {
+                width: 1.4rem;
+                height: 0.99rem;
+                background-image: url(../images/hall/get-button.png);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-size: 0.24rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &.disable {
+                    filter: grayscale(100%);
+                    pointer-events: none;
+                }
+
+                strong {
+                    background-image: linear-gradient(to bottom, #b02e00, #ff6600);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+._29s-block {
+    overflow: hidden;
+
+    ._29s-block-left {
+        width: 45.1666%;
+        float: left;
+    }
+
+    ._29s-block-right {
+        width: 54.83333%;
+        float: right;
+        padding-left: 0.12rem;
+
+        ._29s-content {
+            height: 5.26rem;
+            overflow: hidden;
+
+            ._29s-items {
+                height: 100%;
+                overflow: auto;
+
+                .swiper-_29s-body {
+                    height: 100%;
+                    margin-left: -0.15rem;
+
+                    .swiper-wrapper {
+                        height: 100%;
+                    }
+
+                    .swiper-slide {
+                        height: 100%;
+                        width: 2.05rem;
+                        padding-left: 0.15rem;
+                        overflow: hidden;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                }
+
+                ._29s-item {
+                    width: 100%;
+
+                    &:nth-last-child(1), &:nth-last-child(2), &:nth-last-child(3) {
+                        padding-bottom: 0;
+                    }
+
+                    ._29s-item-body {
+                        position: relative;
+
+                        ._29s-item-mask {
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            z-index: 9;
+                            background-color: rgba(0,0,0,0.8);
+                            background-image: url(../images/hall/mask.png);
+                            background-position: center center;
+                            background-repeat: no-repeat;
+                            background-size: 1.19rem auto;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+._pk-_award {
+    padding: 0.1rem;
+    border-radius: 0.1rem;
+    background-color: #ffde8c;
+
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    ._pk-_award-footer {
+        margin: 0.33rem -0.1rem -0.1rem;
+
+        a {
+            display: block;
+            height: 0.65rem;
+            background-image: url(../images/hall/award-footer.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
+
+._29s-quote {
+    margin: 0 0.56rem;
+
+    &._29s-quote-left {
+
+        i:after {
+            left: -0.55rem;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+    }
+
+    &._29s-quote-right {
+
+        i:after {
+            right: -0.55rem;
+        }
+    }
+
+    i {
+        display: block;
+        width: 1.25rem;
+        height: 1.25rem;
+        border-radius: 50%;
+        border: 1px #ffd478 solid;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin: 0.09rem auto 0.2rem;
+
+        &:before {
+            content: '';
+            width: 1.44rem;
+            height: 1.44rem;
+            border-radius: 50%;
+            border: 0.02rem #ffd478 solid;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
+
+        &:after {
+            content: '';
+            width: 0.3rem;
+            height: 0.35rem;
+            background-image: url(../images/hall/29sline.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            bottom: -0.13rem;
+        }
+    }
+
+    .name {
+        font-size: 0.24rem;
+        color: #b83911;
+        line-height: 1;
+        text-align: center;
+        display: block;
+        margin-bottom: 0.1rem;
+    }
+
+    a {
+        display: block;
+        width: 1.63rem;
+        height: 0.48rem;
+        background-image: url(../images/hall/29sbutton2.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-indent: -9999px;
+        margin: 0 auto 0.12rem;
+    }
+
+    p {
+        color: #825323;
+        font-size: 0.2rem;
+        line-height: 0.24rem;
+        text-align: center;
+    }
+}
+
+@media all and (orientation: portrait) {
+
+    ._29s-block {
+
+        ._29s-block-left {
+            width: 100%;
+            margin-bottom: 0.2rem;
+        }
+
+        ._29s-block-right {
+            width: 100%;
+            padding-left: 0;
+        }
+    }
+}
+
+@keyframes add {
+    0% {
+        opacity: 0;
+    }
+    12.5%,87.5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+

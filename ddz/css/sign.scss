@@ -1,0 +1,811 @@
+#TCaptcha {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10002;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.sign {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10002;
+    display: none;
+
+    .title {
+        height: 0.32rem;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        
+        &.t1 {
+            background-image: url(../images/sign/t1.png);
+            margin-bottom: 0.14rem;
+        }
+
+        &.t2 {
+            background-image: url(../images/sign/t2.png);
+            margin-bottom: 0.1rem;
+        }
+
+        &.t3 {
+            background-image: url(../images/sign/t3.png);
+            margin-bottom: 0.4rem;
+        }
+    }
+
+    .close {
+        display: block;
+        width: 0.42rem;
+        height: 0.42rem;
+        background-image: url(../images/sign/close.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: -0.45rem;
+        top: -0.36rem;
+        z-index: 9;
+    }
+
+    .sButton {
+        display: block;
+        text-indent: -9999px;
+        width: 2.19rem;
+        height: 0.74rem;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &.getGift {
+            background-image: url(../images/sign/button_normal.png);
+        }
+
+        &.disable {
+            background-image: url(../images/sign/button_geted.png);
+            filter: grayscale(100%);
+        }
+
+        &.login {
+            background-image: url(../images/sign/button_login.png);
+        }
+    }
+
+    .sMain {
+        background-color: #ffeec8;
+        border-radius: 0.1rem;
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+    }
+
+    .main-page {
+        width: 7.41rem;
+        height: 4.11rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        background-image: url(../images/sign/bg1.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+
+        &.sign-home {
+            padding-top: 0.23rem;
+
+            &:before {
+                content: '';
+                width: 1.55rem;
+                height: 1.9rem;
+                background-image: url(../images/sign/dizhu.png);
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: absolute;
+                left: 0.39rem;
+                top: -0.92rem;
+            }
+
+            &:after {
+                content: '';
+                width: 1.97rem;
+                height: 1.84rem;
+                background-image: url(../images/sign/nongming.png);
+                background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: absolute;
+                right: 0.15rem;
+                top: -0.86rem;
+            }
+
+            .sMain {
+                padding: 0.16rem .1rem;
+
+                .block {
+                    float: left;
+                    padding: 0 0.06rem;
+
+                    &.block-1 {
+                        width: 24.58%;
+                    }
+
+                    &.block-2 {
+                        width: 50.84%;
+                    }
+
+                    &.normal:not(.active) .blockC {
+
+                        .bMain:before {
+                            content: '';
+                            width: 3.83rem;
+                            height: 3.84rem;
+                            background-image: url(../images/sign/light.png);
+                            background-position: center center;
+                            background-repeat: no-repeat;
+                            background-size: 3.83rem auto;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            -webkit-transform: translate(-50%,-50%);
+                            transform: translate(-50%,-50%);
+                            -webkit-animation: move linear 5s normal infinite;
+                            animation: move linear 5s normal infinite;
+                            z-index: 3;
+                        }
+                    }
+
+                    &.active {
+
+                        .blockC .bMain i:before {
+                            width: 100%;
+                            height: 0.86rem;
+                            background-image: url(../images/sign/geted.png);
+                            background-position: center center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            -webkit-transform: translate(-50%,-50%);
+                            transform: translate(-50%,-50%);
+                        }
+
+                        &.block-1 .blockC .bMain i:before {
+                            content: '';
+                        }
+
+                        &.block-2.cur_3 .blockC .bMain ul {
+
+                            li:nth-child(1) i:before {
+                                content: '';
+                            }
+                        }
+
+                        &.block-2.cur_4 .blockC .bMain ul {
+
+                            li:nth-child(2) i:before {
+                                content: '';
+                            }
+                        }
+                    }
+
+
+                    .blockC {
+                        border-radius: 0.1rem;
+                        background-color: #ffb511;
+                        overflow: hidden;
+                        position: relative;
+
+                        &:before, &:after {
+                            width: 1.16rem;
+                            height: 0.84rem;
+                            background-color: #ffde5a;
+                            border-radius: 0.1rem;
+                            position: absolute;
+                            top: 0.54rem;
+                            z-index: 1;
+                        }
+
+                        &.single {
+
+                            &:before {
+                                content: '';
+                                left: 50%;
+                                -webkit-transform: translateX(-50%);
+                                transform: translateX(-50%);
+                            }
+                        }
+
+                        &.double {
+
+                            &:before {
+                                content: '';
+                                top: 0.54rem;
+                                left: 50%;
+                                -webkit-transform: translateX(-100%);
+                                transform: translateX(-100%);
+                                margin-left: -0.14rem;
+                            }
+
+                            &:after {
+                                content: '';
+                                top: 0.54rem;
+                                left: 50%;
+                                margin-left: 0.14rem;
+                            }
+                        }
+
+                        .bTitle {
+                            font-size: 0.24rem;
+                            font-weight: bold;
+                            color: #fff;
+                            line-height: 0.42rem;
+                            text-align: center;
+                            background-color: #ff9000;
+                        }
+
+                        .bMain {
+                            padding-top: 0.12rem;
+                            position: relative;
+                            z-index: 2;
+                            overflow: hidden;
+
+                            ul {
+                                padding: 0 0.18rem;
+                                overflow: hidden;
+                                position: relative;
+
+                                &:before {
+                                    content: '';
+                                    width: 0.49rem;
+                                    height: 0.49rem;
+                                    background-image: url(../images/sign/or.png);
+                                    background-position: center center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 0.42rem;
+                                    -webkit-transform: translate(-50%,-50%);
+                                    transform: translate(-50%,-50%);
+                                    z-index: 5;
+                                }
+
+                                li {
+                                    width: 50%;
+                                    float: left;
+                                    padding: 0 0.14rem;
+
+                                    p {
+                                        margin: 0 -0.14rem;
+                                    }
+                                }
+                            }
+
+                            i {
+                                width: 1.16rem;
+                                height: 0.84rem;
+                                background-position: center center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                display: block;
+                                margin: 0 auto;
+                                position: relative;
+                                z-index: 4;
+                            }
+
+                            p {
+                                font-size: 0.24rem;
+                                line-height: 0.44rem;
+                                color: #a95b09;
+                                text-align: center;
+                                position: relative;
+                                z-index: 4;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer {
+                overflow: hidden;
+                padding-top: 0.12rem;
+
+                p {
+                    font-size: 0.22rem;
+                    line-height: 0.3rem;
+                    color: #db3f01;
+                    margin-bottom: 0.06rem;
+                }
+
+                .check {
+                    color: #00a0ff;
+                    font-size: 0.22rem;
+                    display: block;
+                    line-height: 0.3rem;
+                    float: left;
+                    border-bottom: 1px #00a0ff solid;
+                }
+
+                .sButton {
+                    float: right;
+                }
+            }
+        }
+
+        &.sign-record {
+            padding-top: 0.23rem;
+
+            .tips {
+                font-size: 0.22rem;
+                line-height: 0.3rem;
+                color: rgba(219,63,1,0.5);
+                margin: 0 -0.3rem;
+                text-align: center;
+                margin-bottom: 0.1rem;
+            }
+
+            .sMain {
+                padding: 0.15rem 0.1rem ;
+                height: 2.76rem;
+                overflow: hidden;
+
+                ul {
+                    height: 100%;
+                    padding: 0 0.2rem;
+                    overflow: auto;
+                    position: relative;
+
+                    &::-webkit-scrollbar {
+                        width: 0.06rem;
+                    }
+
+                    &::-webkit-scrollbar-thumb {
+                        border-radius: 0.03rem;
+                        background-color: #ffcf5c;
+                    }
+
+                    &::-webkit-scrollbar-track {
+                    }
+
+                    span {
+                        color: rgba(219,63,1,0.5);
+                        font-size: 0.3rem;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        -webkit-transform: translate(-50%,-50%);
+                        transform: translate(-50%,-50%);
+                    }
+
+                    li {
+                        font-size: 0.22rem;
+                        line-height: 0.52rem;
+                        padding-top: 0.15rem;
+                        display: flex;
+                        display: -webkit-flex;
+                        border-bottom: 1px #fedf95 solid;
+
+                        &:first-child {
+                            padding-top: 0;
+                        }
+
+                        &:last-child {
+                            border-bottom: none;
+                        }
+
+                        time, code {
+                            color: rgba(219,63,1,0.8);
+                        }
+
+                        button {
+                            cursor: pointer;
+                            -webkit-appearance: none;
+                            border: none;
+                            background-color: transparent;
+                            font-weight: bold;
+                            color: rgba(219,63,1,1);
+                        }
+
+                        &.w1 {
+
+                            time, code {
+                                width: 50%;
+                                text-align: center;
+                            }
+                        }
+
+                        &.w2 {
+
+                            code {
+                                text-align: center;
+                                flex-grow: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.sign-login {
+            padding-top: 0.45rem;
+
+            ul {
+                width: 5.2rem;
+                margin: 0 auto 0.16rem;
+
+                li {
+                    margin-bottom: 0.25rem;
+                    display: flex;
+
+                    &:nth-child(1) {
+
+                        input {
+                            border-radius: 0.1rem 0 0 0.1rem;
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        margin-bottom: 0;
+                    }
+
+                    input {
+                        width: 100%;
+                        height: 0.6rem;
+                        padding-top: 0.1rem;
+                        padding-bottom: 0.1rem;
+                        padding-left: 0.2rem;
+                        padding-right: 0.2rem;
+                        background-color: #fff;
+                        border: none;
+                        font-size: 0.22rem;
+                        color: rgba(219,63,1,1);
+                        border-radius: 0.1rem;
+                        flex-grow: 1;
+
+                        &::-webkit-input-placeholder {
+                            color: rgba(219,63,1,0.5);
+                        }
+
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+
+                    a {
+                        display: block;
+                        border-radius: 0 0.1rem 0.1rem 0;
+                        flex-shrink: 0;
+                        line-height: 0.6rem;
+                        text-align: center;
+                        color: #fff;
+                        background-color: #ff7441;
+                        font-size: 0.22rem;
+                        padding: 0 0.1rem;
+
+                        &.disable {
+                            cursor: none;
+                            filter: grayscale(100%);
+                        }
+                    }
+
+                    img {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        height: 0.6rem;
+                        border-radius: 0 0.1rem 0.1rem 0;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .sButton {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .main-box {
+        width: 5.92rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        border-radius: 0.2rem;
+        background-color: #fff8e9;
+        -webkit-box-shadow: 0 0 7px #ffae00;
+        -moz-box-shadow: 0 0 7px #ffae00;
+        box-shadow: 0 0 7px #ffae00;
+        background-image: -webkit-linear-gradient(bottom, #ffe9bb, #ffce59);
+        background-image: -moz-linear-gradient(bottom, #ffe9bb, #ffce59);
+        background-image: -o-linear-gradient(bottom, #ffe9bb, #ffce59);
+        background-image: -ms-linear-gradient(bottom, #ffe9bb, #ffce59);
+        background-image: linear-gradient(to top, #ffe9bb, #ffce59);
+
+        .cMain {
+            padding: 0.38rem;
+            position: relative;
+            overflow: hidden;
+
+            .light {
+                width: 100%;
+                height: 3.02rem;
+                position: absolute;
+                left: 0;
+                top: 0.11rem;
+                z-index: 1;
+                overflow: hidden;
+
+                &:before {
+                    content: '';
+                    width: 5.48rem;
+                    height: 5.48rem;
+                    background-image: url(../images/sign/light.png);
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: 5.48rem auto;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    -webkit-transform: translate(-50%,-50%);
+                    transform: translate(-50%,-50%);
+                    -webkit-animation: move linear 5s normal infinite;
+                    animation: move linear 5s normal infinite;
+                    z-index: 1;
+                }
+            }
+
+            .gift {
+                width: 2.3rem;
+                border-radius: 0.1rem;
+                background-color: #ffb511;
+                padding: 0.2rem 0.38rem 0;
+                margin: 0 auto 0.27rem;
+                position: relative;
+                z-index: 2;
+
+                i {
+                    display: block;
+                    height: 1.05rem;
+                    background-color: #ffde5a;
+                    background-position: center center;
+                    background-size: auto 1.05rem;
+                    background-repeat: no-repeat;
+                    border-radius: 0.1rem;
+                }
+
+                p {
+                    margin: 0 -0.38rem;
+                    text-align: center;
+                    font-size: 0.24rem;
+                    line-height: 0.64rem;
+                    color: #a95b09;
+                }
+            }
+
+            code {
+                background-color: #fffaee;
+                font-size: 0.24rem;
+                line-height: 0.6rem;
+                border-radius: 0.1rem;
+                font-weight: bold;
+                text-align: center;
+                color: rgba(219,63,1,1);
+                display: flex;
+                display: -webkit-flex;
+                position: relative;
+                z-index: 2;
+
+                span {
+                    flex-grow: 1;
+                }
+
+                button {
+                    -webkit-appearance: none;
+                    border: none;
+                    background-color: #ffb511;
+                    color: rgba(219,63,1,0.8);
+                    border-radius: 0 0.1rem 0.1rem 0;
+                    width: 0.8rem;
+                }
+            }
+
+            p {
+                font-size: 0.2rem;
+                line-height: 0.28rem;
+                padding: 0.11rem 0;
+                color: rgba(219,63,1,0.8);
+                text-align: center;
+                position: relative;
+                z-index: 2;
+                margin: 0 -0.38rem;
+            }
+        }
+    }
+
+    .pk-box {
+        width: 7.36rem;
+        height: 4.37rem;
+        background-image: linear-gradient(to top, #f0ab05, #f7c51f);
+        border-radius: 0.16rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+
+        &:before {
+            content: '';
+            width: 6.95rem;
+            height: 3.98rem;
+            border-radius: 0.16rem;
+            background-color: #e9ead1;
+            background-image: url(../images/sign/pk-box-title.png);
+            background-position: center 0.17rem;
+            background-repeat: no-repeat;
+            background-size: 4.03rem auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .pk-content {
+            width: 6.4rem;
+            height: 1.75rem;
+            background-image: linear-gradient(to top, #ffb61b, #ffd644);
+            box-shadow: inset 0.11rem 0 0.13rem rgba(254,205,167,0.52);
+            position: relative;
+            border-radius: 0.1rem;
+            margin: 1.3rem auto 0;
+            display: flex;
+            padding: 0.16rem;
+            justify-content: space-around;
+            align-items: center;
+
+            .pk-gift {
+                background-image: linear-gradient(to top, #f5a803, #f3c729);
+                border-radius: 0.1rem;
+                font-size: 0.17rem;
+                color: #c2300a;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 1.08rem;
+
+                img {
+                    max-height: 0.75rem;
+                }
+            }
+
+            .pk-gift-get {
+                width: 1.46rem;
+                height: 0.55rem;
+                background-image: url(../images/sign/btn-get.png);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        .pk-download {
+            display: block;
+            width: 3.22rem;
+            height: 0.71rem;
+            background-image: url(../images/sign/btn-download.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0.18rem auto 0;
+            position: relative;
+        }
+    }
+
+    .opendiv {
+        width: 7.13rem;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate3d(-50%,-50%,0);
+
+        .link {
+            display: block;
+            width: 1.96rem;
+            height: 0.76rem;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+@-webkit-keyframes move {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes move {
+    0% {
+        -webkit-transform: translate(-50%,-50%) rotate(0);
+        transform: translate(-50%,-50%) rotate(0);
+    }
+    100% {
+        -webkit-transform: translate(-50%,-50%) rotate(360deg);
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+
+.sign-aside {
+    position: fixed;
+    right: 0.2rem;
+    bottom: 0.2rem;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    z-index: 10001;
+
+    &.show {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    .signBtn {
+        display: block;
+        width: 1.47rem;
+        height: 1.47rem;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-indent: -9999px;
+        cursor: pointer;
+
+        &.icon-see {
+            background-image: url(../images/sign/button-see.png);
+        }
+
+        &.icon-login {
+            background-image: url(../images/sign/button.png);
+        }
+
+        &.icon-get {
+            background-image: url(../images/sign/button-get.png);
+        }
+    }
+
+    .close {
+        display: block;
+        width: 0.28rem;
+        height: 0.28rem;
+        position: absolute;
+        top: 0.07rem;
+        right: 0.08rem;
+        cursor: pointer;
+    }
+}
+

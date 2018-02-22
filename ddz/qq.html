@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="renderer" content="webkit">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" itemprop="description" content="一言不合看直播，主播带你玩转直播间，坐等老铁们来嗨">
+    <meta itemprop="name" content="可以玩的小视频，尽在大圣Live">
+    <meta itemprop="image" content="https://web.ddz.dasheng.tv/share.jpg">
+    <meta name="keywords" content="德州扑克,大圣Live,直播">
+    <meta name="description" content="一言不合看直播，主播带你玩转直播间，坐等老铁们来嗨">
+    <title>可以玩的小视频，尽在大圣Live</title>
+    <link rel="icon"type="image/x-icon" href="./icon&size80.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./icon&size80.png">
+    <script>
+        var win_width=document.documentElement.clientWidth;
+        var win_height=document.documentElement.clientHeight;
+        win_width=win_width>win_height?win_width:win_height;
+        var FS=(win_width/1334>1?1:win_width/1334)*100;
+        document.documentElement.style.fontSize= FS+ 'px';
+    </script>
+</head>
+<body>
+<style>
+    * {
+        margin: 0;
+    }
+    html,body {
+        height: 100%;
+    }
+    #mod_player {
+        position: relative;
+    }
+    .tvp_titles {
+        display: block;
+        position: absolute;
+        width: 100%;
+        font-size: 0.3rem;
+        line-height: 0.72rem;
+        background-image: linear-gradient(to top,transparent,rgba(0,0,0,0.75));
+        color: #fff;
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 1.3s,visibility 1.3s;
+        -webkit-transition: opacity 1.3s,visibility 1.3s;
+        z-index: 9;
+        padding: 0 0.2rem 1.25rem;
+    }
+    .txp_btn_definition {
+        display: none !important;
+    }
+    .tvp_controls_hide .tvp_titles {
+        opacity: 0;
+        visibility: hidden;
+    }
+    @media all and (orientation: landscape) {
+        .tvp_poster_img {
+            background-size: cover;
+        }
+    }
+    @media all and (orientation: portrait) {
+
+    }
+</style>
+<div id="mod_player"></div>
+<script src="//vm.gtimg.cn/tencentvideo/txp/js/txplayer.js"></script>
+<script>
+    var getQueryString = function (name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return r[2]; return null;
+    };
+
+    var compression = function (img,w,h,q) {
+        if(img!=''&&img!=undefined&&img.indexOf('dasheng.tv')>0){
+            return img.replace('file','img') + '?imageView2/w/'+w+'/h/'+h+'/jpg/' + q;
+        }
+        return img;
+    };
+
+    var w = document.documentElement.clientWidth;
+    var h = document.documentElement.clientHeight;
+
+    var player = new Txplayer({
+        containerId: 'mod_player',
+        vid: getQueryString('videoId'),
+        width: w,
+        height: h,
+        autoplay: !1,
+        showTitle: !0
+    });
+
+    var poster = compression(getQueryString('poster')||'./images/cover/default-cover.jpg');
+
+    player.on('ready',function () {
+        player.setPoster(poster);
+    });
+
+    var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+
+    window.addEventListener(resizeEvt,function(){
+        var w = document.documentElement.clientWidth;
+        var h = document.documentElement.clientHeight;
+        document.getElementsByClassName('txp_player')[0].style.width = w + 'px';
+        document.getElementsByClassName('txp_player')[0].style.height = h + 'px';
+        document.getElementsByTagName('video')[0].style.width = w + 'px';
+        document.getElementsByTagName('video')[0].style.height = h + 'px';
+    })
+</script>
+<div style="display: none">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?380480e639466a02ed49fc99751674ed";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        _hmt.push(['_trackEvent', '斗地主直播间', '访问', '腾讯视频页', 1]);
+
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272194927'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1272194927' type='text/javascript'%3E%3C/script%3E"));
+    _czc.push(["_trackEvent", "斗地主直播间", "腾讯视频页", "访问", 0, "qq"]);
+    </script>
+</div>
+</body>
+</html>

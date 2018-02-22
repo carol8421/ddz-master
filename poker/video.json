@@ -1,0 +1,1246 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "videos": [{
+                "name": "天天德州真人秀",
+                "desc": "全国首档将选秀与德扑比赛结合的真人竞技节目。导师团有德扑大神郭东、甜心电竞主播沐沐、德扑魔法师司文。谁能逆转王牌？谁能一战成名？谁又能拥有百万合约，成为实力与运气的新宠儿？",
+                "icon": "./images/hall/ttdz.jpg",
+                "list": [{
+                        "title": "冰与火的对抗！阿贵带你吐槽主播们的比赛！",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/073753b7da4c4ec4a58a.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 298,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598edfeca95be73db1713025/598edfeca95be73db1713025.m3u8",
+                        "chatroom_id": "598edfeca95be73db1713025"
+                    },
+                    {
+                        "title": "冰火两队大对决",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/617a38352bd69829f0ac.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 1150,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599527c5d425e113ff969452/599527c5d425e113ff969452.m3u8",
+                        "chatroom_id": "599527c5d425e113ff969452"
+                    },
+                    {
+                        "title": "冰火大对抗！阿贵老师领军坚冰队对抗星火队！",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/3ac896fbaa10e2ca0d78.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 255,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5995a95820a05d4c8d9b5b79/5995a95820a05d4c8d9b5b79.m3u8",
+                        "chatroom_id": "5995a95820a05d4c8d9b5b79"
+                    },
+                    {
+                        "title": "冰火对抗！WSOP-TPT复赛大战！",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/56036c1a6c3ad7dd8755.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 1311,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59966d62a95be73db1a6dc3c/59966d62a95be73db1a6dc3c.m3u8",
+                        "chatroom_id": "59966d62a95be73db1a6dc3c"
+                    },
+                    {
+                        "title": "冰火对决",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/998029ad1b41eeb00157.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 173,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5996f8d6a95be73db1ac077e/5996f8d6a95be73db1ac077e.m3u8",
+                        "chatroom_id": "5996f8d6a95be73db1ac077e"
+                    },
+                    {
+                        "title": "冰火对决",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/e0ccd1dd5f88b47f166c.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 261,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5997c227d425e113ffa997ed/5997c227d425e113ffa997ed.m3u8",
+                        "chatroom_id": "5997c227d425e113ffa997ed"
+                    },
+                    {
+                        "title": "冰火对抗！是男人就1v1！冰队阿贵挑战火队图腾！",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/f7dcf975e4017b1f8e5f.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 845,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59984dfc20a05d4c8dae95ce/59984dfc20a05d4c8dae95ce.m3u8",
+                        "chatroom_id": "59984dfc20a05d4c8dae95ce"
+                    },
+                    {
+                        "title": "冰火对抗！火队成员终极挑战！WSOP决赛！",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/0f81267051fad8c23982.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 955,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59997baad425e113ffb6cdc7/59997baad425e113ffb6cdc7.m3u8",
+                        "chatroom_id": "59997baad425e113ffb6cdc7"
+                    },
+                    {
+                        "title": "冰火对决-Wsop-TPT初赛",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/BJkn5E67NXR98dwhBKigE1X0G4v4wBhB7sStBLBT.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 1140,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599a64fc20a05d709401c174/599a64fc20a05d709401c174.m3u8",
+                        "chatroom_id": "599a64fc20a05d709401c174"
+                    },
+                    {
+                        "title": "冰火对抗！冰队队长出征WSOP-TPT复赛！",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/5c570a713aafbd050d46.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 242,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599af222d425e156de06e19f/599af222d425e156de06e19f.m3u8",
+                        "chatroom_id": "599af222d425e156de06e19f"
+                    },
+                    {
+                        "title": "冰火对决",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/77b0053db54a58627f93.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 2214,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599bbee520a05d70940bafa1/599bbee520a05d70940bafa1.m3u8",
+                        "chatroom_id": "599bbee520a05d70940bafa1"
+                    },
+                    {
+                        "title": "冰火大对抗！Kevin老师与阿贵老师比拼复赛成绩！",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/84280265f67871c81fbc.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 223,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599c4de2d425e156de10f66a/599c4de2d425e156de10f66a.m3u8",
+                        "chatroom_id": "599c4de2d425e156de10f66a"
+                    },
+                    {
+                        "title": "V+博击会的直播",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/da763a677e5c83998481.png",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 582,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d0cb6d425e156de158179/599d0cb6d425e156de158179.m3u8",
+                        "chatroom_id": "599d0cb6d425e156de158179"
+                    },
+                    {
+                        "title": "冰火对抗！WSOP-TPT复赛大挑战！",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/cc64858fc5057b45d3cb.jpg",
+                        "nickname": "V+博击会",
+                        "uid": 1045148,
+                        "viewer_num": 634,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d8e40d425e156de1a8bf1/599d8e40d425e156de1a8bf1.m3u8",
+                        "chatroom_id": "599d8e40d425e156de1a8bf1"
+                    }
+                ]
+            },
+            {
+                "name": "大牌连连看",
+                "desc": "德州扑克水友赛节目，每日好礼送不停，与美女主播互动，凭实力赢大奖。",
+                "icon": "./images/hall/dpllk.jpg",
+                "list": [{
+                        "title": "大牌连连看0801",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/64fee893b3fa6376d55d.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 355,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5980230a20a05d2cd11a9f37/5980230a20a05d2cd11a9f37.m3u8",
+                        "chatroom_id": "5980230a20a05d2cd11a9f37"
+                    },
+                    {
+                        "title": "大牌连连看0802",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/9ef3f3dd613ee9027590.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 142,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598177f2a3d5ec524e02805d/598177f2a3d5ec524e02805d.m3u8",
+                        "chatroom_id": "598177f2a3d5ec524e02805d"
+                    },
+                    {
+                        "title": "大牌连连看0802（2）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/2c9ca15616f0f09eed76.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 6,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5981899c20a05d4c8d033897/5981899c20a05d4c8d033897.m3u8",
+                        "chatroom_id": "5981899c20a05d4c8d033897"
+                    },
+                    {
+                        "title": "大牌连连看0803",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/b54892ae8ea4efcdc609.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 391,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5982c325d425e113ff0cdad4/5982c325d425e113ff0cdad4.m3u8",
+                        "chatroom_id": "5982c325d425e113ff0cdad4"
+                    },
+                    {
+                        "title": "大牌连连看0804",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/b1e3129ea909bd40dee2.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 399,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59841ba2d425e113ff186f03/59841ba2d425e113ff186f03.m3u8",
+                        "chatroom_id": "59841ba2d425e113ff186f03"
+                    },
+                    {
+                        "title": "大牌连连看0805",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/286a86a1f6d65a26da01.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 417,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59856c6220a05d4c8d22d829/59856c6220a05d4c8d22d829.m3u8",
+                        "chatroom_id": "59856c6220a05d4c8d22d829"
+                    },
+                    {
+                        "title": "大牌连连看0807",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/011401dbea773680f86a.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 431,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59880fbca3d5ec524e35c702/59880fbca3d5ec524e35c702.m3u8",
+                        "chatroom_id": "59880fbca3d5ec524e35c702"
+                    },
+                    {
+                        "title": "大牌连连看0808",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/42cce1423246aa12c240.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 488,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59896183a3d5ec524e3f6742/59896183a3d5ec524e3f6742.m3u8",
+                        "chatroom_id": "59896183a3d5ec524e3f6742"
+                    },
+                    {
+                        "title": "大牌连连看0809",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/f7c7c8623c1ac1a2882e.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 412,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598aa5e520a05d4c8d487e6f/598aa5e520a05d4c8d487e6f.m3u8",
+                        "chatroom_id": "598aa5e520a05d4c8d487e6f"
+                    },
+                    {
+                        "title": "大牌连连看0810",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/0c93284d936fa87dc7d8.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 379,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598bf468a3d5ec524e547e04/598bf468a3d5ec524e547e04.m3u8",
+                        "chatroom_id": "598bf468a3d5ec524e547e04"
+                    },
+                    {
+                        "title": "大牌连连看0811",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/21dbd61e29b32918923b.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 478,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598d464a20a05d4c8d5df2f6/598d464a20a05d4c8d5df2f6.m3u8",
+                        "chatroom_id": "598d464a20a05d4c8d5df2f6"
+                    },
+                    {
+                        "title": "大牌连连看0812",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/e4332d32c690914b35d3.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 660,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598ea40920a05d4c8d67e3a9/598ea40920a05d4c8d67e3a9.m3u8",
+                        "chatroom_id": "598ea40920a05d4c8d67e3a9"
+                    },
+                    {
+                        "title": "大牌连连看0813",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/666698385205dc336945.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 368,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598ff94fd425e113ff715244/598ff94fd425e113ff715244.m3u8",
+                        "chatroom_id": "598ff94fd425e113ff715244"
+                    },
+                    {
+                        "title": "大牌连连看0814",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/daa845b0f4a97d25c896.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 495,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599148ffa3d5ec524e7abf90/599148ffa3d5ec524e7abf90.m3u8",
+                        "chatroom_id": "599148ffa3d5ec524e7abf90"
+                    },
+                    {
+                        "title": "大牌连连看0815",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/7GmMo0BgXCv1BODeKTKop7Tvv9pgqj58p85sPytx.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 859,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59929164a95be73db18ae2dc/59929164a95be73db18ae2dc.m3u8",
+                        "chatroom_id": "59929164a95be73db18ae2dc"
+                    },
+                    {
+                        "title": "大牌连连看0816",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/5abfea342534476a1bb1.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 1006,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5993e4e5a95be73db1947b1e/5993e4e5a95be73db1947b1e.m3u8",
+                        "chatroom_id": "5993e4e5a95be73db1947b1e"
+                    },
+                    {
+                        "title": "大牌连连看0817",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/20b8db229a82754abde0.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 927,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59953476a3d5ec524e9718b4/59953476a3d5ec524e9718b4.m3u8",
+                        "chatroom_id": "59953476a3d5ec524e9718b4"
+                    },
+                    {
+                        "title": "大牌连连看0818",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/01c3115c3c8821036bdb.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 1011,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599682eda95be73db1a79f98/599682eda95be73db1a79f98.m3u8",
+                        "chatroom_id": "599682eda95be73db1a79f98"
+                    },
+                    {
+                        "title": "大牌连连看0819",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/fb317d670ea37b9927c7.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 3051,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5997d24e20a05d4c8daa1b3e/5997d24e20a05d4c8daa1b3e.m3u8",
+                        "chatroom_id": "5997d24e20a05d4c8daa1b3e"
+                    },
+                    {
+                        "title": "大牌连连看0820",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/17ac2b961fecc9a39243.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 396,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59993106d425e113ffb409ee/59993106d425e113ffb409ee.m3u8",
+                        "chatroom_id": "59993106d425e113ffb409ee"
+                    },
+                    {
+                        "title": "大牌连连看0821",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/2787010b81b09da435b1.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 698,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599a8603a3d5ec50f002e556/599a8603a3d5ec50f002e556.m3u8",
+                        "chatroom_id": "599a8603a3d5ec50f002e556"
+                    },
+                    {
+                        "title": "大牌连连看0822",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/7235d958b605ba45389a.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 1000,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599bcfcca95be7626c0c5565/599bcfcca95be7626c0c5565.m3u8",
+                        "chatroom_id": "599bcfcca95be7626c0c5565"
+                    },
+                    {
+                        "title": "大牌连连看0823",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/21ee91603cfdd2cf4538.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "viewer_num": 597,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d1826d425e156de15efe4/599d1826d425e156de15efe4.m3u8",
+                        "chatroom_id": "599d1826d425e156de15efe4"
+                    }
+                ]
+            },
+            {
+                "name": "大牌连连看",
+                "desc": "德州扑克水友赛节目，每日好礼送不停，与美女主播互动，凭实力赢大奖。",
+                "icon": "./images/hall/dpllk.jpg",
+                "list": [{
+                        "title": "《大牌连连看》",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/nEnwOqFxW83mQ2WVKKpjq3uRWDblhvc0t3QNDM47.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 591,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.58f703fa20a05d187f1f2b5f/58f703fa20a05d187f1f2b5f.m3u8",
+                        "chatroom_id": "58f703fa44d904006c1355c8"
+                    },
+                    {
+                        "title": "大牌连连看4.20",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/krItensEpVTqgwe1PQIgbRmEguu4PPdUtnOcd6Fk.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 3394,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.58f88bbfd425e173c1070440/58f88bbfd425e173c1070440.m3u8",
+                        "chatroom_id": "58f88bbfa22b9d006585596c"
+                    },
+                    {
+                        "title": "大牌连连看4.26",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/E9ORwGuWaveTcAeH9Rh64o0eH11ibVRyT2gJy40s.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 2468,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590091bbd425e163e009b78f/590091bbd425e163e009b78f.m3u8",
+                        "chatroom_id": "590091bba0bb9f0065dd0dca"
+                    },
+                    {
+                        "title": "大牌连连看",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/GuapdCPlXVrL0Eg5MOQVbO6S7vRI3aNqr94tqDve.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 459,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.5913002ca3d5ec6135066683/5913002ca3d5ec6135066683.m3u8",
+                        "chatroom_id": "5913002c1b69e600686ce967"
+                    },
+                    {
+                        "title": "大牌连连看",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/TObSry67BDpV7e0RU7kQXrTwW4TBI0Kqeo8YtCa8.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 446,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591408aca3d5ec61350bf82d/591408aca3d5ec61350bf82d.m3u8",
+                        "chatroom_id": "591408ac8d6d81005852a5f9"
+                    },
+                    {
+                        "title": "大牌连连看（儿童节）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/xAVGgSvMnWDwCUzqcBcPH2kAWSp4v5nksxcDUkuk.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 494,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.592fbaf020a05d5c4838aed9/592fbaf020a05d5c4838aed9.m3u8",
+                        "chatroom_id": "592fbaf0ac502e00686d21a0"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-02）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/kscaKWjuhr8mRyEAh2nkVpX9nm0mo2O9TEqG6Qpe.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 468,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.5930f865a3d5ec2fa4407304/5930f865a3d5ec2fa4407304.m3u8",
+                        "chatroom_id": "5930f8652f301e006bd78580"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-04）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/KWdYV1FMU1Olp4mG3dgpdDaNttz5iqFm9cH4oyjp.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 465,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5933a37ba3d5ec2fa4513dd6/5933a37ba3d5ec2fa4513dd6.m3u8",
+                        "chatroom_id": "5933a37ba22b9d0058e105bc"
+                    },
+                    {
+                        "title": "大牌连连看(2016-06-05)",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/zrWaOcTuJxPspgTOBtEhKH8vHpOj0ceKSNgdxuxs.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 244,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.593505f6a95be75a0059b113/593505f6a95be75a0059b113.m3u8",
+                        "chatroom_id": "593505f62f301e0058619c4a"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-06）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/aQ6jknGtKDQ2M1VusR6uCnNJlprSg9vlp5TSThHw.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 514,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59365207a3d5ec2fa461ad65/59365207a3d5ec2fa461ad65.m3u8",
+                        "chatroom_id": "593652072f301e006b19538d"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-07）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/zvyeKL2RVo0YctL9eOQncBvNc8XijXJCuEcnB6Wj.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 9030,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59379a93a95be70989014493/59379a93a95be70989014493.m3u8",
+                        "chatroom_id": "59379a93fe88c20061edd2c7"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-08）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/yCbPMMR7tAxGjNnNc3O12h08AS1VblRqkrtuxb0A.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 4114,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5938ee96d425e17dc40889b0/5938ee96d425e17dc40889b0.m3u8",
+                        "chatroom_id": "5938ee96ac502e006b1536c3"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-09）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/2gRsiirDVj66QtEdYg7Srp0IK0991RNhndFE1yQY.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 515,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.593a43bea3d5ec6926112c58/593a43bea3d5ec6926112c58.m3u8",
+                        "chatroom_id": "593a43beac502e006b2321d4"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-11）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/1OdVI4d8XrLvlIobu29P0gOli9dVJwKkK2x5K5wD.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 3498,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.593ceab8d425e17dc423313b/593ceab8d425e17dc423313b.m3u8",
+                        "chatroom_id": "593ceab8ac502e006cf0ff70"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-12）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/SrU6W8Njrdl1mtyX9RU607rHewo5Kta4sVogx0eR.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 1483,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.593e2d7620a05d31332b2809/593e2d7620a05d31332b2809.m3u8",
+                        "chatroom_id": "593e2d765c497d006b9580c0"
+                    },
+                    {
+                        "title": "大牌连连看（2017-6-13）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/KHqybXFGAfXlL2DGXTX890A6mSCCaB704MwkIWNh.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 443,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.593f81f6a95be70989344270/593f81f6a95be70989344270.m3u8",
+                        "chatroom_id": "593f81f6fe88c2006a384900"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-14）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/9FDOTPUDNR9a93S3uI6kVjonJJyW5aRuk7gwK9w1.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 909,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5940d9bca95be72dd80837c1/5940d9bca95be72dd80837c1.m3u8",
+                        "chatroom_id": "5940d9bc5c497d006bb31e8b"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-15）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/CAdleQWBx6bAJNRRRpQnh6KJMwDPolwEjzDk4aOO.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 1517,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59422f1aa3d5ec066310adff/59422f1aa3d5ec066310adff.m3u8",
+                        "chatroom_id": "59422f1afe88c2006a55c7b7"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-16）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/TVoFa6otizlmJ1gS99pn2rWaMSW9C4mzWnT4qL2E.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 558,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59435399a95be72dd817b8a3/59435399a95be72dd817b8a3.m3u8",
+                        "chatroom_id": "59435399fe88c2006a61b680"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-19）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/gCJOSYF0cIkTJaIRt2EpzsiscC3P0aYa40UNS4X0.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 1727,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59476b6dd425e15b471a9d60/59476b6dd425e15b471a9d60.m3u8",
+                        "chatroom_id": "59476b6d61ff4b006cf8cc9e"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-20）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/x1k573xyo6GgHjtAE1QXSVA2VjXoml7DHDpyxP0m.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 471,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5948abd5d425e15b4722c3c2/5948abd5d425e15b4722c3c2.m3u8",
+                        "chatroom_id": "5948abd5a0bb9f006beef3ef"
+                    },
+                    {
+                        "title": "大牌连连看(20170621)",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/AfyCXg5QKetVCtu4v5Jeaju0B8rvDMCCjuJMOT3b.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 464,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594a0dc6a95be702160c6405/594a0dc6a95be702160c6405.m3u8",
+                        "chatroom_id": "594a0dc65c497d006b0b4353"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-22）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/7knHIA5lJnFxSybKi1zz26kqCEwC92it0EHjmt5J.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 450,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594b6b77a95be7372a0225f3/594b6b77a95be7372a0225f3.m3u8",
+                        "chatroom_id": "594b6b778d6d810057ddd358"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-23）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/34114fd41727f728d84a.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 516,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594cadcca95be7372a0a294c/594cadcca95be7372a0a294c.m3u8",
+                        "chatroom_id": "594cadccb123db005dc36c3f"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-25）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/dc8276f041e371947460.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 457,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594f59b8a95be7372a1f4381/594f59b8a95be7372a1f4381.m3u8",
+                        "chatroom_id": "594f59b88d6d81005702232b"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-26）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/dce61c8257a8261a69ce.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 497,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5950a0b720a05d10f525c18e/5950a0b720a05d10f525c18e.m3u8",
+                        "chatroom_id": "5950a0b7128fe10065348242"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-27）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/bd5636ab2d7587f9823b.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 486,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5951f99ed425e114b22e83a4/5951f99ed425e114b22e83a4.m3u8",
+                        "chatroom_id": "5951f99efe88c2005fa6ff1b"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-28）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/b1eaaea3d96643c4cdc8.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 484,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59533b9ed425e114b2388a8b/59533b9ed425e114b2388a8b.m3u8",
+                        "chatroom_id": "59533b9eb123db005dfda342"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-29）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/5aa206484887a9a5e6ba.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 444,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59549e6120a05d10f544814e/59549e6120a05d10f544814e.m3u8",
+                        "chatroom_id": "59549e620ce46300579a17f3"
+                    },
+                    {
+                        "title": "大牌连连看（2017-06-30）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/36e73251e5288eb47674.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 483,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5956128520a05d1bb7096b46/5956128520a05d1bb7096b46.m3u8",
+                        "chatroom_id": "59561285ac502e006bd26a5f"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-02）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/f2cae7deabe8fa5ebc1d.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 430,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5958bb76a95be767cd1c1a57/5958bb76a95be767cd1c1a57.m3u8",
+                        "chatroom_id": "5958bb76128fe100583d759e"
+                    },
+                    {
+                        "title": "大牌连连看 20170703 上半场",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/aaaa1e379f34fc6a5b17.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 289,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5959b944a95be767cd21c511/5959b944a95be767cd21c511.m3u8",
+                        "chatroom_id": "5959b9442f301e006454c6e0"
+                    },
+                    {
+                        "title": "大牌连连看 20170703 下半场",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/ed9e6b31e16eddd9933d.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 133,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.595a0220a3d5ec60232412d6/595a0220a3d5ec60232412d6.m3u8",
+                        "chatroom_id": "595a0220128fe100584b08a2"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-04）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/56564192780864ecdfca.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 476,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.595b35e6d425e16cf62c1966/595b35e6d425e16cf62c1966.m3u8",
+                        "chatroom_id": "595b35e6128fe10058597a7e"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-05）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/aead4958236c298f7718.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 506,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.595c845ad425e16cf634b108/595c845ad425e16cf634b108.m3u8",
+                        "chatroom_id": "595c845a8d6d8100570b12fd"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-06）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/a4f72ec3a54d55d12935.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 290,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.595dcf4ba95be767cd3ecfdd/595dcf4ba95be767cd3ecfdd.m3u8",
+                        "chatroom_id": "595dcf4b8d6d81005719860f"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-07）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/1d7e3e493cf071442273.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 445,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.595f315120a05d1bb7481276/595f315120a05d1bb7481276.m3u8",
+                        "chatroom_id": "595f3151570c350058ab8cad"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-08）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/c6e42735a25a6b02ddc7.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 482,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59607ddba95be767cd51714f/59607ddba95be767cd51714f.m3u8",
+                        "chatroom_id": "59607ddc570c350058baa9e5"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-09）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/ccf5746337f038d9530b.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 478,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5961c44ed425e16cf6599dad/5961c44ed425e16cf6599dad.m3u8",
+                        "chatroom_id": "5961c44e128fe10054b526ce"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-10）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/a3b4925711b48a4bcad5.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 510,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.596325d520a05d1bb762bea1/596325d520a05d1bb762bea1.m3u8",
+                        "chatroom_id": "596325d5a22b9d006b955550"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-11）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/77f2ddabf1e1134feb61.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 455,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59646fa6d425e16cf66aeee6/59646fa6d425e16cf66aeee6.m3u8",
+                        "chatroom_id": "59646fa60ce463005875f325"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-12）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/e13b433c8703214a6755.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 3486,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5965bd7c20a05d1bb773ea37/5965bd7c20a05d1bb773ea37.m3u8",
+                        "chatroom_id": "5965bd7c570c350058f49bc3"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-13）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/d78be8bca787c13effee.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 447,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5967180120a05d1bb77e88a4/5967180120a05d1bb77e88a4.m3u8",
+                        "chatroom_id": "59671801a22b9d006afa4957"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-14）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/f2d19c9d7d68307bfe3c.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 152,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.596868cea95be767cd886058/596868cea95be767cd886058.m3u8",
+                        "chatroom_id": "596868ce128fe155cef34b7f"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-14）2",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/65b70d2fcfaf4f7fcc23.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 307,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59687560a95be767cd88cbc2/59687560a95be767cd88cbc2.m3u8",
+                        "chatroom_id": "59687560ac502e0061391e2c"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-15）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/e9a956ca454c78ffb198.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 442,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5969ae2ea3d5ec60239029da/5969ae2ea3d5ec60239029da.m3u8",
+                        "chatroom_id": "5969ae2ea22b9d006a14e305"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-16）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/dcaabda669789f7cc87e.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 440,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.596b0e0ba3d5ec602398fbc1/596b0e0ba3d5ec602398fbc1.m3u8",
+                        "chatroom_id": "596b0e0b570c35005b345fa6"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-17）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/2e16a87b86b9c8cb5349.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 466,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.596c59c8d425e16cf6a11329/596c59c8d425e16cf6a11329.m3u8",
+                        "chatroom_id": "596c59c8fe88c2c1d402ac56"
+                    },
+                    {
+                        "title": "大牌连连看0718",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/92b87a90f25452e5e263.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 495,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.596da5e8d425e1195c01c6f2/596da5e8d425e1195c01c6f2.m3u8",
+                        "chatroom_id": "596da5e8570c35005b4dbad3"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-19）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/d2344dcd0be96c33cdb9.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 463,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.596efde5a95be71c3b139df8/596efde5a95be71c3b139df8.m3u8",
+                        "chatroom_id": "596efde5fe88c2c1d41cee27"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-20）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/a2eb7ba69852eaf90b2b.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 516,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59704c4bd425e1195c1369f7/59704c4bd425e1195c1369f7.m3u8",
+                        "chatroom_id": "59704c4ba0bb9f0062ec45e5"
+                    },
+                    {
+                        "title": "大牌连连看（2017-07-21）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/967ae1c7432313121730.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 457,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59719fcf20a05d59eb1c6450/59719fcf20a05d59eb1c6450.m3u8",
+                        "chatroom_id": "59719fcf8d6d810057ac6f88"
+                    },
+                    {
+                        "title": "大牌连连看0722",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/12feb9eb85d6e26f73c5.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 440,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5972ed27a95be71c3b2ee9c0/5972ed27a95be71c3b2ee9c0.m3u8",
+                        "chatroom_id": "5972ed2761ff4b006c5b2b5f"
+                    },
+                    {
+                        "title": "大牌连连看0723",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/d15e381f6d28d93085f1.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 434,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59744838d425e1195c304c4e/59744838d425e1195c304c4e.m3u8",
+                        "chatroom_id": "597448381b69e6006c283deb"
+                    },
+                    {
+                        "title": "大牌连连看0724",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/eb7095504f7fedf8dbad.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 480,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59758acba95be71c3b42b4e2/59758acba95be71c3b42b4e2.m3u8",
+                        "chatroom_id": "59758acc570c35005b9c9cc3"
+                    },
+                    {
+                        "title": "大牌连连看0725",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/b8487dfa403c658bc384.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 440,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5976ec1220a05d59eb44d35d/5976ec1220a05d59eb44d35d.m3u8",
+                        "chatroom_id": "5976ec121b69e6006c440c48"
+                    },
+                    {
+                        "title": "大牌连连看0726",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/VJrlQLQPoIpvsOh46qYYFAfXexGIdwLltp5I3xtQ.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 462,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59783085d425e1195c4e24d0/59783085d425e1195c4e24d0.m3u8",
+                        "chatroom_id": "597830868d6d81005897d870"
+                    },
+                    {
+                        "title": "大牌连连看0727",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/9e7883b446b60aeb2998.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 484,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597989cf20a05d59eb58fff4/597989cf20a05d59eb58fff4.m3u8",
+                        "chatroom_id": "597989cf128fe10056f7c794"
+                    },
+                    {
+                        "title": "大牌连连看0728",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/be36ffbf276c136dbb76.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 512,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597ad9e8a3d5ec5f3964e9bc/597ad9e8a3d5ec5f3964e9bc.m3u8",
+                        "chatroom_id": "597ad9ea8d6d810058b93d9e"
+                    },
+                    {
+                        "title": "大牌连连看0730",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/300ffe208fdf1898e106.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 416,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597d73c020a05d2cd1068efd/597d73c020a05d2cd1068efd.m3u8",
+                        "chatroom_id": "597d73c0fe88c20057d19f64"
+                    },
+                    {
+                        "title": "大牌连连看0731",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/90a679001000575838fd.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 455,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597ec382d425e1313e101ffe/597ec382d425e1313e101ffe.m3u8",
+                        "chatroom_id": "597ec382a22b9d006d5232d5"
+                    },
+                    {
+                        "title": "大牌连连看0801",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/64fee893b3fa6376d55d.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 355,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5980230a20a05d2cd11a9f37/5980230a20a05d2cd11a9f37.m3u8",
+                        "chatroom_id": "5980230a128fe1005647e281"
+                    },
+                    {
+                        "title": "大牌连连看0802",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/9ef3f3dd613ee9027590.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 142,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598177f2a3d5ec524e02805d/598177f2a3d5ec524e02805d.m3u8",
+                        "chatroom_id": "598177f2a22b9d006d748e76"
+                    },
+                    {
+                        "title": "大牌连连看0802（2）",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/2c9ca15616f0f09eed76.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 6,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5981899c20a05d4c8d033897/5981899c20a05d4c8d033897.m3u8",
+                        "chatroom_id": "5981899c570c350062eb3c8b"
+                    },
+                    {
+                        "title": "大牌连连看0803",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/b54892ae8ea4efcdc609.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 391,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5982c325d425e113ff0cdad4/5982c325d425e113ff0cdad4.m3u8",
+                        "chatroom_id": "5982c3252f301e0058db3cd5"
+                    },
+                    {
+                        "title": "大牌连连看0804",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/b1e3129ea909bd40dee2.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 399,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59841ba2d425e113ff186f03/59841ba2d425e113ff186f03.m3u8",
+                        "chatroom_id": "59841ba2fe88c2005723d229"
+                    },
+                    {
+                        "title": "大牌连连看0805",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/286a86a1f6d65a26da01.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 417,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59856c6220a05d4c8d22d829/59856c6220a05d4c8d22d829.m3u8",
+                        "chatroom_id": "59856c621b69e6006cbfa880"
+                    },
+                    {
+                        "title": "大牌连连看0807",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/011401dbea773680f86a.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 431,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59880fbca3d5ec524e35c702/59880fbca3d5ec524e35c702.m3u8",
+                        "chatroom_id": "59880fbc570c3500623c6d90"
+                    },
+                    {
+                        "title": "大牌连连看0808",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/42cce1423246aa12c240.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 488,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59896183a3d5ec524e3f6742/59896183a3d5ec524e3f6742.m3u8",
+                        "chatroom_id": "59896183a22b9d006dd6302f"
+                    },
+                    {
+                        "title": "大牌连连看0809",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/f7c7c8623c1ac1a2882e.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 412,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598aa5e520a05d4c8d487e6f/598aa5e520a05d4c8d487e6f.m3u8",
+                        "chatroom_id": "598aa5e5128fe1006bc39b32"
+                    },
+                    {
+                        "title": "大牌连连看0810",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/0c93284d936fa87dc7d8.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 379,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598bf468a3d5ec524e547e04/598bf468a3d5ec524e547e04.m3u8",
+                        "chatroom_id": "598bf4681b69e6005bf2fabf"
+                    },
+                    {
+                        "title": "大牌连连看0811",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/21dbd61e29b32918923b.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 478,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598d464a20a05d4c8d5df2f6/598d464a20a05d4c8d5df2f6.m3u8",
+                        "chatroom_id": "598d464a128fe1006be6d27f"
+                    },
+                    {
+                        "title": "大牌连连看0812",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/e4332d32c690914b35d3.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 660,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598ea40920a05d4c8d67e3a9/598ea40920a05d4c8d67e3a9.m3u8",
+                        "chatroom_id": "598ea4092f301e0069023af3"
+                    },
+                    {
+                        "title": "大牌连连看0813",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/666698385205dc336945.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 368,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598ff94fd425e113ff715244/598ff94fd425e113ff715244.m3u8",
+                        "chatroom_id": "598ff94fa22b9d0057ec725c"
+                    },
+                    {
+                        "title": "大牌连连看0814",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/daa845b0f4a97d25c896.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 496,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599148ffa3d5ec524e7abf90/599148ffa3d5ec524e7abf90.m3u8",
+                        "chatroom_id": "599148ffa22b9d0057fe2ca7"
+                    },
+                    {
+                        "title": "大牌连连看0815",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/7GmMo0BgXCv1BODeKTKop7Tvv9pgqj58p85sPytx.png",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 859,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59929164a95be73db18ae2dc/59929164a95be73db18ae2dc.m3u8",
+                        "chatroom_id": "599291648d6d810058b74f92"
+                    },
+                    {
+                        "title": "大牌连连看0816",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/5abfea342534476a1bb1.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 1006,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5993e4e5a95be73db1947b1e/5993e4e5a95be73db1947b1e.m3u8",
+                        "chatroom_id": "5993e4e5a22b9d005720aaf8"
+                    },
+                    {
+                        "title": "大牌连连看0817",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/20b8db229a82754abde0.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 927,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59953476a3d5ec524e9718b4/59953476a3d5ec524e9718b4.m3u8",
+                        "chatroom_id": "599534765c497d0057d5bb46"
+                    },
+                    {
+                        "title": "大牌连连看0818",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/01c3115c3c8821036bdb.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 1011,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599682eda95be73db1a79f98/599682eda95be73db1a79f98.m3u8",
+                        "chatroom_id": "599682ed570c350060590857"
+                    },
+                    {
+                        "title": "大牌连连看0819",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/fb317d670ea37b9927c7.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 3051,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5997d24e20a05d4c8daa1b3e/5997d24e20a05d4c8daa1b3e.m3u8",
+                        "chatroom_id": "5997d250570c350060672d31"
+                    },
+                    {
+                        "title": "大牌连连看0820",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/17ac2b961fecc9a39243.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 396,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59993106d425e113ffb409ee/59993106d425e113ffb409ee.m3u8",
+                        "chatroom_id": "59993106a22b9df82f9bda45"
+                    },
+                    {
+                        "title": "大牌连连看0821",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/2787010b81b09da435b1.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 698,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599a8603a3d5ec50f002e556/599a8603a3d5ec50f002e556.m3u8",
+                        "chatroom_id": "599a860361ff4b0058f66c90"
+                    },
+                    {
+                        "title": "大牌连连看0822",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/7235d958b605ba45389a.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 1000,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599bcfcca95be7626c0c5565/599bcfcca95be7626c0c5565.m3u8",
+                        "chatroom_id": "599bcfcca22b9df82fbc5c59"
+                    },
+                    {
+                        "title": "大牌连连看0823",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/21ee91603cfdd2cf4538.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 597,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d1826d425e156de15efe4/599d1826d425e156de15efe4.m3u8",
+                        "chatroom_id": "599d18265c497d006582d3d8"
+                    },
+                    {
+                        "title": "大牌连连看0824",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/c9322d204f737ec6b100.jpg",
+                        "nickname": "24K-大牌连连看",
+                        "uid": 1002229,
+                        "totalViewersNum": 905,
+                        "url": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599e6ef2d425e156de201ba7/599e6ef2d425e156de201ba7.m3u8",
+                        "chatroom_id": "599e6ef2570c35006caeb46a"
+                    }
+                ]
+            },
+            {
+                "name": "郭东讲坛",
+                "desc": "腾讯棋牌文化推广大使郭东，开设牌局精讲课程。聆听大神讲座，参与牌局分享，提高你的德扑技巧。",
+                "icon": "./images/hall/gdjt.jpg",
+                "list": [{
+                        "title": "郭东讲坛第一期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/accd6d8456423a7d6771.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 103,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f0dbad425e16bec122c4f/590f0dbad425e16bec122c4f.m3u8",
+                        "chatroom_id": "590f0dbad425e16bec122c4f"
+                    },
+                    {
+                        "title": "郭东讲坛第二期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/ea1dba40c7e888eddad5.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 98,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1223a95be74dd31a4518/590f1223a95be74dd31a4518.m3u8",
+                        "chatroom_id": "590f1223a95be74dd31a4518"
+                    },
+                    {
+                        "title": "郭东讲坛第三期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/613acf4a688b26c189b1.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 48,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1813d425e16bec127f14/590f1813d425e16bec127f14.m3u8",
+                        "chatroom_id": "590f1813d425e16bec127f14"
+                    },
+                    {
+                        "title": "郭东讲坛第四期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/d88f4519c252fe3e6819.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 70,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1a27a3d5ec542412958f/590f1a27a3d5ec542412958f.m3u8",
+                        "chatroom_id": "590f1a27a3d5ec542412958f"
+                    },
+                    {
+                        "title": "郭东讲坛第五期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/767d1f7c8fe16157c4f7.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 36,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1d21a95be74dd31a9ba7/590f1d21a95be74dd31a9ba7.m3u8",
+                        "chatroom_id": "590f1d21a95be74dd31a9ba7"
+                    },
+                    {
+                        "title": "郭东讲坛第六期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/4b4960bc0d7e5ac1c8a4.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 34,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591027b7a95be74dd32038dd/591027b7a95be74dd32038dd.m3u8",
+                        "chatroom_id": "591027b7a95be74dd32038dd"
+                    },
+                    {
+                        "title": "郭东讲坛第七期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/96d11e38758e5f540e6f.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 58,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59102af7d425e16bec186368/59102af7d425e16bec186368.m3u8",
+                        "chatroom_id": "59102af7d425e16bec186368"
+                    },
+                    {
+                        "title": "郭东讲坛第八期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/eeb686f7c9ce2fa5ce6b.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 64,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59102dfea95be74dd3206a7c/59102dfea95be74dd3206a7c.m3u8",
+                        "chatroom_id": "59102dfea95be74dd3206a7c"
+                    },
+                    {
+                        "title": "郭东讲坛第九期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/a9d290b2073478274cbd.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 65,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.5910313420a05d35441a4a57/5910313420a05d35441a4a57.m3u8",
+                        "chatroom_id": "5910313420a05d35441a4a57"
+                    },
+                    {
+                        "title": "郭东讲坛第十期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/1c2f32049d79cdc013d2.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 85,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591033c8a95be74dd32097e5/591033c8a95be74dd32097e5.m3u8",
+                        "chatroom_id": "591033c8a95be74dd32097e5"
+                    },
+                    {
+                        "title": "郭东讲坛第十一期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/771d60b946439d669928.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 41,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59103cccd425e16bec18f348/59103cccd425e16bec18f348.m3u8",
+                        "chatroom_id": "59103cccd425e16bec18f348"
+                    },
+                    {
+                        "title": "郭东讲坛十二期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/877013a19a7147f4cd55.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 46,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59103f6ad425e16bec19098e/59103f6ad425e16bec19098e.m3u8",
+                        "chatroom_id": "59103f6ad425e16bec19098e"
+                    },
+                    {
+                        "title": "郭东讲坛第十三期",
+                        "cover": "https://dn-WB3iKO2J.qbox.me/d75d2757eca2046e3c5e.png",
+                        "nickname": "德扑大神-郭东",
+                        "uid": 1016279,
+                        "viewer_num": 65,
+                        "url": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591041a4a3d5ec5424191e36/591041a4a3d5ec5424191e36.m3u8",
+                        "chatroom_id": "591041a4a3d5ec5424191e36"
+                    }
+                ]
+            }
+        ]
+    }
+}

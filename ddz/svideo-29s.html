@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="renderer" content="webkit">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" itemprop="description" content="一言不合看直播，主播带你玩转直播间，坐等老铁们来嗨">
+    <meta itemprop="name" content="看扑克直播，上大圣Live">
+    <meta itemprop="image" content="https://web.ddz.dasheng.tv/share.jpg">
+    <meta name="keywords" content="德州扑克,大圣Live,直播">
+    <meta name="description" content="一言不合看直播，主播带你玩转直播间，坐等老铁们来嗨">
+    <title>看扑克直播，上大圣Live</title>
+    <link rel="icon"type="image/x-icon" href="./icon&size80.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./icon&size80.png">
+    <link rel="stylesheet" type="text/css" href="./js/swiper-3.4.0/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/hall.min.css?ver=1513760124149">
+    <link rel="stylesheet" type="text/css" href="./css/svideo.min.css?ver=1513760124149">
+    <link rel="stylesheet" type="text/css" href="./css/sign.min.css">
+    <script>
+        var win_width=document.documentElement.clientWidth;
+        var win_height=document.documentElement.clientHeight;
+        win_width=win_width>win_height?win_width:win_height;
+        var FS=(win_width/1334>1?1:win_width/1334)*100;
+        document.documentElement.style.fontSize= FS+ 'px';
+    </script>
+</head>
+<body class="svideo-body">
+
+<div id="TCaptcha"></div>
+
+<div class="sign" style="display: none">
+
+    <div class="global-box sign-login main-page" style="display: none">
+        <a class="close back"></a>
+        <div class="title t3"></div>
+        <ul class="normal">
+            <li>
+                <input type="number" id="phone" placeholder="请输入手机号码">
+                <a class="getCode">获取验证码</a>
+            </li>
+            <li><input type="number" id="msgCode" placeholder="请输入验证码"></li>
+        </ul>
+        <a class="sButton login">登录</a>
+    </div>
+
+    <div class="global-box sign-box main-box" style="display: none">
+        <a class="close back"></a>
+        <div class="cMain">
+            <div class="light"></div>
+        </div>
+    </div>
+
+</div>
+
+
+<section class="main">
+
+    <div class="part mb25">
+        <div class="quote _29s-block">
+
+            <div class="_29s-block-left">
+                <div class="title t1 mb10">29s秀</div>
+                <div class="_pk-_award">
+                    <div class="_pk"></div>
+                    <div class="_award">
+                        <div class="_award-body">
+                            <div class="_award-title">斗宝赐福</div>
+                            <p id="winer">谢谢支持<strong class="name"></strong> ，送你一个大宝箱吧！</p>
+                            <div class="_award-list">
+                                <span><img src="./images/hall/jipaiqi.png" alt="">记牌器×2</span>
+                                <span><img src="./images/hall/lianshengfu.png" alt="">连胜符×3</span>
+                                <span><img src="./images/hall/chaojijiabei.png" alt="">超级加倍×3</span>
+                                <a class="pk-gift-get"><strong>领取礼品</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="_pk-_award-footer">
+                        <a></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="_29s-block-right">
+                <div class="title text mb10" type="flex">
+                    <div class="swiper-container swiper-_29s-title swiper-short-video-title">
+                        <div class="swiper-wrapper"></div>
+                    </div>
+                </div>
+                <div class="_29s-content">
+                    <div class="_29s-items">
+                        <div class="swiper-container swiper-_29s-body">
+                            <div class="swiper-wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="part">
+        <div class="quote">
+            <div class="title t6 mb10" type="flex"><span>精彩短视频</span>
+
+                <div class="swiper-container swiper-_29s-title swiper-small-video-title">
+                    <div class="swiper-wrapper"></div>
+                </div>
+
+            </div>
+            <ul class="list" id="small_video"></ul>
+        </div>
+    </div>
+
+</section>
+
+<aside>
+    <ul>
+        <li>
+            <a href="./"><b>首页</b></a>
+        </li>
+        <li>
+            <a class="current"><b>小视频</b></a>
+        </li>
+        <li>
+            <a href="./video.html"><b>视频</b></a>
+        </li>
+        <li>
+            <a href="./match.html"><b>赛事</b></a>
+        </li>
+    </ul>
+</aside>
+
+<script src="./js/jquery-1.9.0.min.js"></script>
+<script src="./js/jquery.lazyload.min.js"></script>
+<script src="./js/clipboard.min.js"></script>
+<script src="./js/hall.min.js"></script>
+<script src="./js/hall_sign.min.js"></script>
+<script src="./js/swiper-3.4.0/swiper.jquery.min.js"></script>
+<script src="./js/hall_svideo.min.js"></script>
+<script src="./js/hall_pk.min.js"></script>
+<div style="display: none">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?380480e639466a02ed49fc99751674ed";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        _hmt.push(['_trackEvent', '斗地主直播间', '访问', '短视频页', 1]);
+
+        var _czc = _czc || [];
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272194927'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1272194927' type='text/javascript'%3E%3C/script%3E"));
+        _czc.push(["_trackEvent", "斗地主直播间", "小视频页", "访问", 0, "svideo"]);
+    </script>
+</div>
+</body>
+</html>

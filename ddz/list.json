@@ -1,0 +1,236 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "tab": {
+            "video": [
+                {
+                    "name": "欢乐实验室",
+                    "desc": "节目以多名网红女主播，分别组成红队、蓝队进行pk对抗。节目中含有丰富趣味游戏以及惩罚，线上观众即时参与女主播pk对抗当中，让你幸福起航！Gogo，fly!!",
+                    "icon": "./images/hall/hlsys.jpg",
+                    "uid": 1025147
+                },
+                {
+                    "name": "潜伏的地主",
+                    "desc": "四位长腿美女斗智斗勇，为了找出潜伏的地主使出浑身解数，PK对抗之后究竟是查杀地主还是票出呆萌美女？就请各位观众老爷们锁定直播间一起来看吧！",
+                    "icon": "./images/hall/qfddz.jpg",
+                    "uid": 1049929
+                },
+                {
+                    "name": "地主带带我",
+                    "desc": "一档全民参与的斗地主竞技节目，突出平民性和竞技娱乐性。每周三五日，带你走上人生巅峰，体验不一样的斗地主乐趣。",
+                    "icon": "./images/hall/dzddw.jpg",
+                    "uid": 1054831
+                },
+                {
+                    "name": "财从天降",
+                    "desc": "节目以多轮观众连线挑战主播玩斗地主的方式，给线上观众游戏+福利的双重享受。不定时、短间距、不限定，随机给线上观众礼品抽奖，大量奖品等你拿，等啥呢？Go go go ！！",
+                    "icon": "./images/hall/cctj.jpg",
+                    "uid": 1032951
+                }
+            ]
+        },
+        "videos": [
+            {
+                "title": "地主带带我0910",
+                "cover": "./images/cover/dzddw_live_cover.jpg",
+                "nickname": "地主带带我",
+                "uid": 1054831,
+                "totalViewersNum": 76,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59b4b78ea3d5ec07b03c7c3b/59b4b78ea3d5ec07b03c7c3b.m3u8",
+                "videoId": "59b4b78e61ff4b006558210a",
+                "createdAt": 1504510264
+            },
+            {
+                "title": "地主带带我0908",
+                "cover": "./images/cover/dzddw_live_cover.jpg",
+                "nickname": "地主带带我",
+                "uid": 1054831,
+                "totalViewersNum": 76,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59af6ffed425e1571e140186/59af6ffed425e1571e140186.m3u8",
+                "videoId": "59b2167c1b69e600685fd3a6",
+                "createdAt": 1504510264
+            },
+            {
+                "title": "潜伏的地主第4期",
+                "cover": "./images/cover/q4.jpg",
+                "nickname": "潜伏的地主",
+                "uid": 1049929,
+                "totalViewersNum": 1359,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59b3bb79a95be77fd8357625/59b3bb79a95be77fd8357625.m3u8",
+                "videoId": "59b3bb79128fe1006ab9bf19",
+                "createdAt": 1504345959
+            },
+            {
+                "title": "欢乐实验室0911",
+                "cover": "./images/cover/h11.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 1062,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59b64881d425e1571e4962ae/59b64881d425e1571e4962ae.m3u8",
+                "videoId": "59b64881a22b9d00642e16c1",
+                "createdAt": 1504595349
+            },
+            {
+                "title": "欢乐实验室0910",
+                "cover": "./images/cover/h10.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 1062,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59b4dc8720a05d33976463a1/59b4dc8720a05d33976463a1.m3u8",
+                "videoId": "59b4dc87ee920a006bfa3c04",
+                "createdAt": 1504595349
+            },
+            {
+                "title": "欢乐实验室0909",
+                "cover": "./images/cover/h9.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 1062,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59b39797a3d5ec07b033f647/59b39797a3d5ec07b033f647.m3u8",
+                "videoId": "59b39798fe88c200570d0051",
+                "createdAt": 1504595349
+            },
+            {
+                "title": "欢乐实验室0908",
+                "cover": "./images/cover/h8.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 1062,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59b2333d20a05d33974f25dd/59b2333d20a05d33974f25dd.m3u8",
+                "videoId": "59b2333dac502e006adc5dea",
+                "createdAt": 1504595349
+            },
+            {
+                "title": "地主带带我",
+                "cover": "./images/cover/dzddw_live_cover.jpg",
+                "nickname": "地主带带我",
+                "uid": 1054831,
+                "totalViewersNum": 76,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59af6ffed425e1571e140186/59af6ffed425e1571e140186.m3u8",
+                "videoId": "59af6ffe61ff4b0065269043",
+                "createdAt": 1504510264
+            },
+            {
+                "title": "潜伏的地主第3期",
+                "cover": "./images/cover/q1.jpg",
+                "nickname": "潜伏的地主",
+                "uid": 1049929,
+                "totalViewersNum": 1359,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59aa7f67a95be7118716eeac/59aa7f67a95be7118716eeac.m3u8",
+                "videoId": "59aa7f678d6d81005732922a",
+                "createdAt": 1504345959
+            },
+            {
+                "title": "潜伏的地主第2期",
+                "cover": "./images/cover/q2.jpg",
+                "nickname": "潜伏的地主",
+                "uid": 1049929,
+                "totalViewersNum": 234,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59a1480e20a05d7094356dc6/59a1480e20a05d7094356dc6.m3u8",
+                "videoId": "59a1480e5c497d0065b92f4c",
+                "createdAt": 1503741966
+            },
+            {
+                "title": "潜伏的地主第1期",
+                "cover": "./images/cover/q3.jpg",
+                "nickname": "潜伏的地主",
+                "uid": 1049929,
+                "totalViewersNum": 858,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599ea4ac20a05d70942224c7/599ea4ac20a05d70942224c7.m3u8",
+                "videoId": "599ea4ac5c497d00659b15e8",
+                "createdAt": 1503569068
+            },
+            {
+                "title": "财从天降0828",
+                "cover": "./images/cover/cctj_live_cover.jpg",
+                "nickname": "财从天降",
+                "uid": 1032951,
+                "totalViewersNum": 363,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59a3e2a7d425e156de48c9b8/59a3e2a7d425e156de48c9b8.m3u8",
+                "videoId": "59a3e2a761ff4b0062bf836f",
+                "createdAt": 1503912615
+            },
+            {
+                "title": "财从天降0821",
+                "cover": "./images/cover/cctj_live_cover.jpg",
+                "nickname": "财从天降",
+                "uid": 1032951,
+                "totalViewersNum": 150,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599aece6a95be7626c06ba4f/599aece6a95be7626c06ba4f.m3u8",
+                "videoId": "599aece65c497d0057309852",
+                "createdAt": 1503325414
+            },
+            {
+                "title": "欢乐实验室0907",
+                "cover": "./images/cover/h1.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 1062,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59b0e95f20a05d33974580f5/59b0e95f20a05d33974580f5.m3u8",
+                "videoId": "59b0e95f1b69e60068538608",
+                "createdAt": 1504595349
+            },
+            {
+                "title": "欢乐实验室0906",
+                "cover": "./images/cover/h2.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 1062,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59af58c8a95be77fd8132112/59af58c8a95be77fd8132112.m3u8",
+                "videoId": "59af58c861ff4b00652557f1",
+                "createdAt": 1504595349
+            },
+            {
+                "title": "欢乐实验室0905",
+                "cover": "./images/cover/h3.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 1062,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59ae4d9420a05d3397326450/59ae4d9420a05d3397326450.m3u8",
+                "videoId": "59ae4d95ac502e006ab281f6",
+                "createdAt": 1504595349
+            },
+            {
+                "title": "欢乐实验室0904",
+                "cover": "./images/cover/h4.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 773,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59ad01d5d425e1571e02af8d/59ad01d5d425e1571e02af8d.m3u8",
+                "videoId": "59ad01d58d6d8100574e0744",
+                "createdAt": 1504510421
+            },
+            {
+                "title": "欢乐实验室0831",
+                "cover": "./images/cover/h5.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 1341,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59a7c00c20a05d3397025506/59a7c00c20a05d3397025506.m3u8",
+                "videoId": "59a7c00c8d6d81005711a5f2",
+                "createdAt": 1504165900
+            },
+            {
+                "title": "欢乐实验室0824",
+                "cover": "./images/cover/h6.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 1000,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599e612920a05d70941f93e1/599e612920a05d70941f93e1.m3u8",
+                "videoId": "599e6129128fe1005b71989d",
+                "createdAt": 1503551785
+            },
+            {
+                "title": "欢乐实验室0821",
+                "cover": "./images/cover/h7.jpg",
+                "nickname": "欢乐实验室",
+                "uid": 1025147,
+                "totalViewersNum": 715,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599acd4da3d5ec50f0059afd/599acd4da3d5ec50f0059afd.m3u8",
+                "videoId": "599acd4e61ff4b0058fb5473",
+                "createdAt": 1503317326
+            }
+        ]
+    }
+}

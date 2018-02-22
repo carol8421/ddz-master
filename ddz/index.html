@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" itemprop="description" content="一言不合看直播，主播带你玩转直播间，坐等老铁们来嗨">
+    <meta itemprop="name" content="可以玩的小视频，尽在大圣Live">
+    <meta itemprop="image" content="https://web.ddz.dasheng.tv/share.jpg">
+    <meta name="keywords" content="德州扑克,大圣Live,直播">
+    <meta name="description" content="一言不合看直播，主播带你玩转直播间，坐等老铁们来嗨">
+    <title>可以玩的小视频，尽在大圣Live</title>
+    <link rel="icon"type="image/x-icon" href="./icon&size80.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./icon&size80.png">
+    <link rel="stylesheet" type="text/css" href="./js/swiper-3.4.0/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/hall.min.css?ver=1513760124149">
+    <link rel="stylesheet" type="text/css" href="./css/svideo.min.css?ver=1513760124149">
+    <link rel="stylesheet" type="text/css" href="./css/sign.min.css">
+    <script>
+    var win_width=document.documentElement.clientWidth;
+    var win_height=document.documentElement.clientHeight;
+    win_width=win_width>win_height?win_width:win_height;
+    var FS=win_width/1334*100;
+    document.documentElement.style.fontSize= FS+ 'px';
+    </script>
+</head>
+<body>
+
+<div id="TCaptcha"></div>
+
+<div class="sign" style="display: none">
+
+    <div class="global-box sign-home main-page" style="display: none">
+        <a class="close"></a>
+        <div class="title t1"></div>
+        <div class="sMain">
+            <div class="block block-1">
+                <div class="blockC single">
+                    <div class="bTitle">第一天</div>
+                    <div class="bMain">
+                        <i style="background-image: url(./images/sign/g-3.png)"></i>
+                        <p>连胜符×3</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block block-1">
+                <div class="blockC single">
+                    <div class="bTitle">第二天</div>
+                    <div class="bMain">
+                        <i style="background-image: url(./images/sign/g-2.png)"></i>
+                        <p>超级加倍×3</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block block-2">
+                <div class="blockC double">
+                    <div class="bTitle">第三天</div>
+                    <div class="bMain">
+                        <ul>
+                            <li>
+                                <i style="background-image: url(./images/sign/g-1.png)"></i>
+                                <p>记牌器×2</p>
+                            </li>
+                            <li>
+                                <i style="background-image: url(./images/sign/g-5.png)"></i>
+                                <p>得分加成×3</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a class="sButton getGift">领取</a>
+            <p>活动时间：2017.12.15-2018.03.15<br>活动期间累计登录三天即可获得对应奖励</p>
+            <a class="check getRecord">查看兑换码</a>
+        </div>
+    </div>
+
+    <div class="global-box sign-record main-page" style="display: none">
+        <a class="close back"></a>
+        <div class="title t2"></div>
+        <div class="tips">仅保留最近7天的兑换码记录，请尽快复制前往cdkey兑换入口兑换</div>
+        <div class="sMain">
+            <ul><span>暂无记录</span></ul>
+        </div>
+    </div>
+
+    <div class="global-box sign-login main-page" style="display: none">
+        <a class="close back"></a>
+        <div class="title t3"></div>
+        <ul class="normal">
+            <li>
+                <input type="number" id="phone" placeholder="请输入手机号码">
+                <a class="getCode">获取验证码</a>
+            </li>
+            <li><input type="number" id="msgCode" placeholder="请输入验证码"></li>
+        </ul>
+        <a class="sButton login">登录</a>
+    </div>
+
+    <div class="global-box sign-box main-box" style="display: none">
+        <a class="close back"></a>
+        <div class="cMain">
+            <div class="light"></div>
+        </div>
+    </div>
+
+    <div class="global-box pk-box" style="display: none;">
+        <a class="close"></a>
+        <div class="pk-content">
+            <div class="pk-gift">
+                <img src="./images/hall/jipaiqi.png" alt="">
+                记牌器×2
+            </div>
+            <div class="pk-gift">
+                <img src="./images/hall/lianshengfu.png" alt="">
+                连胜符×3
+            </div>
+            <div class="pk-gift">
+                <img src="./images/hall/chaojijiabei.png" alt="">
+                超级加倍×3
+            </div>
+            <a class="pk-gift-get"></a>
+        </div>
+        <a class="pk-download"></a>
+    </div>
+
+    <div class="global-box opendiv" style="display: none">
+        <a class="close"></a>
+        <a href="https://web.app.dasheng.tv/hlddz_jzdsp2/" class="link"></a>
+    </div>
+
+</div>
+
+<div class="sign-aside">
+    <a class="close"></a>
+    <a class="signBtn icon-see">领奖</a>
+</div>
+
+<section class="main">
+    <div class="part mb10">
+        <div class="part-child part-left">
+            <div class="swiper-container swiper-banner">
+                <div class="swiper-wrapper"></div>
+                <div class="swiper-footer">
+                    <a class="bannerDownload">
+                        <img src="./images/hall/logo-szww.png" class="imgLogo" alt="">
+                        <span class="line"></span>
+                        答题瓜分100万大奖
+                        <img src="./images/hall/button-qwdt.png" class="imgButton" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="part-child part-right">
+            <div class="part-doubao quote">
+                <div class="body">
+                    <div class="header"><span>29秒今日斗宝</span></div>
+                    <div class="_pk-content _pk-main" id="pk_main"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="part mb10">
+        <div class="quote">
+            <div class="title t1">小视频（每日更新）</div>
+            <div class="body">
+                <div class="swiper-container swiper-svideo">
+                    <div class="swiper-wrapper"></div>
+                </div>
+                <div class="buttonList flexFixed">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="part part-live mb10">
+        <div class="quote">
+            <div class="title t3">正在直播</div>
+            <div class="body">
+                <div class="swiper-container swiper-live">
+                    <div class="swiper-wrapper"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="part">
+        <div class="quote">
+            <div class="title t4">精彩视频 <a href="./video.html">更多</a></div>
+            <div class="body">
+                <div class="swiper-container swiper-playback">
+                    <div class="swiper-wrapper"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<aside>
+    <ul>
+        <li>
+            <a class="home current"><b>首页</b></a>
+        </li>
+        <li>
+            <a href="./svideo-29s.html"><b>小视频</b></a>
+        </li>
+        <li>
+            <a href="./video.html"><b>视频</b></a>
+        </li>
+        <li>
+            <a href="./match.html"><b>赛事</b></a>
+        </li>
+    </ul>
+</aside>
+
+<script src="./js/jquery-1.9.0.min.js"></script>
+<script src="./js/clipboard.min.js"></script>
+<script src="./js/hall.min.js"></script>
+<script src="./js/hall_sign.min.js"></script>
+<script src="./js/jquery.scroll.min.js"></script>
+<script src="./js/hall_pk.min.js"></script>
+<script src="./js/swiper-3.4.0/swiper.jquery.min.js"></script>
+<script src="./js/hall_home.min.js"></script>
+<div style="display: none">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?380480e639466a02ed49fc99751674ed";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        _hmt.push(['_trackEvent', '斗地主直播间', '访问', '首页', 1]);
+
+        var _czc = _czc || [];
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272194927'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1272194927' type='text/javascript'%3E%3C/script%3E"));
+        _czc.push(["_trackEvent", "斗地主直播间", "首页", "访问", 0, "index"]);
+    </script>
+</div>
+</body>
+</html>

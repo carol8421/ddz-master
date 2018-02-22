@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta content="email=no" name="format-detection" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--[if lt IE 9]>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" >
+    <![endif]-->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" itemprop="description" content="24K黄金联赛">
+    <meta itemprop="name" content="24K黄金联赛">
+    <meta itemprop="image" content="https://web.ddz.dasheng.tv/images/hall/share.png">
+    <meta name="keywords" content="24K黄金联赛">
+    <meta name="description" content="24K黄金联赛">
+    <script>
+        var win_width=document.documentElement.clientWidth||window.innerWidth;
+        var FS =(win_width/1334>1?1:win_width/1334)*100;
+        document.documentElement.style.fontSize=FS+'px';
+    </script>
+    <title>24K黄金联赛说明页</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .tips {
+            position: absolute;
+            left: 50%;
+        }
+        .iosTips {
+            width: 7.76rem;
+            margin-left: -3.55rem;
+            top: 11.14rem;
+        }
+        .androidTips {
+            width: 5.56rem;
+            margin-left: -3.45rem;
+            top: 10.99rem;
+        }
+        .androidBtn {
+            display: block;
+            width: 1.97rem;
+            height: 0.55rem;
+            position: absolute;
+            left: 50%;
+            top: 10.99rem;
+            margin-left: -3.45rem;
+            z-index: 2;
+        }
+        .androidBtn2 {
+            display: block;
+            width: 3.06rem;
+            height: 0.85rem;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            top: 8.17rem;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+<script>
+    (function(doc,win){
+        docEl = doc.documentElement;
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+        recalc = function () {
+            docW = docEl.clientWidth;
+            nowR = docW/1334 > 1? 1 : docW/1334;
+            docEl.style.fontSize = nowR*100 + 'px';
+        };
+        if (!doc.addEventListener){
+            return;
+        }
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document,window);
+
+    var Common = {
+        ua: navigator.userAgent,
+        MQQBrowser: function () {
+            var uaArray = this.ua.split(' ');
+            var isMQQBrowser = false;
+            for(var i=0;i<uaArray.length;i++){
+                if(uaArray[i].indexOf('TBS/')>-1){
+                    isMQQBrowser = true;
+                }
+                else if(uaArray[i].indexOf('MQQBrowser')>-1){
+                    isMQQBrowser = true;
+                }
+            }
+            return isMQQBrowser;
+        },
+        MSDK: navigator.userAgent.indexOf('MSDK') > -1? true : false,
+        weixin: navigator.userAgent.toLowerCase().match(/MicroMessenger/i)=='micromessenger'?true:false,
+        android: navigator.userAgent.indexOf('Android') > -1 || navigator.userAgent.indexOf('Linux') > -1 ? true : false,
+        appSchema: 'mktv://stream',
+        appApk: '//file.dasheng.tv/apk/2.4.1/MonkeyKingTV-doudizhuzhibojian-release.apk',
+        iphoneDownUrl: '//itunes.apple.com/cn/app/id1219919483',
+        sjqqDownUrl: '//a.app.qq.com/o/simple.jsp?pkgname=com.appgame.mktv',
+        openApp: function(){
+            var this_ = this;
+            var loadDateTime = new Date();
+
+            if(Common.android){
+                if(Common.weixin){
+                    window.location = this.sjqqDownUrl;
+                }
+                /*else if(Common.MSDK){
+                    window.location = this.appApk;
+                }*/
+                else{
+                    window.location = this_.appSchema;
+                    window.setTimeout(function() {
+                        var timeOutDateTime = new Date();
+                        if(timeOutDateTime - loadDateTime < 1200) {
+                            window.location = this_.appApk;
+                        } else {
+                            window.close();
+                        }
+                    },33);
+                }
+            }
+            else{
+                window.location = this_.iphoneDownUrl;
+            }
+        }
+    };
+
+    /*var img = document.createElement('img');
+    img.className = 'tips';
+    document.getElementsByTagName('body')[0].appendChild(img);*/
+
+    var bg = document.createElement('img');
+    document.getElementsByTagName('body')[0].appendChild(bg);
+
+
+    bg.src = './bg5.jpg';
+    /*img.classList.add('androidTips');
+     img.src = './a-t.png';
+     var a = document.createElement('a');
+     a.className = 'androidBtn';
+     a.href = '//file.dasheng.tv/apk/v2.3.0/MonkeyKingTV-doudizhuduijiang-release.apk';
+     document.getElementsByTagName('body')[0].appendChild(a);*/
+
+    var a2 = document.createElement('a');
+    a2.className = 'androidBtn2';
+    //a2.href = '//file.dasheng.tv/apk/v2.3.0/MonkeyKingTV-doudizhuduijiang-release.apk';
+    document.getElementsByTagName('body')[0].appendChild(a2);
+
+    a2.onclick = function () {
+        Common.openApp();
+        _czc.push(["_trackEvent", "24K黄金联赛", "说明页", "下载按钮", 0, "downloadBtn"]);
+    }
+</script>
+<div style="display: none">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1263596597'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1263596597' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
+</html>

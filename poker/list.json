@@ -1,0 +1,1528 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "tab": {
+            "video": [{
+                    "name": "天天德州真人秀",
+                    "desc": "全国首档将选秀与德扑比赛结合的真人竞技节目。导师团有德扑大神郭东、甜心电竞主播沐沐、德扑魔法师司文。谁能逆转王牌？谁能一战成名？谁又能拥有百万合约，成为实力与运气的新宠儿？",
+                    "icon": "./images/hall/zbxjh.jpg",
+                    "uid": 1043662
+                },
+                {
+                    "name": "加注加注",
+                    "desc": "德州扑克综艺节目，美女主持陪你玩德扑！",
+                    "icon": "./images/hall/jzjz.jpg",
+                    "uid": 1011883
+                },
+                {
+                    "name": "大牌连连看",
+                    "desc": "德州扑克水友赛节目，每日好礼送不停，与美女主播互动，凭实力赢大奖。",
+                    "icon": "./images/hall/dpllk.jpg",
+                    "uid": 1002229
+                },
+                {
+                    "name": "冰火对决",
+                    "desc": "以WSOP-TPT以及天天德州各大线上赛事为主要挑战对象，来自冰队与火队的2~4名玩家将同时进行对抗，并由幽默专业的主播进行全程吐槽，直播哪个队伍的玩家能够生存的更久，并进入奖励圈。",
+                    "icon": "./images/hall/bhdj.jpg",
+                    "uid": 1045148
+                }
+            ],
+            "match": [{
+                    "name": "TPTS青岛",
+                    "desc": "由腾讯游戏和腾讯棋牌主办的TPT总决赛城市系列巡回赛——腾讯扑克锦标赛系列赛（简称TPTS），首站将于7月28日至31日于海滨城市青岛激情打响，赛事总奖励200万。这是一场盛夏之中的扑克狂欢，每一位玩家都能在比赛中尽享智力竞技的无穷乐趣。",
+                    "icon": "./images/hall/tpts.jpg",
+                    "uid": 1049630
+                },
+                {
+                    "name": "24K王者单挑赛",
+                    "desc": "由腾讯天天德州、大圣Live直播平台共同打造的全民娱乐竞技新赛事，拿黄金大奖，闯真人秀，让你名利双收。",
+                    "icon": "./images/hall/wzdts.jpg",
+                    "uid": 1040731
+                },
+                {
+                    "name": "24K真人大奖赛",
+                    "desc": "由腾讯天天德州、大圣Live直播平台共同打造的全民娱乐竞技新赛事，拿黄金大奖，闯真人秀，让你名利双收。",
+                    "icon": "./images/hall/24kzrs.jpg",
+                    "uid": 1015608
+                }
+            ],
+            "teaching": [
+                {
+                    "name": "德扑新手学堂",
+                    "desc": "由腾讯天天德州出品，面对新手德扑玩家的教学节目。每期节目会针对新手容易犯的错误，进行详细的教学演示与案例分析，是德扑新手玩家的最佳的上手指南。",
+                    "icon": "./images/hall/dpkt.jpg",
+                    "uid": 10004292
+                },
+                {
+                    "name": "德扑进阶路",
+                    "desc": "德扑进阶路，看完有用处。作为一档德扑教学类视频节目，本节目以通俗易懂的方式为各位玩家带来学习德扑的策略及技巧。",
+                    "icon": "./images/hall/dpjj.jpg",
+                    "uid": 10004244
+                },
+                {
+                    "name": "郭东讲坛",
+                    "desc": "腾讯棋牌文化推广大使郭东，开设牌局精讲课程。聆听大神讲座，参与牌局分享，提高你的德扑技巧",
+                    "icon": "./images/hall/gdjt.jpg",
+                    "uid": 1016279
+                }
+            ]
+        },
+        "videos": [
+            {
+                "title": "第六期 漂浮对抗",
+                "cover": "https://file.dasheng.tv/img/340363ebfa51c99e539076df7f3f752dffd8ffe114a34578696600004d4d002a.jpg",
+                "nickname": "德扑进阶之路",
+                "uid": 10004244,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://pili-live-hls.api.dasheng.tv/app-release/59cdb5d1a3d5ec52ff81ab6a.m3u8",
+                "videoId": "z1.app-release.59cdb5d1a3d5ec52ff81ab6a",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第五期 捕捉马脚",
+                "cover": "https://file.dasheng.tv/img/240b97afc089ba711bbd319d88abdeeeffd8ffe114a54578696600004d4d002a.jpg",
+                "nickname": "德扑进阶之路",
+                "uid": 10004244,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://pili-live-hls.api.dasheng.tv/app-release/59cdb29b20a05d24f98183d5.m3u8",
+                "videoId": "z1.app-release.59cdb29b20a05d24f98183d5",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第四期 信息收集带来胜利",
+                "cover": "https://file.dasheng.tv/img/f11014f9a82435f5ba4a2e10d21d7b23ffd8ffe114c44578696600004d4d002a.jpg",
+                "nickname": "德扑进阶之路",
+                "uid": 10004244,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://pili-live-hls.api.dasheng.tv/app-release/59cdb01d20a05d24f9816951.m3u8",
+                "videoId": "z1.app-release.59cdb01d20a05d24f9816951",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第三期 诈唬的精彩应用",
+                "cover": "https://file.dasheng.tv/img/7928ba9a4e739f4051872a4bab7a7f0effd8ffe116c84578696600004d4d002a.jpg",
+                "nickname": "德扑进阶之路",
+                "uid": 10004244,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://pili-live-hls.api.dasheng.tv/app-release/59cdac1cd425e11fe7814888.m3u8",
+                "videoId": "z1.app-release.59cdac1cd425e11fe7814888",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第二期 缩小对手手牌范围",
+                "cover": "https://file.dasheng.tv/img/432cacba34a8e03eb7eac111c1e1a7c2ffd8ffe1001845786966000049492a00.jpg",
+                "nickname": "德扑进阶之路",
+                "uid": 10004244,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://pili-live-hls.api.dasheng.tv/app-release/59cda84120a05d24f9811791.m3u8",
+                "videoId": "z1.app-release.59cda84120a05d24f9811791",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第一期 筹码深度与决策",
+                "cover": "https://file.dasheng.tv/img/2f6d4c65b82c1049d39102dc5a1bd276ffd8ffe10950687474703a2f2f6e732e.jpg",
+                "nickname": "德扑进阶之路",
+                "uid": 10004244,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://pili-live-hls.api.dasheng.tv/app-release/59cda50da95be7103982e45e.m3u8",
+                "videoId": "z1.app-release.59cda50da95be7103982e45e",
+                "createdAt": 10004292
+            },
+
+
+
+
+            {
+                "title": "第六期 学会合理弃牌",
+                "cover": "https://file.dasheng.tv/img/8ed442a15f8a4266463fbf21c230aac8ffd8ffe1001845786966000049492a00.jpg",
+                "nickname": "德扑新手学堂",
+                "uid": 10004292,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://videos-hls.api.dasheng.tv/recordings/z1.app-release.59cb3bd520a05d24f96d18e6/59cb3bd520a05d24f96d18e6.m3u8",
+                "videoId": "z1.app-release.59cb3bd520a05d24f96d18e6",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第五期 下注要有目的性",
+                "cover": "https://file.dasheng.tv/img/7c4f2ff94e445a75efc21a0c3e07c22bffd8ffe1001845786966000049492a00.jpg",
+                "nickname": "德扑新手学堂",
+                "uid": 10004292,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://videos-hls.api.dasheng.tv/recordings/z1.app-release.59cb3510a3d5ec52ff6cd392/59cb3510a3d5ec52ff6cd392.m3u8",
+                "videoId": "z1.app-release.59cb3510a3d5ec52ff6cd392",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第四期 拿到强牌要加注",
+                "cover": "https://file.dasheng.tv/img/e1a9537b0961d9ac443e681a226b8e36ffd8ffe1001845786966000049492a00.jpg",
+                "nickname": "德扑新手学堂",
+                "uid": 10004292,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://videos-hls.api.dasheng.tv/recordings/z1.app-release.59cb3510a3d5ec52ff6cd392/59cb3510a3d5ec52ff6cd392.m3u8",
+                "videoId": "z1.app-release.59cb333b20a05d24f96cc20a",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第三期 德扑位置的重要性",
+                "cover": "https://file.dasheng.tv/img/0e5baafd86fad9b2b70acda88638bb6effd8ffe1001845786966000049492a00.jpg",
+                "nickname": "德扑新手学堂",
+                "uid": 10004292,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://videos-hls.api.dasheng.tv/recordings/z1.app-release.59cb30bba95be710396e98ff/59cb30bba95be710396e98ff.m3u8",
+                "videoId": "z1.app-release.59cb30bba95be710396e98ff",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第二期 牌不够强别入池",
+                "cover": "https://file.dasheng.tv/img/b15ecb3fa0d9d90dd8a81ea5e5ad4392ffd8ffe1001845786966000049492a00.jpg",
+                "nickname": "德扑新手学堂",
+                "uid": 10004292,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://videos-hls.api.dasheng.tv/recordings/z1.app-release.59cb298ad425e11fe76c5d60/59cb298ad425e11fe76c5d60.m3u8",
+                "videoId": "z1.app-release.59cb298ad425e11fe76c5d60",
+                "createdAt": 10004292
+            },
+            {
+                "title": "第一期 德州扑克基本规则",
+                "cover": "https://file.dasheng.tv/img/f3cdaed5555f7d547f737e8a856f4a9effd8ffe1001845786966000049492a00.jpg",
+                "nickname": "德扑新手学堂",
+                "uid": 10004292,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://videos-hls.api.dasheng.tv/recordings/z1.app-release.59cb26e8a95be710396e2f36/59cb26e8a95be710396e2f36.m3u8",
+                "videoId": "z1.app-release.59cb26e8a95be710396e2f36",
+                "createdAt": 10004292
+            },
+            {
+                "title": "总决赛，团团vs宋建忠",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 10655,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59ab9031d425e11cba1e4530/59ab9031d425e11cba1e4530.m3u8",
+                "videoId": "59ab90318d6d8100573e343d",
+                "createdAt": 1504415793
+            },
+            {
+                "title": "第八周决赛，程宗超vs张治雄",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 2376,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59a7e903a95be7118703fca9/59a7e903a95be7118703fca9.m3u8",
+                "videoId": "59a7e9035c497d0064ed57f8",
+                "createdAt": 1504176387
+            },
+            {
+                "title": "第八周半决赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 3432,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59a697b420a05d74a70ce579/59a697b420a05d74a70ce579.m3u8",
+                "videoId": "59a697b4128fe1005a0275ae",
+                "createdAt": 1504090036
+            },
+            {
+                "title": "第八周初赛B组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 1644,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59a542eb20a05d74a7025890/59a542eb20a05d74a7025890.m3u8",
+                "videoId": "59a542ec44d9040058177dbd",
+                "createdAt": 1504002796
+            },
+            {
+                "title": "第八周初赛A组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 1249,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59a3e6b7a95be7626c48e65a/59a3e6b7a95be7626c48e65a.m3u8",
+                "videoId": "59a3e6b7a0bb9f0058c8f1b9",
+                "createdAt": 1503913655
+            },
+            {
+                "title": "第七周周决赛，黄平vs宋建忠",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 1211,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599eb0a0a3d5ec50f022a414/599eb0a0a3d5ec50f022a414.m3u8",
+                "videoId": "599eb0a05c497d00659ba65d",
+                "createdAt": 1503572128
+            },
+            {
+                "title": "第七周半决赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 2449,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d4886d425e156de17ce46/599d4886d425e156de17ce46.m3u8",
+                "videoId": "599d48895c497d006586aa22",
+                "createdAt": 1503479945
+            },
+            {
+                "title": "第七周初赛B组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 1827,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599c1dd7d425e156de0f5f0a/599c1dd7d425e156de0f5f0a.m3u8",
+                "videoId": "599c1dd75c497d00574ab58c",
+                "createdAt": 1503403479
+            },
+            {
+                "title": "第七周初赛B组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 852,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599c0b48a95be7626c0ea3d9/599c0b48a95be7626c0ea3d9.m3u8",
+                "videoId": "599c0b495c497d005748c697",
+                "createdAt": 1503398729
+            },
+            {
+                "title": "第七周初赛A组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 560,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599abc63d425e156de04f384/599abc63d425e156de04f384.m3u8",
+                "videoId": "599abc6361ff4b0058fa45d7",
+                "createdAt": 1503312995
+            },
+            {
+                "title": "第六周决赛，朱星彪vs冯志毅",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 6034,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59956e25a3d5ec524e9941ba/59956e25a3d5ec524e9941ba.m3u8",
+                "videoId": "59956e261b69e60058232b9a",
+                "createdAt": 1502965286
+            },
+            {
+                "title": "第六周复赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 3059,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59941b26a3d5ec524e8fa23b/59941b26a3d5ec524e8fa23b.m3u8",
+                "videoId": "59941b26570c35006b92140b",
+                "createdAt": 1502878502
+            },
+            {
+                "title": "第六周初赛B组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 2793,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5992d38ed425e113ff864d1b/5992d38ed425e113ff864d1b.m3u8",
+                "videoId": "5992d38e128fe1005813959e",
+                "createdAt": 1502794638
+            },
+            {
+                "title": "第六周初赛A组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 5840,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59918194d425e113ff7cca1e/59918194d425e113ff7cca1e.m3u8",
+                "videoId": "599181948d6d810058aa0071",
+                "createdAt": 1502708116
+            },
+            {
+                "title": "第五周周决赛，李远vs漆绪明",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 3669,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598c3458a3d5ec524e56d803/598c3458a3d5ec524e56d803.m3u8",
+                "videoId": "598c3458a22b9d006103ae74",
+                "createdAt": 1502360664
+            },
+            {
+                "title": "第五周复赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 4187,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598adf59d425e113ff4d2961/598adf59d425e113ff4d2961.m3u8",
+                "videoId": "598adf59a0bb9f00575765db",
+                "createdAt": 1502273369
+            },
+            {
+                "title": "第五周初赛B组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 8187,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5989971fa95be73db1487378/5989971fa95be73db1487378.m3u8",
+                "videoId": "5989971fac502e00696fbbb3",
+                "createdAt": 1502189343
+            },
+            {
+                "title": "月决赛之狭路相逢",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 8062,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59890be0a95be73db143442a/59890be0a95be73db143442a.m3u8",
+                "videoId": "59890be0ac502e006967a108",
+                "createdAt": 1502153696
+            },
+            {
+                "title": "第五周初赛A组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 1966,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5988464fa95be73db13ed476/5988464fa95be73db13ed476.m3u8",
+                "videoId": "5988464f61ff4b00575df103",
+                "createdAt": 1502103119
+            },
+            {
+                "title": "第六期决战之夜",
+                "cover": "https://dn-WB3iKO2J.qbox.me/138e3eb734f171c1cf41.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 224,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5965f66fa95be767cd76b036/5965f66fa95be767cd76b036.m3u8",
+                "videoId": "5965f66f0ce463005888092c",
+                "createdAt": 1499854447
+            },
+            {
+                "title": "星级秘密讲堂",
+                "cover": "https://dn-WB3iKO2J.qbox.me/834966533d4207dc9c68.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 187,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.595cbe4f20a05d1bb7371645/595cbe4f20a05d1bb7371645.m3u8",
+                "videoId": "595cbe4f8d6d8100570e4393",
+                "createdAt": 1499250255
+            },
+            {
+                "title": "第四期晋级赛，心动来袭",
+                "cover": "https://dn-WB3iKO2J.qbox.me/22126436f3bb7e6c412e.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 196,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.595384d420a05d10f53c2fd2/595384d420a05d10f53c2fd2.m3u8",
+                "videoId": "595384d5128fe1006550f69f",
+                "createdAt": 1498645717
+            },
+            {
+                "title": "第三期晋级赛，甜美上线",
+                "cover": "https://dn-WB3iKO2J.qbox.me/0ffd89619b0dbe477e51.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 3202,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594a4c07a95be702160eae63/594a4c07a95be702160eae63.m3u8",
+                "videoId": "594a4c08fe88c2006aa1f8bf",
+                "createdAt": 1498041352
+            },
+            {
+                "title": "第二轮激战，争夺3名决赛席位",
+                "cover": "https://dn-WB3iKO2J.qbox.me/cff5099bedd7f3051933.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 3692,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59411a11a95be72dd80a671e/59411a11a95be72dd80a671e.m3u8",
+                "videoId": "59411a11da2f6000674b3789",
+                "createdAt": 1497438737
+            },
+            {
+                "title": "第一集晋级赛，重磅开播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/8697b0d485f9efb2a2ee.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 7017,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5937e7b020a05d313302e332/5937e7b020a05d313302e332.m3u8",
+                "videoId": "5937e7b0fe88c20061f21a6c",
+                "createdAt": 1496836016
+            },
+            {
+                "title": "大牌连连看0825",
+                "cover": "https://dn-WB3iKO2J.qbox.me/7e960711a6876df46804.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 1049,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599fc058a95be7626c29e95e/599fc058a95be7626c29e95e.m3u8",
+                "videoId": "599fc0585c497d0065a73ed4",
+                "createdAt": 1503641688
+            },
+            {
+                "title": "直播间施工中",
+                "cover": "https://dn-WB3iKO2J.qbox.me/805e3a1ed32d356bfc2d.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 202,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599faf7a20a05d7094294bf8/599faf7a20a05d7094294bf8.m3u8",
+                "videoId": "599faf7a8d6d810058208aef",
+                "createdAt": 1503637370
+            },
+            {
+                "title": "冰火对抗！阿贵老师今天必须拿票了！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/4a7d740597b16b43438f.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 235,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599ee494d425e156de249222/599ee494d425e156de249222.m3u8",
+                "videoId": "599ee4945c497d00659e9362",
+                "createdAt": 1503585428
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第七周周决赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 1199,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599eb0a0a3d5ec50f022a414/599eb0a0a3d5ec50f022a414.m3u8",
+                "videoId": "599eb0a05c497d00659ba65d",
+                "createdAt": 1503572128
+            },
+            {
+                "title": "大牌连连看0824",
+                "cover": "https://dn-WB3iKO2J.qbox.me/c9322d204f737ec6b100.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 906,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599e6ef2d425e156de201ba7/599e6ef2d425e156de201ba7.m3u8",
+                "videoId": "599e6ef2570c35006caeb46a",
+                "createdAt": 1503555314
+            },
+            {
+                "title": "冰火对决-WSOP-TPT-初赛",
+                "cover": "https://dn-WB3iKO2J.qbox.me/78e460909e67a81a16e4.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 240,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599e5fe6a95be7626c1f9270/599e5fe6a95be7626c1f9270.m3u8",
+                "videoId": "599e5fe6570c35006cad9b51",
+                "createdAt": 1503551462
+            },
+            {
+                "title": "冰火对抗！WSOP-TPT复赛大挑战！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/cc64858fc5057b45d3cb.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 634,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d8e40d425e156de1a8bf1/599d8e40d425e156de1a8bf1.m3u8",
+                "videoId": "599d8e408d6d810057b452b9",
+                "createdAt": 1503497792
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第7周半决赛！",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 2443,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d4886d425e156de17ce46/599d4886d425e156de17ce46.m3u8",
+                "videoId": "599d48895c497d006586aa22",
+                "createdAt": 1503479945
+            },
+            {
+                "title": "大牌连连看0823",
+                "cover": "https://dn-WB3iKO2J.qbox.me/21ee91603cfdd2cf4538.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 597,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d1826d425e156de15efe4/599d1826d425e156de15efe4.m3u8",
+                "videoId": "599d18265c497d006582d3d8",
+                "createdAt": 1503467558
+            },
+            {
+                "title": "V+博击会的直播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/YgavheEQIjPik5GO3oLPgrmDQQ9RkOmmB5xfiXAb.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 582,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599d0cb6d425e156de158179/599d0cb6d425e156de158179.m3u8",
+                "videoId": "599d0cb71b69e6006a232530",
+                "createdAt": 1503464631
+            },
+            {
+                "title": "冰火大对抗！Kevin老师与阿贵老师比拼复赛成绩！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/84280265f67871c81fbc.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 225,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599c4de2d425e156de10f66a/599c4de2d425e156de10f66a.m3u8",
+                "videoId": "599c4de25c497d00574f6268",
+                "createdAt": 1503415778
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第七周初赛B组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 1825,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599c1dd7d425e156de0f5f0a/599c1dd7d425e156de0f5f0a.m3u8",
+                "videoId": "599c1dd75c497d00574ab58c",
+                "createdAt": 1503403479
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第七周初赛B组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 851,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599c0b48a95be7626c0ea3d9/599c0b48a95be7626c0ea3d9.m3u8",
+                "videoId": "599c0b495c497d005748c697",
+                "createdAt": 1503398729
+            },
+            {
+                "title": "大牌连连看0822",
+                "cover": "https://dn-WB3iKO2J.qbox.me/7235d958b605ba45389a.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 1000,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599bcfcca95be7626c0c5565/599bcfcca95be7626c0c5565.m3u8",
+                "videoId": "599bcfcca22b9df82fbc5c59",
+                "createdAt": 1503383500
+            },
+            {
+                "title": "冰火对决",
+                "cover": "https://dn-WB3iKO2J.qbox.me/77b0053db54a58627f93.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 2214,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599bbee520a05d70940bafa1/599bbee520a05d70940bafa1.m3u8",
+                "videoId": "599bbee65c497d0057410ddb",
+                "createdAt": 1503379174
+            },
+            {
+                "title": "冰火对抗！冰队队长出征WSOP-TPT复赛！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/5c570a713aafbd050d46.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 242,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599af222d425e156de06e19f/599af222d425e156de06e19f.m3u8",
+                "videoId": "599af222128fe10054de4965",
+                "createdAt": 1503326754
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第七周初赛A组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 557,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599abc63d425e156de04f384/599abc63d425e156de04f384.m3u8",
+                "videoId": "599abc6361ff4b0058fa45d7",
+                "createdAt": 1503312995
+            },
+            {
+                "title": "大牌连连看0821",
+                "cover": "https://dn-WB3iKO2J.qbox.me/2787010b81b09da435b1.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 698,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599a8603a3d5ec50f002e556/599a8603a3d5ec50f002e556.m3u8",
+                "videoId": "599a860361ff4b0058f66c90",
+                "createdAt": 1503299075
+            },
+            {
+                "title": "冰火对决-Wsop-TPT初赛",
+                "cover": "https://dn-WB3iKO2J.qbox.me/BJkn5E67NXR98dwhBKigE1X0G4v4wBhB7sStBLBT.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 1140,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599a64fc20a05d709401c174/599a64fc20a05d709401c174.m3u8",
+                "videoId": "599a64fc128fe10054d498c2",
+                "createdAt": 1503290620
+            },
+            {
+                "title": "冰火对抗！火队成员终极挑战！WSOP决赛！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/0f81267051fad8c23982.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 956,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59997baad425e113ffb6cdc7/59997baad425e113ffb6cdc7.m3u8",
+                "videoId": "59997baa570c35356fdcb380",
+                "createdAt": 1503230890
+            },
+            {
+                "title": "大牌连连看0820",
+                "cover": "https://dn-WB3iKO2J.qbox.me/17ac2b961fecc9a39243.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 396,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59993106d425e113ffb409ee/59993106d425e113ffb409ee.m3u8",
+                "videoId": "59993106a22b9df82f9bda45",
+                "createdAt": 1503211782
+            },
+            {
+                "title": "冰火对抗！是男人就1v1！冰队阿贵挑战火队图腾！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/f7dcf975e4017b1f8e5f.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 847,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59984dfc20a05d4c8dae95ce/59984dfc20a05d4c8dae95ce.m3u8",
+                "videoId": "59984dfca22b9df82f9480a9",
+                "createdAt": 1503153660
+            },
+            {
+                "title": "大牌连连看0819",
+                "cover": "https://dn-WB3iKO2J.qbox.me/fb317d670ea37b9927c7.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 3051,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5997d24e20a05d4c8daa1b3e/5997d24e20a05d4c8daa1b3e.m3u8",
+                "videoId": "5997d250570c350060672d31",
+                "createdAt": 1503122000
+            },
+            {
+                "title": "冰火对决",
+                "cover": "https://dn-WB3iKO2J.qbox.me/e0ccd1dd5f88b47f166c.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 261,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5997c227d425e113ffa997ed/5997c227d425e113ffa997ed.m3u8",
+                "videoId": "5997c228570c3500606644ce",
+                "createdAt": 1503117864
+            },
+            {
+                "title": "冰火对决",
+                "cover": "https://dn-WB3iKO2J.qbox.me/998029ad1b41eeb00157.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 173,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5996f8d6a95be73db1ac077e/5996f8d6a95be73db1ac077e.m3u8",
+                "videoId": "5996f8d6a0bb9f0057026eee",
+                "createdAt": 1503066326
+            },
+            {
+                "title": "大牌连连看0818",
+                "cover": "https://dn-WB3iKO2J.qbox.me/01c3115c3c8821036bdb.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 1011,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599682eda95be73db1a79f98/599682eda95be73db1a79f98.m3u8",
+                "videoId": "599682ed570c350060590857",
+                "createdAt": 1503036141
+            },
+            {
+                "title": "冰火对抗！WSOP-TPT复赛大战！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/56036c1a6c3ad7dd8755.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 1311,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59966d62a95be73db1a6dc3c/59966d62a95be73db1a6dc3c.m3u8",
+                "videoId": "59966d628d6d810058e3e716",
+                "createdAt": 1503030626
+            },
+            {
+                "title": "冰火大对抗！阿贵老师领军坚冰队对抗星火队！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/3ac896fbaa10e2ca0d78.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 256,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5995a95820a05d4c8d9b5b79/5995a95820a05d4c8d9b5b79.m3u8",
+                "videoId": "5995a9585c497d0057dd1ad4",
+                "createdAt": 1502980440
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第6周决赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 6033,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59956e25a3d5ec524e9941ba/59956e25a3d5ec524e9941ba.m3u8",
+                "videoId": "59956e261b69e60058232b9a",
+                "createdAt": 1502965286
+            },
+            {
+                "title": "大牌连连看0817",
+                "cover": "https://dn-WB3iKO2J.qbox.me/20b8db229a82754abde0.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 927,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59953476a3d5ec524e9718b4/59953476a3d5ec524e9718b4.m3u8",
+                "videoId": "599534765c497d0057d5bb46",
+                "createdAt": 1502950518
+            },
+            {
+                "title": "冰火两队大对决",
+                "cover": "https://dn-WB3iKO2J.qbox.me/617a38352bd69829f0ac.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 1150,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599527c5d425e113ff969452/599527c5d425e113ff969452.m3u8",
+                "videoId": "599527c5a22b9d00572d78d6",
+                "createdAt": 1502947269
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第六周复赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 3059,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59941b26a3d5ec524e8fa23b/59941b26a3d5ec524e8fa23b.m3u8",
+                "videoId": "59941b26570c35006b92140b",
+                "createdAt": 1502878502
+            },
+            {
+                "title": "大牌连连看0816",
+                "cover": "https://dn-WB3iKO2J.qbox.me/5abfea342534476a1bb1.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 1006,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5993e4e5a95be73db1947b1e/5993e4e5a95be73db1947b1e.m3u8",
+                "videoId": "5993e4e5a22b9d005720aaf8",
+                "createdAt": 1502864613
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第六周初赛B组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 2792,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5992d38ed425e113ff864d1b/5992d38ed425e113ff864d1b.m3u8",
+                "videoId": "5992d38e128fe1005813959e",
+                "createdAt": 1502794638
+            },
+            {
+                "title": "大牌连连看0815",
+                "cover": "https://dn-WB3iKO2J.qbox.me/7GmMo0BgXCv1BODeKTKop7Tvv9pgqj58p85sPytx.png",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 859,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59929164a95be73db18ae2dc/59929164a95be73db18ae2dc.m3u8",
+                "videoId": "599291648d6d810058b74f92",
+                "createdAt": 1502777700
+            },
+            {
+                "title": "WOSP-24K王者单挑赛第六周初赛A组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 5840,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59918194d425e113ff7cca1e/59918194d425e113ff7cca1e.m3u8",
+                "videoId": "599181948d6d810058aa0071",
+                "createdAt": 1502708116
+            },
+            {
+                "title": "大牌连连看0814",
+                "cover": "https://dn-WB3iKO2J.qbox.me/daa845b0f4a97d25c896.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 496,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.599148ffa3d5ec524e7abf90/599148ffa3d5ec524e7abf90.m3u8",
+                "videoId": "599148ffa22b9d0057fe2ca7",
+                "createdAt": 1502693631
+            },
+            {
+                "title": "大牌连连看0813",
+                "cover": "https://dn-WB3iKO2J.qbox.me/666698385205dc336945.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 368,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598ff94fd425e113ff715244/598ff94fd425e113ff715244.m3u8",
+                "videoId": "598ff94fa22b9d0057ec725c",
+                "createdAt": 1502607695
+            },
+            {
+                "title": "冰与火的对抗！阿贵带你吐槽主播们的比赛！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/073753b7da4c4ec4a58a.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 299,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598edfeca95be73db1713025/598edfeca95be73db1713025.m3u8",
+                "videoId": "598edfeca22b9d0057deedd8",
+                "createdAt": 1502535660
+            },
+            {
+                "title": "大牌连连看0812",
+                "cover": "https://dn-WB3iKO2J.qbox.me/e4332d32c690914b35d3.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 660,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598ea40920a05d4c8d67e3a9/598ea40920a05d4c8d67e3a9.m3u8",
+                "videoId": "598ea4092f301e0069023af3",
+                "createdAt": 1502520329
+            },
+            {
+                "title": "Kevin老师带你回顾WSOp-24K王者单挑赛精彩牌局",
+                "cover": "https://dn-WB3iKO2J.qbox.me/9bc5106d32d12ff16e3c.jpg",
+                "nickname": "V+博击会",
+                "uid": 1045148,
+                "totalViewersNum": 606,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598e785dd425e113ff6653f1/598e785dd425e113ff6653f1.m3u8",
+                "videoId": "598e785d1b69e6005b13e08b",
+                "createdAt": 1502509149
+            },
+            {
+                "title": "大牌连连看0811",
+                "cover": "https://dn-WB3iKO2J.qbox.me/21dbd61e29b32918923b.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 478,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598d464a20a05d4c8d5df2f6/598d464a20a05d4c8d5df2f6.m3u8",
+                "videoId": "598d464a128fe1006be6d27f",
+                "createdAt": 1502430794
+            },
+            {
+                "title": "WOSP-24K王者单挑赛第五周周决赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 3668,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598c3458a3d5ec524e56d803/598c3458a3d5ec524e56d803.m3u8",
+                "videoId": "598c3458a22b9d006103ae74",
+                "createdAt": 1502360664
+            },
+            {
+                "title": "大牌连连看0810",
+                "cover": "https://dn-WB3iKO2J.qbox.me/0c93284d936fa87dc7d8.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 379,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598bf468a3d5ec524e547e04/598bf468a3d5ec524e547e04.m3u8",
+                "videoId": "598bf4681b69e6005bf2fabf",
+                "createdAt": 1502344296
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第五周复赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 4186,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598adf59d425e113ff4d2961/598adf59d425e113ff4d2961.m3u8",
+                "videoId": "598adf59a0bb9f00575765db",
+                "createdAt": 1502273369
+            },
+            {
+                "title": "大牌连连看0809",
+                "cover": "https://dn-WB3iKO2J.qbox.me/f7c7c8623c1ac1a2882e.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 412,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598aa5e520a05d4c8d487e6f/598aa5e520a05d4c8d487e6f.m3u8",
+                "videoId": "598aa5e5128fe1006bc39b32",
+                "createdAt": 1502258661
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第五周初赛B组",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 8187,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5989971fa95be73db1487378/5989971fa95be73db1487378.m3u8",
+                "videoId": "5989971fac502e00696fbbb3",
+                "createdAt": 1502189343
+            },
+            {
+                "title": "大牌连连看0808",
+                "cover": "https://dn-WB3iKO2J.qbox.me/42cce1423246aa12c240.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 488,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59896183a3d5ec524e3f6742/59896183a3d5ec524e3f6742.m3u8",
+                "videoId": "59896183a22b9d006dd6302f",
+                "createdAt": 1502175619
+            },
+            {
+                "title": "WSOP-24K王者单挑月决赛之狭路相逢",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 8055,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59890be0a95be73db143442a/59890be0a95be73db143442a.m3u8",
+                "videoId": "59890be0ac502e006967a108",
+                "createdAt": 1502153696
+            },
+            {
+                "title": "WSOP-24K王者单挑赛第五周初赛",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 1966,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5988464fa95be73db13ed476/5988464fa95be73db13ed476.m3u8",
+                "videoId": "5988464f61ff4b00575df103",
+                "createdAt": 1502103119
+            },
+            {
+                "title": "大牌连连看0807",
+                "cover": "https://dn-WB3iKO2J.qbox.me/011401dbea773680f86a.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 431,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59880fbca3d5ec524e35c702/59880fbca3d5ec524e35c702.m3u8",
+                "videoId": "59880fbc570c3500623c6d90",
+                "createdAt": 1502089148
+            },
+            {
+                "title": "WSOP-24K王者单挑赛月决赛之侠路相逢",
+                "cover": "./images/cover/wzdts.jpg",
+                "nickname": "WSOP-24K王者单挑赛",
+                "uid": 1040731,
+                "totalViewersNum": 9142,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5986af87d425e113ff2bb9a0/5986af87d425e113ff2bb9a0.m3u8",
+                "videoId": "5986af87a0bb9f00588ac259",
+                "createdAt": 1501998983
+            },
+            {
+                "title": "大牌连连看0805",
+                "cover": "https://dn-WB3iKO2J.qbox.me/286a86a1f6d65a26da01.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 417,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59856c6220a05d4c8d22d829/59856c6220a05d4c8d22d829.m3u8",
+                "videoId": "59856c621b69e6006cbfa880",
+                "createdAt": 1501916258
+            },
+            {
+                "title": "大牌连连看0804",
+                "cover": "https://dn-WB3iKO2J.qbox.me/b1e3129ea909bd40dee2.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 399,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59841ba2d425e113ff186f03/59841ba2d425e113ff186f03.m3u8",
+                "videoId": "59841ba2fe88c2005723d229",
+                "createdAt": 1501830050
+            },
+            {
+                "title": "大牌连连看0803",
+                "cover": "https://dn-WB3iKO2J.qbox.me/b54892ae8ea4efcdc609.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 391,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5982c325d425e113ff0cdad4/5982c325d425e113ff0cdad4.m3u8",
+                "videoId": "5982c3252f301e0058db3cd5",
+                "createdAt": 1501741861
+            },
+            {
+                "title": "大牌连连看0802（2）",
+                "cover": "https://dn-WB3iKO2J.qbox.me/2c9ca15616f0f09eed76.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 6,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5981899c20a05d4c8d033897/5981899c20a05d4c8d033897.m3u8",
+                "videoId": "5981899c570c350062eb3c8b",
+                "createdAt": 1501661596
+            },
+            {
+                "title": "大牌连连看0802",
+                "cover": "https://dn-WB3iKO2J.qbox.me/9ef3f3dd613ee9027590.jpg",
+                "nickname": "24K-大牌连连看",
+                "uid": 1002229,
+                "totalViewersNum": 142,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.598177f2a3d5ec524e02805d/598177f2a3d5ec524e02805d.m3u8",
+                "videoId": "598177f2a22b9d006d748e76",
+                "createdAt": 1501657074
+            },
+            {
+                "title": "主赛Day3 + 媒体赛",
+                "cover": "https://file.dasheng.tv/img/c0ee48af14e15992364b91967e27ca4689504e470d0a1a0a0000000d49484452.png",
+                "nickname": "TPTS青岛站",
+                "uid": 1049630,
+                "totalViewersNum": 4330,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597e8982d425e1313e0defdd/597e8982d425e1313e0defdd.m3u8",
+                "videoId": "597e8982128fe1005632db31",
+                "createdAt": 1501464962
+            },
+            {
+                "title": "主赛Day2",
+                "cover": "https://file.dasheng.tv/img/4c700ec9b16f8433252b570fd2df532389504e470d0a1a0a0000000d49484452.png",
+                "nickname": "TPTS青岛站",
+                "uid": 1049630,
+                "totalViewersNum": 4436,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597d4ed1a3d5ec51c505302b/597d4ed1a3d5ec51c505302b.m3u8",
+                "videoId": "597d4ed1128fe1005625aff6",
+                "createdAt": 1501384401
+            },
+            {
+                "title": "2017腾讯扑克锦标赛系列赛青岛站总决赛",
+                "cover": "https://file.dasheng.tv/img/508bc901b3588b08c6c44c85b1ec6d56ffd8ffe000104a464946000101010060.jpg",
+                "nickname": "TPTS青岛站",
+                "uid": 1049630,
+                "totalViewersNum": 4193,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597bfd5da95be71c3b759852/597bfd5da95be71c3b759852.m3u8",
+                "videoId": "597bfd5d128fe100561687e6",
+                "createdAt": 1501298013
+            },
+            {
+                "title": "24K总决赛+热身赛",
+                "cover": "https://file.dasheng.tv/img/e78305dbd46d8b0dc9da18175eea97b189504e470d0a1a0a0000000d49484452.png",
+                "nickname": "TPTS青岛站",
+                "uid": 1049630,
+                "totalViewersNum": 4784,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597a8c6720a05d59eb621d90/597a8c6720a05d59eb621d90.m3u8",
+                "videoId": "597a8c67ac502e0069b3608a",
+                "createdAt": 1501203559
+            },
+            {
+                "title": "24K真人大奖赛总决赛：终极争霸",
+                "cover": "./images/cover/zrdjs.jpg",
+                "nickname": "24K扑克联赛",
+                "uid": 1015608,
+                "totalViewersNum": 9484,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.597a8bc7a3d5ec5f39621f19/597a8bc7a3d5ec5f39621f19.m3u8",
+                "videoId": "597a8bc72f301e005875c19a",
+                "createdAt": 1501203399
+            },
+            {
+                "title": "天天德州真人秀主播星计划，决战之夜",
+                "cover": "https://dn-WB3iKO2J.qbox.me/138e3eb734f171c1cf41.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 215,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5965f66fa95be767cd76b036/5965f66fa95be767cd76b036.m3u8",
+                "videoId": "5965f66f0ce463005888092c",
+                "createdAt": 1499854447
+            },
+            {
+                "title": "天天德州主播星计划第五集，星级秘密讲堂",
+                "cover": "https://dn-WB3iKO2J.qbox.me/834966533d4207dc9c68.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 176,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.595cbe4f20a05d1bb7371645/595cbe4f20a05d1bb7371645.m3u8",
+                "videoId": "595cbe4f8d6d8100570e4393",
+                "createdAt": 1499250255
+            },
+            {
+                "title": "24K真人大奖赛周决赛，最后席位争夺战",
+                "cover": "./images/cover/zrdjs.jpg",
+                "nickname": "24K扑克联赛",
+                "uid": 1015608,
+                "totalViewersNum": 8450,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59571c66a95be767cd1126c9/59571c66a95be767cd1126c9.m3u8",
+                "videoId": "59571c668d6d810057ce1cbc",
+                "createdAt": 1498881126
+            },
+            {
+                "title": "天天德州主播星计划第四期，心动来袭",
+                "cover": "https://dn-WB3iKO2J.qbox.me/22126436f3bb7e6c412e.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 195,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.595384d420a05d10f53c2fd2/595384d420a05d10f53c2fd2.m3u8",
+                "videoId": "595384d5128fe1006550f69f",
+                "createdAt": 1498645717
+            },
+            {
+                "title": "24K真人大奖赛周决赛第五期-勇士崛起",
+                "cover": "./images/cover/zrdjs.jpg",
+                "nickname": "24K扑克联赛",
+                "uid": 1015608,
+                "totalViewersNum": 10683,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594deea4a95be7372a13708c/594deea4a95be7372a13708c.m3u8",
+                "videoId": "594deea41b69e60062bb06a0",
+                "createdAt": 1498279588
+            },
+            {
+                "title": "第一季 大结局！！！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/e5653de69aa5f743c9d6.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 981,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594a58bcd425e171b1048ead/594a58bcd425e171b1048ead.m3u8",
+                "videoId": "594a58bc5c497d006b0eb890",
+                "createdAt": 1498044604
+            },
+            {
+                "title": "第一季 大结局！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/d930bf428de5167b97fc.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 4,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594a5850a3d5ec4897048afe/594a5850a3d5ec4897048afe.m3u8",
+                "videoId": "594a5850fe88c2006aa2871d",
+                "createdAt": 1498044496
+            },
+            {
+                "title": "第一季 大结局！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/c985c425bc49112bdeb1.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 28,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594a56be20a05d592c04807a/594a56be20a05d592c04807a.m3u8",
+                "videoId": "594a56beac502e5490fb68c2",
+                "createdAt": 1498044094
+            },
+            {
+                "title": "天天德州真人秀主播星计划第三期，甜美上线",
+                "cover": "https://dn-WB3iKO2J.qbox.me/0ffd89619b0dbe477e51.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 3200,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594a4c07a95be702160eae63/594a4c07a95be702160eae63.m3u8",
+                "videoId": "594a4c08fe88c2006aa1f8bf",
+                "createdAt": 1498041352
+            },
+            {
+                "title": "text",
+                "cover": "https://dn-WB3iKO2J.qbox.me/41bc376428cb8ea5aebe.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 3,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.594a41f3d425e171b10395b4/594a41f3d425e171b10395b4.m3u8",
+                "videoId": "594a41f3ac502e5490fa6e7c",
+                "createdAt": 1498038771
+            },
+            {
+                "title": "把牌还我！我要回家！！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/4a0824e8e5c73b978ad4.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 422,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5945119ca95be76c880c3166/5945119ca95be76c880c3166.m3u8",
+                "videoId": "5945119c61ff4b006ce4c413",
+                "createdAt": 1497698716
+            },
+            {
+                "title": "24K真人大奖赛周赛第四轮，当冠军遇上冠军",
+                "cover": "./images/cover/zrdjs.jpg",
+                "nickname": "24K扑克联赛",
+                "uid": 1015608,
+                "totalViewersNum": 11684,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5944a33c20a05d05260871a7/5944a33c20a05d05260871a7.m3u8",
+                "videoId": "5944a33c61ff4b006ce00452",
+                "createdAt": 1497670460
+            },
+            {
+                "title": "打死我才给日赛门票！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/b8c3fde5f215d661c80e.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 1688,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5943c027a3d5ec2419026b69/5943c027a3d5ec2419026b69.m3u8",
+                "videoId": "5943c0278d6d810058d4e5c3",
+                "createdAt": 1497612327
+            },
+            {
+                "title": "北京一点都不热！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/0b941c47580205d55b7e.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 1486,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59426e4fa3d5ec066312d2e8/59426e4fa3d5ec066312d2e8.m3u8",
+                "videoId": "59426e4fac502e006c60a99a",
+                "createdAt": 1497525839
+            },
+            {
+                "title": "我想死你们了！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/19e701fb190cbd1dd4d0.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 1264,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59411d32a3d5ec06630a76bc/59411d32a3d5ec06630a76bc.m3u8",
+                "videoId": "59411d32da2f6000674b6b8c",
+                "createdAt": 1497439538
+            },
+            {
+                "title": "天天德州真人秀主播星计划第二轮激战进行，争夺3名决赛席位",
+                "cover": "https://dn-WB3iKO2J.qbox.me/cff5099bedd7f3051933.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 3691,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59411a11a95be72dd80a671e/59411a11a95be72dd80a671e.m3u8",
+                "videoId": "59411a11da2f6000674b3789",
+                "createdAt": 1497438737
+            },
+            {
+                "title": "女主持整容了！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/17bfbe5812b00350c165.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 1081,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.593bd70fa95be709891de78e/593bd70fa95be709891de78e.m3u8",
+                "videoId": "593bd70f128fe1006ad92ab4",
+                "createdAt": 1497093903
+            },
+            {
+                "title": "24K真人大奖赛第三期（2017-6-10）",
+                "cover": "./images/cover/zrdjs.jpg",
+                "nickname": "24K扑克联赛",
+                "uid": 1015608,
+                "totalViewersNum": 9052,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.593b865ca95be709891a3e1d/593b865ca95be709891a3e1d.m3u8",
+                "videoId": "593b865c61ff4b006c8077e1",
+                "createdAt": 1497073244
+            },
+            {
+                "title": "大型情感互动服务类节目！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/4c5577cae2b664bd5b03.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 389,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.593a8ac4d425e17dc413bb21/593a8ac4d425e17dc413bb21.m3u8",
+                "videoId": "593a8ac5128fe1006acc13b4",
+                "createdAt": 1497008837
+            },
+            {
+                "title": "今天手撕观众吧！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/dee924661eec9d05f4cc.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 2416,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.593934f9d425e17dc40ad613/593934f9d425e17dc40ad613.m3u8",
+                "videoId": "593934f9fe88c2006af92bc9",
+                "createdAt": 1496921337
+            },
+            {
+                "title": "诶呀！上电视了",
+                "cover": "https://dn-WB3iKO2J.qbox.me/4f54363f4be8bb864e26.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 4891,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5937f72ca3d5ec692603684b/5937f72ca3d5ec692603684b.m3u8",
+                "videoId": "5937f72cac502e0068d1f60b",
+                "createdAt": 1496839980
+            },
+            {
+                "title": "主播星计划第一集重磅开播",
+                "cover": "https://dn-WB3iKO2J.qbox.me/8697b0d485f9efb2a2ee.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 7012,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.5937e7b020a05d313302e332/5937e7b020a05d313302e332.m3u8",
+                "videoId": "5937e7b0fe88c20061f21a6c",
+                "createdAt": 1496836016
+            },
+            {
+                "title": "天天德州真人秀主播星计划预告片重磅来袭！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/d459aaef9a7ebf16a20d.jpg",
+                "nickname": "天天德州真人秀",
+                "uid": 1043662,
+                "totalViewersNum": 8,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59377908a95be70989003832/59377908a95be70989003832.m3u8",
+                "videoId": "59377908fe88c20061ec1166",
+                "createdAt": 1496807688
+            },
+            {
+                "title": "美女送日赛门票",
+                "cover": "https://dn-WB3iKO2J.qbox.me/887ca28eb4acdb6764aa.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 460,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59329749a95be75a004b5476/59329749a95be75a004b5476.m3u8",
+                "videoId": "593297490ce46300570af4c9",
+                "createdAt": 1496487753
+            },
+            {
+                "title": "“24K-真人大奖赛周决赛第二轮”",
+                "cover": "./images/cover/zrdjs.jpg",
+                "nickname": "24K扑克联赛",
+                "uid": 1015608,
+                "totalViewersNum": 4721,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59324c84d425e14e4348e0d3/59324c84d425e14e4348e0d3.m3u8",
+                "videoId": "59324c840ce46300570650d9",
+                "createdAt": 1496468612
+            },
+            {
+                "title": "导演下跪道歉补奖品！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/8ed3e51813b19ba62318.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 449,
+                "hlsPlaybackUrl": "https://videos-hls.dasheng.appgame.com/recordings/z1.monkeykingtv.59314636d425e14e4343059e/59314636d425e14e4343059e.m3u8",
+                "videoId": "59314636ac502e0068813c9f",
+                "createdAt": 1496401462
+            },
+            {
+                "title": "今天有大胸！！！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/4774bfb99511af9a973b.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 409,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.592ff58aa95be75a003a9a8a/592ff58aa95be75a003a9a8a.m3u8",
+                "videoId": "592ff58a2f301e005824845d",
+                "createdAt": 1496315274
+            },
+            {
+                "title": "导演疯了 抢观众钱！！！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/5717be22b269fb675796.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 422,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59295ac6a95be75a0012d028/59295ac6a95be75a0012d028.m3u8",
+                "videoId": "59295ac62f301e0057dce9b2",
+                "createdAt": 1495882438
+            },
+            {
+                "title": "24K联赛-真人大奖决赛",
+                "cover": "./images/cover/zrdjs.jpg",
+                "nickname": "24K扑克联赛",
+                "uid": 1015608,
+                "totalViewersNum": 4092,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.5929158420a05d5c48109929/5929158420a05d5c48109929.m3u8",
+                "videoId": "59291584ac502e006c62c687",
+                "createdAt": 1495864708
+            },
+            {
+                "title": "那个人中了60W天天德州币",
+                "cover": "https://dn-WB3iKO2J.qbox.me/b13b0e78dacecfa67ff3.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 390,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59280d7020a05d5c480af5c7/59280d7020a05d5c480af5c7.m3u8",
+                "videoId": "59280d7044d904006415e361",
+                "createdAt": 1495797104
+            },
+            {
+                "title": "昨天有人抽中26W德州币！！！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/71cd974ea9129a89a66e.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 468,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.5926b9aa20a05d5c4802ea94/5926b9aa20a05d5c4802ea94.m3u8",
+                "videoId": "5926b9aaa22b9d00571c3e27",
+                "createdAt": 1495710122
+            },
+            {
+                "title": "8W8天天德州币大抽奖！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/271ff37470a0e0da2015.jpg",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 916,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59256936a3d5ec5ef202639d/59256936a3d5ec5ef202639d.m3u8",
+                "videoId": "59256936a0bb9f005f82add9",
+                "createdAt": 1495623990
+            },
+            {
+                "title": "拼概率拼筹码？德扑懂数学",
+                "cover": "https://file.dasheng.tv/img/425b0c2d7921486b8959c0b03d5168bf89504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 65,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591041a4a3d5ec5424191e36/591041a4a3d5ec5424191e36.m3u8",
+                "videoId": "591041a5da2f6000535fe82c",
+                "createdAt": 1494237605
+            },
+            {
+                "title": "3BB？不放弃！拼出一片天",
+                "cover": "https://file.dasheng.tv/img/e11d2c60f8bdceb6a2c414d63cc98f8389504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 46,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59103f6ad425e16bec19098e/59103f6ad425e16bec19098e.m3u8",
+                "videoId": "59103f6ada2f6000535fd375",
+                "createdAt": 1494237034
+            },
+            {
+                "title": "控制波动的第四个秘诀",
+                "cover": "https://file.dasheng.tv/img/425b0c2d7921486b8959c0b03d5168bf89504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 41,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59103cccd425e16bec18f348/59103cccd425e16bec18f348.m3u8",
+                "videoId": "59103cccac502e006cfd1913",
+                "createdAt": 1494236364
+            },
+            {
+                "title": "KK会输？不战也能胜",
+                "cover": "https://file.dasheng.tv/img/e11d2c60f8bdceb6a2c414d63cc98f8389504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 85,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591033c8a95be74dd32097e5/591033c8a95be74dd32097e5.m3u8",
+                "videoId": "591033c82f301e006c29806f",
+                "createdAt": 1494234056
+            },
+            {
+                "title": "当对手犯错",
+                "cover": "https://file.dasheng.tv/img/5d3b8c63eb6f1dcd89cb7823caace80c89504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 65,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.5910313420a05d35441a4a57/5910313420a05d35441a4a57.m3u8",
+                "videoId": "59103134a0bb9f0058a19f44",
+                "createdAt": 1494233396
+            },
+            {
+                "title": "筹码量是第一生产力",
+                "cover": "https://file.dasheng.tv/img/e11d2c60f8bdceb6a2c414d63cc98f8389504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 64,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59102dfea95be74dd3206a7c/59102dfea95be74dd3206a7c.m3u8",
+                "videoId": "59102dfeac502e00654ecf08",
+                "createdAt": 1494232574
+            },
+            {
+                "title": "平跟也是降低风险的一种",
+                "cover": "https://file.dasheng.tv/img/3bd999b2b2942d3d0ff0ed2c91ce3f1089504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 58,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.59102af7d425e16bec186368/59102af7d425e16bec186368.m3u8",
+                "videoId": "59102af8da2f6000535f10e9",
+                "createdAt": 1494231800
+            },
+            {
+                "title": "小心枪口位的平CALL",
+                "cover": "https://file.dasheng.tv/img/e492184ca276ea3c4cb232ddaef79b9889504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 34,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.591027b7a95be74dd32038dd/591027b7a95be74dd32038dd.m3u8",
+                "videoId": "591027b7ac502e006cfc4aa0",
+                "createdAt": 1494230967
+            },
+            {
+                "title": "fold不掉的小对子，WHY？",
+                "cover": "https://file.dasheng.tv/img/41b673b33ef4b9a99888ccba1857309689504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 36,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1d21a95be74dd31a9ba7/590f1d21a95be74dd31a9ba7.m3u8",
+                "videoId": "590f1d21da2f600053584892",
+                "createdAt": 1494162721
+            },
+            {
+                "title": "尊重枪口的Raise",
+                "cover": "https://file.dasheng.tv/img/f35879fef31a882168fa0fe0104d94f189504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 70,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1a27a3d5ec542412958f/590f1a27a3d5ec542412958f.m3u8",
+                "videoId": "590f1a272f301e0057d7a66a",
+                "createdAt": 1494161959
+            },
+            {
+                "title": "牌力的真谛",
+                "cover": "https://file.dasheng.tv/img/425b0c2d7921486b8959c0b03d5168bf89504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 48,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1813d425e16bec127f14/590f1813d425e16bec127f14.m3u8",
+                "videoId": "590f1813da2f60005358181f",
+                "createdAt": 1494161427
+            },
+            {
+                "title": "这些牌，弃掉又如何",
+                "cover": "https://file.dasheng.tv/img/0b1edc05721e2994447fcc663a6ac2a289504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 99,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f1223a95be74dd31a4518/590f1223a95be74dd31a4518.m3u8",
+                "videoId": "590f12232f301e006c21d873",
+                "createdAt": 1494159907
+            },
+            {
+                "title": "慧眼识风险",
+                "cover": "https://file.dasheng.tv/img/393a591da508b6233385994fbe6fff7789504e470d0a1a0a0000000d49484452.png",
+                "nickname": "德扑大神-郭东",
+                "uid": 1016279,
+                "totalViewersNum": 104,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590f0dbad425e16bec122c4f/590f0dbad425e16bec122c4f.m3u8",
+                "videoId": "590f0dbaa0bb9f00589a0fed",
+                "createdAt": 1494158778
+            },
+            {
+                "title": "加注加注！",
+                "cover": "https://dn-WB3iKO2J.qbox.me/67cdb37536d4b877dc37.png",
+                "nickname": "《加注加注！》",
+                "uid": 1011883,
+                "totalViewersNum": 388,
+                "hlsPlaybackUrl": "https://pili-media.dasheng.appgame.com/recordings/z1.monkeykingtv.590b0bf9d425e163e03d519d/590b0bf9d425e163e03d519d.m3u8",
+                "videoId": "590b0bf9ac502e006d2a8ef6",
+                "createdAt": 1493896185
+            }
+        ]
+    }
+}

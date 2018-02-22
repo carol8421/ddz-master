@@ -1,0 +1,113 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "gray_switch": 0,
+    "top": {
+      "chatroom_id": "z1.appphp.59a51213a95be741a800fad4",
+      "uid": 1014034,
+      "title": "小桂子大玲玲木头人",
+      "viewer_num": 548,
+      "cover": "https://dn-fDD8GeyB.qbox.me/52731cea7f3bd54e1e84.png",
+      "url": "http://pili-media.test1.youcan.mobi/recordings/z1.youcantest1.598c352920a05d4c8d56c2e3/598c352920a05d4c8d56c2e3.m3u8",
+      "status": 0
+    },
+    "recommend": [
+      {
+        "chatroom_id": "z1.youcantest1.598c352920a05d4c8d56c2e3",
+        "uid": 1016396,
+        "title": "小桂子大玲玲木头人",
+        "viewer_num": 548,
+        "cover": "https://dn-fDD8GeyB.qbox.me/52731cea7f3bd54e1e84.png",
+        "url": "http://pili-media.test1.youcan.mobi/recordings/z1.youcantest1.598c352920a05d4c8d56c2e3/598c352920a05d4c8d56c2e3.m3u8",
+        "status": 0
+      },
+      {
+        "chatroom_id": "z1.youcantest1.598c352920a05d4c8d56c2e3",
+        "uid": 1016396,
+        "title": "小桂子大玲玲木头人",
+        "viewer_num": 548,
+        "cover": "https://dn-fDD8GeyB.qbox.me/52731cea7f3bd54e1e84.png",
+        "url": "http://pili-media.test1.youcan.mobi/recordings/z1.youcantest1.598c352920a05d4c8d56c2e3/598c352920a05d4c8d56c2e3.m3u8",
+        "status": 0
+      }
+    ],
+    "banner": [
+      {
+        "pic": "https://file.dasheng.tv/img/7c42962462c300381e1594b21325f904ffd8ffe1001845786966000049492a00.jpg",
+        "url": "testt"
+      },
+      {
+        "pic": "https://dn-fDD8GeyB.qbox.me/4CbvYl4qsP5bJjt5pWcPncpbzXnmq80VJ7o3VYsf.jpg",
+        "url": "http://www.appgame.com"
+      }
+    ],
+    "trail_info": [
+      {
+        "title": "王者单挑赛",
+        "time": 12331431213
+      },
+      {
+        "title": "大牌连连连看",
+        "time": 12331987213
+      },
+      {
+        "title": "加注加注",
+        "time": 18531431213
+      },
+      {
+        "title": "挑战TPT",
+        "time": 12335871213
+      }
+    ],
+    "live": [
+      {
+        "chatroom_id": "z1.youcantest1.598c352920a05d4c8d56c2e3",
+        "uid": 1016396,
+        "title": "小桂子大玲玲木头人",
+        "viewer_num": 548,
+        "cover": "https://dn-fDD8GeyB.qbox.me/52731cea7f3bd54e1e84.png",
+        "url": "http://pili-media.test1.youcan.mobi/recordings/z1.youcantest1.598c352920a05d4c8d56c2e3/598c352920a05d4c8d56c2e3.m3u8",
+        "status": 0
+      }
+    ],
+    "playback": [
+      {
+        "chatroom_id": "z1.youcantest1.598c352920a05d4c8d56c2e3",
+        "uid": 1016396,
+        "title": "小桂子大玲玲木头人",
+        "viewer_num": 548,
+        "cover": "https://dn-fDD8GeyB.qbox.me/52731cea7f3bd54e1e84.png",
+        "url": "http://pili-media.test1.youcan.mobi/recordings/z1.youcantest1.598c352920a05d4c8d56c2e3/598c352920a05d4c8d56c2e3.m3u8",
+        "status": 0
+      },
+      {
+        "chatroom_id": "z1.youcantest1.598c352920a05d4c8d56c2e3",
+        "uid": 1016396,
+        "title": "小桂子大玲玲木头人",
+        "viewer_num": 548,
+        "cover": "https://dn-fDD8GeyB.qbox.me/52731cea7f3bd54e1e84.png",
+        "url": "http://pili-media.test1.youcan.mobi/recordings/z1.youcantest1.598c352920a05d4c8d56c2e3/598c352920a05d4c8d56c2e3.m3u8",
+        "status": 0
+      },
+      {
+        "chatroom_id": "z1.youcantest1.598c352920a05d4c8d56c2e3",
+        "uid": 1016396,
+        "title": "小桂子大玲玲木头人",
+        "viewer_num": 548,
+        "cover": "https://dn-fDD8GeyB.qbox.me/52731cea7f3bd54e1e84.png",
+        "url": "http://pili-media.test1.youcan.mobi/recordings/z1.youcantest1.598c352920a05d4c8d56c2e3/598c352920a05d4c8d56c2e3.m3u8",
+        "status": 0
+      },
+      {
+        "chatroom_id": "z1.youcantest1.598c352920a05d4c8d56c2e3",
+        "uid": 1016396,
+        "title": "小桂子大玲玲木头人",
+        "viewer_num": 548,
+        "cover": "https://dn-fDD8GeyB.qbox.me/52731cea7f3bd54e1e84.png",
+        "url": "http://pili-media.test1.youcan.mobi/recordings/z1.youcantest1.598c352920a05d4c8d56c2e3/598c352920a05d4c8d56c2e3.m3u8",
+        "status": 0
+      }
+    ]
+  }
+}

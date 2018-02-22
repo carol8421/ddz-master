@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta content="email=no" name="format-detection" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--[if lt IE 9]>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" >
+    <![endif]-->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" itemprop="description" content="24K黄金回馈赛送黄金啦">
+    <meta itemprop="name" content="24K黄金回馈赛送黄金啦">
+    <meta itemprop="image" content="https://web.ddz.dasheng.tv/images/hall/share.png">
+    <meta name="keywords" content="24K黄金回馈赛送黄金啦">
+    <meta name="description" content="24K黄金回馈赛送黄金啦">
+    <script>
+        var win_width=document.documentElement.clientWidth||window.innerWidth;
+        var FS =(win_width/1334>1?1:win_width/1334)*100;
+        document.documentElement.style.fontSize=FS+'px';
+    </script>
+    <title>24K黄金回馈赛送黄金啦</title>
+    <style>
+        * {
+            margin: 0;
+        }
+		html,body {
+			height: 100%;
+		}
+        img {
+            display: block;
+            max-width: 100%;
+        }
+        .main {
+            position: relative;
+			height: 100%;
+			min-height: 7.5rem;
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			max-width: 13.34rem;
+            margin: 0 auto;
+        }
+        .main.whole {
+            background-image: url(./bg_whole.jpg);
+        }
+        .main.low {
+            background-image: url(./bg_low.jpg);
+        }
+        .main a {
+            display: block;
+            width: 3.64rem;
+            height: 1.01rem;
+            position: absolute;
+            right: 1.77rem;
+            top: 5.34rem;
+			cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <a id="download"></a>
+</div>
+<script>
+    (function(doc,win){
+        psdW = 1334;
+        docEl = doc.documentElement;
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+        recalc = function () {
+            docW = docEl.clientWidth;
+            nowR = docW/psdW > 1 ? 1 : docW/psdW;
+            docEl.style.fontSize = nowR*100 + 'px';
+        };
+        if (!doc.addEventListener){
+            return;
+        }
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document,window);
+
+    var Common = {
+        ua: navigator.userAgent,
+        MQQBrowser: function () {
+            var uaArray = this.ua.split(' ');
+            var isMQQBrowser = false;
+            for(var i=0;i<uaArray.length;i++){
+                if(uaArray[i].indexOf('TBS/')>-1){
+                    isMQQBrowser = true;
+                }
+                else if(uaArray[i].indexOf('MQQBrowser')>-1){
+                    isMQQBrowser = true;
+                }
+            }
+            return isMQQBrowser;
+        },
+        MSDK: navigator.userAgent.indexOf('MSDK') > -1? true : false,
+        weixin: navigator.userAgent.toLowerCase().match(/MicroMessenger/i)=='micromessenger'?true:false,
+        android: navigator.userAgent.indexOf('Android') > -1 || navigator.userAgent.indexOf('Linux') > -1 ? true : false,
+        appSchema: 'mktv://stream',
+        appApk: 'https://api.dasheng.tv:4431/v1/app/download?market=doudizhufulisai',
+        iphoneDownUrl: '//itunes.apple.com/cn/app/id1219919483',
+        sjqqDownUrl: '//a.app.qq.com/o/simple.jsp?pkgname=com.appgame.mktv',
+        openApp: function(){
+            var this_ = this;
+            var loadDateTime = new Date();
+
+            if(Common.android){
+                if(Common.weixin){
+                    window.location = this.sjqqDownUrl;
+                }
+                else if(Common.MSDK){
+                    window.location = this.appApk;
+                }
+                else{
+                    window.location = this_.appSchema;
+                    window.setTimeout(function() {
+                        var timeOutDateTime = new Date();
+                        if(timeOutDateTime - loadDateTime < 1200) {
+                            window.location = this_.appApk;
+                        } else {
+                            window.close();
+                        }
+                    },33);
+                }
+            }
+            else{
+                window.location = this_.iphoneDownUrl;
+            }
+        }
+    };
+
+    var getQueryString = function (name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return r[2]; return false;
+    };
+
+    if(sessionStorage.getItem('compatibleVersion')==1&&!Common.android){
+        document.getElementsByClassName('main')[0].classList.add('low');
+    }
+    else{
+        document.getElementsByClassName('main')[0].classList.add('whole');
+    }
+
+    document.getElementById('download').onclick = function () {
+        Common.openApp();
+        _hmt.push(['_trackEvent', '24K黄金回馈赛送黄金啦', '点击', '下载APP抢黄金', 1]);
+        _czc.push(["_trackEvent", "斗地主", "下载APP抢黄金", "24K黄金回馈赛送黄金啦", 0, "download"]);
+    }
+</script>
+<div style="display: none">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?380480e639466a02ed49fc99751674ed";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1263596597'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1263596597' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<script>
+    _czc.push(["_trackEvent", "24K黄金回馈赛送黄金啦", "进入", "首页", 0, "enter"]);
+</script>
+</body>
+</html>

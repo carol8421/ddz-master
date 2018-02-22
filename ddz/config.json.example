@@ -1,0 +1,21 @@
+{
+  "status": 200,
+  "api_host": {
+    "build": "http://118.89.61.139:8094/",
+    "dist": ""
+  },
+  "api_path": {
+    "ddz": {
+      "build": {
+        "home": "ddz/list",
+        "chatroom": "ddz/room",
+        "appkey": "y745wfm844pov"
+      },
+      "dist": {
+        "home": "ddz/list",
+        "chatroom": "ddz/room",
+        "appkey": ""
+      }
+    }
+  }
+}
