@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="renderer" content="webkit">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" itemprop="description" content="一言不合看直播，主播带你玩转直播间，坐等老铁们来嗨">
+    <meta itemprop="name" content="可以玩的小视频，尽在大圣Live">
+    <meta itemprop="image" content="https://web.ddz.dasheng.tv/share.jpg">
+    <meta name="keywords" content="德州扑克,大圣Live,直播">
+    <meta name="description" content="一言不合看直播，主播带你玩转直播间，坐等老铁们来嗨">
+    <title>可以玩的小视频，尽在大圣Live</title>
+    <link rel="icon" type="image/x-icon" href="./icon&size80.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./icon&size80.png">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/hall.min.css?ver=1513760124149"> -->
+    <link rel="stylesheet" type="text/css" href="./css/hall.css">
+    <link rel="stylesheet" type="text/css" href="./css/live.min.css">
+    <script>
+        var win_width = document.documentElement.clientWidth;
+        var win_height = document.documentElement.clientHeight;
+        win_width = win_width > win_height ? win_width : win_height;
+        var FS = (win_width / 1334 > 1 ? 1 : win_width / 1334) * 100;
+        document.documentElement.style.fontSize = FS + 'px';
+    </script>
+</head>
+
+<body>
+
+    <section class="main main-live">
+
+        <div class="d-video"></div>
+
+    </section>
+
+    <aside>
+        <ul>
+            <li>
+                <a href="./">
+                    <b>首页</b>
+                </a>
+            </li>
+            <li>
+                <a href="./myVideo.html">
+                    <b>视频</b>
+                </a>
+            </li>
+            <li>
+                <a href="./comic.html">
+                    <b>漫画</b>
+                </a>
+            </li>
+            <li>
+                <a href="./myLive.html">
+                    <b>直播</b>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <div class="msg-tips"></div>
+
+    <div class="mask">
+        <div class="dialog d1">
+            <a class="close closeMask"></a>
+            <p>前往
+                <strong>大圣Live</strong>参与有奖互动还有无数美女、大神在这里！</p>
+            <a class="button">
+                <b>确定</b>
+            </a>
+        </div>
+
+        <a class="support">支持他/她</a>
+    </div>
+
+    <div class="vjs-tomato" id="tomato"></div>
+
+    <div class="login">
+        <div class="loginC">
+            <a class="close"></a>
+            <ul>
+                <li>
+                    <input type="number" id="phone" placeholder="手机号码">
+                </li>
+                <li>
+                    <input type="number" id="code" placeholder="验证码">
+                    <a class="getCode">获取验证码</a>
+                </li>
+            </ul>
+            <a class="loginBtn">登录</a>
+            <a class="registerBtn">立即下载并注册</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="sucess">
+            <a class="close"></a>
+            <code></code>
+            <a class="download"></a>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/video-js-5.19.2/video.min.js"></script>
+    <script src="./js/video-js-5.19.2/videojs-contrib-hls.min.js"></script>
+    <script src="./js/preloadjs.min.js"></script>
+    <!-- <script src="./js/hall.min.js"></script> -->
+    <script src="./js/hall.js"></script>
+    <script src="./js/hall_pk.min.js"></script>
+    <script src="./js/live.min.js"></script>
+    <div style="display: none">
+        <script>
+            var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?380480e639466a02ed49fc99751674ed";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+            _hmt.push(['_trackEvent', '斗地主直播间', '访问', '播放页', 1]);
+
+            var _czc = _czc || [];
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1272194927'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1272194927' type='text/javascript'%3E%3C/script%3E"));
+            _czc.push(["_trackEvent", "斗地主直播间", "播放页", "访问", 0, "live"]);
+        </script>
+    </div>
+</body>
+
+</html>
