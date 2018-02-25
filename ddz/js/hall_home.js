@@ -188,6 +188,15 @@
                     }
                     $('.swiper-playback .playback-video').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
                 }
+
+
+                $('.luck-day-month').html(new Date().getMonth() + 1 + '月');
+                $('.luck-day-date').html(new Date().getDate());
+                // 首页黄历详情-小
+                var lunar = calendar.solar2lunar();
+                $('.luck-new-date').html(lunar.cYear + '.' + lunar.cMonth + '.' + lunar.cDay + '.' + '&nbsp;' + lunar.ncWeek);
+                $('.luck-old-date').html(lunar.IMonthCn + lunar.IDayCn + '&nbsp;' + lunar.gzYear + '年' + '【' + lunar.Animal + '年' + '】' + lunar.gzMonth + '月' + lunar.gzDay + '日');
+                $('.luck-mask').css({'display':'block'});
             }
             else {
                 CommonJS.Toast(response.msg);
@@ -202,13 +211,6 @@
             }
         }
     });
-    $('.luck-day-month').html(new Date().getMonth() + 1 + '月');
-    $('.luck-day-date').html(new Date().getDate());
-    // 首页黄历详情-小
-    var lunar = calendar.solar2lunar();
-    console.log(lunar.ncWeek);
-    $('.luck-new-date').html(lunar.cYear + '.' + lunar.cMonth + '.' + lunar.cDay + '.' + '&nbsp;' + lunar.ncWeek);
-    $('.luck-old-date').html(lunar.IMonthCn + lunar.IDayCn + '&nbsp;' + lunar.gzYear + '年' + '【' + lunar.Animal + '年' + '】' + lunar.gzMonth + '月' + lunar.gzDay + '日');
 })();
 
 
@@ -297,5 +299,5 @@ $(document).delegate('.closeIt', 'click', function () {
 
 /* 点击关闭今日运势 */
 $('.rock-and-roll>span').on('click', function () {
-    $(this).parent().fadeOut();
+    $(this).parent().parent().fadeOut();
 });
