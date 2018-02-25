@@ -433,6 +433,7 @@ body {
 
 body .main:not(.main-live) {
     background-color: #fff6e4;
+    background-image: linear-gradient(to bottom,#fef5e3,#fddcc0);
 }
 
 body.svideo-body .main {
@@ -1624,6 +1625,57 @@ aside ul li:nth-child(4) a b:before {
   right: 0;
 }
 
+.luck-describe{
+    width:3.8rem;
+    height:2.55rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .25rem 0 0 .25rem;
+    background-color: #fff;
+    border:1px solid #ccc;
+    border-left: none;
+    border-top-right-radius: .1rem;
+}
+
+.luck-describe .luck-title{
+    font-size: .26rem;
+    font-family: YouYuan;
+    line-height: .26rem;
+    color:#801d0b;
+}
+
+.luck-describe .luck-new-date{
+    font-size: .24rem;
+    font-family: YouYuan;
+    line-height: .26rem;
+    color:#801d0b;
+    margin-top: .1rem;
+}
+
+.luck-describe .luck-old-date{
+    font-family: YouYuan;
+    font-size: .18rem;
+    line-height: .18rem;
+    color:#801d0b;
+    width: 125%;
+    transform: scale(0.8);
+    margin-left: -0.45rem;
+    margin-top: .2rem;
+}
+
+.luck-describe .luck-final{
+    font-size: .28rem;
+    color:#801d0b;
+    font-family: YouYuan;
+    margin-top: .05rem;
+}
+
+.luck-describe .luck-final span{
+    color:#d20321;
+    font-weight: bold;
+}
+
 .luck-footer{
   position: absolute;
   left: 0;
@@ -1682,3 +1734,48 @@ aside ul li:nth-child(4) a b:before {
 }
 
 
+/* 摇一摇、点击查看运势 */
+.rock-and-roll{
+    width: 5.2rem;
+    height:3rem;
+    background-color: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: .1rem;
+    border:1px solid #ccc;
+    z-index: 99;
+    box-shadow: 0.05rem 0.05rem 0.1rem 0.1rem rgba(0,0,0,.15);
+}
+
+.rock-and-roll span{
+    background-image: url(../images/hall/close_check.png);
+    background-size: cover;
+    font-family: Microsoft YaHei;
+    font-weight: normal;
+    height: .38rem;
+    width: .38rem;
+    position: absolute;
+    top: .15rem;
+    right: .15rem;
+}
+.rock-and-roll p{
+    width: 100%;
+    text-align: center;
+    font-size: .36rem;
+    font-family: YouYuan;
+    color: #d20321;
+    margin-top: .75rem;
+}
+.rock-and-roll i{
+    background-image: url(../images/hall/rock_button.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 3rem;
+    height: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

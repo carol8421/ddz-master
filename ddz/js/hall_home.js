@@ -265,3 +265,8 @@ $(document).delegate('.yscq', 'click', function () {
 $(document).delegate('.closeIt', 'click', function () {
     myDialog.closeDialog();
 });
+
+/* 点击关闭今日运势 */
+$('.rock-and-roll>span').on('click',function () {
+    $(this).parent().fadeOut();
+});
