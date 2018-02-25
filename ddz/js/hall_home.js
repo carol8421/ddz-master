@@ -90,7 +90,25 @@
 
 
                 //对局视频
-                for (var i = 0; i < 40 && i < res.small_video.list.length; i++) {
+                // for (var i = 0; i < 40 && i < res.small_video.list.length; i++) {
+                //     var opt = {
+                //         uid: res.small_video.list[i].uid,
+                //         chatroom_id: res.small_video.list[i].chatroom_id,
+                //         status: 0,
+                //         viewer_num: res.small_video.list.totalViewersNum,
+                //         title: res.small_video.list[i].title,
+                //         poster: CommonJS.ImageCompression(res.small_video.list[i].cover, 366, 206, 60),
+                //         url: res.small_video.list[i].url
+                //     }
+                //     if (i < 4) {
+                //         $('.swiper-svideo .video-list').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
+                //     }
+                //     else {
+                //         $('.swiper-svideo .video-list').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
+                //     }
+                // }
+                // mySVideoSwiper.update();
+                for (var i = 0; i < 4; i++) {
                     var opt = {
                         uid: res.small_video.list[i].uid,
                         chatroom_id: res.small_video.list[i].chatroom_id,
@@ -100,14 +118,8 @@
                         poster: CommonJS.ImageCompression(res.small_video.list[i].cover, 366, 206, 60),
                         url: res.small_video.list[i].url
                     }
-                    if (i < 4) {
-                        $('.swiper-svideo .video-list').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
-                    }
-                    else {
-                        $('.swiper-svideo .video-list').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
-                    }
+                    $('.swiper-svideo .video-list').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
                 }
-                // mySVideoSwiper.update();
 
                 //轮播图
                 for (var i = 0; i < res.banner.length; i++) {
@@ -146,7 +158,25 @@
                 myLiveSwiper.update();
 
                 //精彩视频
-                for (var i = 0; i < 20 && i < res.playback.length; i++) {
+                // for (var i = 0; i < 20 && i < res.playback.length; i++) {
+                //     var opt = {
+                //         uid: res.playback[i].uid,
+                //         chatroom_id: res.playback[i].chatroom_id,
+                //         status: res.playback[i].status,
+                //         viewer_num: res.playback[i].viewer_num,
+                //         title: res.playback[i].title,
+                //         poster: CommonJS.ImageCompression(res.playback[i].cover, 366, 206, 60),
+                //         url: res.playback[i].url
+                //     }
+                //     if (i < 5) {
+                //         $('.swiper-playback .playback-video').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
+                //     }
+                //     else {
+                //         $('.swiper-playback .playback-video').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
+                //     }
+                // }
+                // myPlaybackSwiper.update();
+                for (var i = 0; i < 4; i++) {
                     var opt = {
                         uid: res.playback[i].uid,
                         chatroom_id: res.playback[i].chatroom_id,
@@ -156,14 +186,8 @@
                         poster: CommonJS.ImageCompression(res.playback[i].cover, 366, 206, 60),
                         url: res.playback[i].url
                     }
-                    if (i < 5) {
-                        $('.swiper-playback .playback-video').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
-                    }
-                    else {
-                        $('.swiper-playback .playback-video').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
-                    }
+                    $('.swiper-playback .playback-video').append('<div class="video-list-item">' + myHTML.itemHTML(opt, 1) + '</div>');
                 }
-                // myPlaybackSwiper.update();
             }
             else {
                 CommonJS.Toast(response.msg);
