@@ -39,17 +39,36 @@
     .main .content {
         /* width:100%; */
         height: 100%;
-        margin: .4rem .4rem .36rem .36rem;
+        margin: .4rem .4rem .2rem .36rem;
         padding: 0;
         border-radius: 0;
     }
 
     .main .content .date {
         height: 1.3rem;
-        background-color: #d20321;
+        /* background-color: #d20321; */
+        background-image: url(./images/calender/title_bg.png);
+        background-size: cover;
+        background-position: center center;
         border-radius: 0.1rem;
         font-family: YouYuan;
+        position: relative;
     }
+
+    /* .main .content .date::before{
+        content: '';
+        display: block;
+        position: absolute;
+        top:0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-image: url(./images/calender/title_light.png);
+        background-size: cover;
+        background-position: center 190%;
+        width:100%;
+        height: 100%;
+        z-index: 9;
+    } */
 
     .main .content .date .origin-date {
         font-size: .4rem;
@@ -64,6 +83,92 @@
         float: right;
         padding-right: 1rem;
     }
+
+    .date-title {
+        margin: 0 .4rem .2rem .4rem;
+        color: #cd7052;
+        font-size: .24rem;
+        font-family: YouYuan;
+    }
+
+    .date-describe {
+        position: absolute;
+        margin-left: .36rem;
+        width: 7.3rem;
+        height: 3.45rem;
+        background: url(./images/calender/describe_bg.png);
+        background-position: center center;
+        background-size: cover;
+        border-radius: .1rem;
+        overflow: hidden;
+    }
+
+    .date-describe>.describe-img {
+        width: 2.5rem;
+        height: 3.45rem;
+        background-image: url(./images/calender/describe_bg.jpg);
+        background-size: cover;
+        background-position: center center;
+        float: left;
+    }
+
+    .date-describe .describe-detail {
+        width: 4.8rem;
+        height: 100%;
+        float: right;
+        /* text-align: left; */
+        font-size: .24rem;
+        padding: 1rem .6rem 0 .6rem;
+    }
+
+    .date-suggestion {
+        width: 3.7rem;
+        height: 3.45rem;
+        position: absolute;
+        right: .55rem;
+        /* background-color: #fff; */
+        overflow: hidden;
+    }
+
+    .date-suggestion>.date-should {
+        background-image: url(./images/calender/should.png);
+        background-position: center center;
+        background-size: cover;
+        float: left;
+        width: 1.75rem;
+        height: 2.08rem;
+    }
+
+    .date-suggestion>.date-shouldnot {
+        background-image: url(./images/calender/shouldnot.png);
+        background-position: center center;
+        background-size: cover;
+        float: right;
+        width: 1.75rem;
+        height: 2.08rem;
+    }
+
+    .date-suggestion>.date-should>.sug-list,
+    .date-suggestion>.date-shouldnot>.sug-list {
+        margin-top: 2.1rem;
+        text-align: center;
+    }
+
+    .date-suggestion>.date-should>.sug-list p,
+    .date-suggestion>.date-shouldnot>.sug-list p {
+        color: #801d0b;
+        font-family: YouYuan;
+    }
+
+    .date-suggestion>.date-should>.sug-list p:first-child {
+        color: #d20321;
+        font-weight: bold;
+    }
+
+    .date-suggestion>.date-shouldnot>.sug-list p:first-child {
+        color: #313131;
+        font-weight: bold;
+    }
 </style>
 
 <body>
@@ -77,12 +182,41 @@
             </div>
         </div>
 
+        <div class="date-title">
+            距地主守擂赛还有1天，距地主守擂赛还有1天，距地主守擂赛还有1天，距地主守擂赛还有1天，距地主守擂 还有1天，距地主守擂赛还有1天，距地主守擂赛还有1天，距地主守擂赛还有1天，距地主守擂赛还有1天， 地主守擂赛还有1天，
+        </div>
+
+        <div class="date-describe">
+            <!-- <img src="./images/calender/describe_bg.png" > -->
+            <div class="describe-img"></div>
+            <div class="describe-detail">
+                <p>欢乐斗就是力量，欢乐斗就是力量，欢乐斗就是力量，欢乐斗就是力量。</p>
+            </div>
+        </div>
+
+        <div class="date-suggestion">
+            <div class="date-should">
+                <div class="sug-list">
+                    <p>123</p>
+                    <p>123</p>
+                    <p>123</p>
+                </div>
+            </div>
+            <div class="date-shouldnot">
+                <div class="sug-list">
+                    <p>123</p>
+                    <p>123</p>
+                    <p>123</p>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <aside>
         <ul>
             <li>
-                <a class="home current">
+                <a href="./" class="home current">
                     <b>首页</b>
                 </a>
             </li>
@@ -109,7 +243,8 @@
     <script>
         $(function () {
             var lunar = calendar.solar2lunar();
-            $('.origin-date').html(lunar.lYear + '年' + lunar.lMonth + '月' + lunar.lDay + '日&nbsp;&nbsp;&nbsp;' + lunar.ncWeek + '&nbsp;&nbsp;&nbsp;农历&nbsp;' + lunar.IMonthCn + lunar.IDayCn);
+            console.log(lunar);
+            $('.origin-date').html(lunar.lYear + '年' + lunar.cMonth + '月' + lunar.cDay + '日&nbsp;&nbsp;&nbsp;' + lunar.ncWeek + '&nbsp;&nbsp;&nbsp;农历&nbsp;' + lunar.IMonthCn + lunar.IDayCn);
             $('.fake-date').html(lunar.gzYear + '年' + '【' + lunar.Animal + '年' + '】' + lunar.gzMonth + '月&nbsp;' + lunar.gzDay + '日');
         });
     </script>

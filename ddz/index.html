@@ -151,16 +151,17 @@
     </div>
 
     <!-- 查看运势弹窗 -->
-     <div class="luck-mask" style="display:none"> 
+    <div class="luck-mask" style="display:none">
         <div class="rock-and-roll">
             <span></span>
             <p>来查看今日运势如何</p>
-            <i></i>
+            <a href="./calender.html"></a>
+            <!-- <a></a> -->
         </div>
-     </div> 
+    </div>
 
     <!-- 今日运势详情 -->
-    
+
 
     <section class="main">
 
@@ -168,7 +169,22 @@
         <div class="part mb10">
             <div class="part-child part-left">
                 <div class="swiper-container swiper-banner">
-                    <div class="swiper-wrapper"></div>
+                    <div class="swiper-wrapper">
+                        <!-- 加进来的--- -->
+                        <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="background-image: url(&quot;https://img.dasheng.tv/img/147990af64dc56f1fad9ee01eda1b927ffd8ffe000104a464946000101000001.jpg?imageView2/1/w/554/h/255/jpg/60&quot;); width: 395px;">
+                            <a href="http://www.baidu.com"></a>
+                            <div class="carousel_footer">
+                                <div class="carousel_title">123</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-lazy swiper-lazy-loaded swiper-slide-next" style="width: 395px; background-image: url(&quot;https://img.dasheng.tv/img/34a1799da5ecb43b4770d661b62daf38ffd8ffe1001845786966000049492a00.jpg?imageView2/1/w/554/h/255/jpg/60&quot;);">
+                            <a href="https://dasheng.tv/1043534/z1.app-release.5a1a2894a95be72e6c6539d3"></a>
+                        </div>
+                        <!-- 加进来的 -->
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
                     <!-- <div class="swiper-footer">
                         <a class="bannerDownload">
                             <img src="./images/hall/logo-szww.png" class="imgLogo" alt="">
@@ -203,11 +219,13 @@
                     <div class="luck-day-date"></div>
                 </div>
                 <div class="luck-background" style="background-image:url(./images/hall/luck-date.png);display:none"></div>
-                <div class="luck-describe" >
+                <div class="luck-describe">
                     <p class="luck-title">欢乐地主老黄历</p>
                     <p class="luck-new-date"></p>
                     <p class="luck-old-date"></p>
-                    <p class="luck-final">距 <span class="luck-final-title">地主守擂赛</span> 还有 <span class="luck-final-day">1</span> 天 </p>
+                    <p class="luck-final">距
+                        <span class="luck-final-title">地主守擂赛</span> 还有
+                        <span class="luck-final-day">1</span> 天 </p>
                 </div>
                 <div class="luck-footer">
                     <span>今日老黄历</span>
@@ -309,14 +327,17 @@
     </aside>
 
     <script src="./js/jquery-1.9.0.min.js"></script>
-    <script src="./js/clipboard.min.js"></script>
+    <!-- <script src="./js/clipboard.min.js"></script> -->
+    <script src="./js/clipboard.js"></script>
 
     <!-- <script src="./js/hall.min.js"></script> -->
     <script src="./js/hall.js"></script>
     <!-- 农历插件 -->
     <script src="./js/calander.js"></script>
 
-    <script src="./js/hall_sign.min.js"></script>
+    <!-- <script src="./js/hall_sign.min.js"></script> -->
+    <script src="./js/hall_sign.js"></script>
+
     <script src="./js/jquery.scroll.min.js"></script>
     <script src="./js/hall_pk.min.js"></script>
     <script src="./js/swiper-3.4.0/swiper.jquery.min.js"></script>

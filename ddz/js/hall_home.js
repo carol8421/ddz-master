@@ -15,6 +15,8 @@
                 var myHTML = new HTML();
 
                 var cdkeyLink = 'https://huanle.qq.com/hlddz_cdkey/cdkey.shtml';
+                // console.log(document.location.href.split('?')[1]);
+                // return;
                 if (document.location.href.split('?')[1]) {
                     cdkeyLink = cdkeyLink + '?' + document.location.href.split('?')[1];
                     if (localStorage.url == undefined && window.name == '') {
@@ -27,9 +29,9 @@
                     }
                 }
                 else {
-                    if (localStorage.url != undefined || window.name != '') {
-                        cdkeyLink += '?' + (localStorage.url || window.name);
-                    }
+                    // if (localStorage.url != undefined || window.name != '') {
+                    //     cdkeyLink += '?' + (localStorage.url || window.name);
+                    // }
                 }
 
                 // 添加button
@@ -122,14 +124,14 @@
                 }
 
                 //轮播图
-                for (var i = 0; i < res.banner.length; i++) {
-                    if (i == 0) {
-                        $('.swiper-banner .swiper-wrapper').append('<div class="swiper-slide" style="background-image: url(' + CommonJS.ImageCompression(res.banner[i].pic, 554, 255, 60) + ')"><a href="' + res.banner[i].url + '"></a></div>');
-                    }
-                    else {
-                        $('.swiper-banner .swiper-wrapper').append('<div class="swiper-slide swiper-lazy" data-background="' + CommonJS.ImageCompression(res.banner[i].pic, 554, 255, 60) + '"><a href="' + res.banner[i].url + '"></a></div>');
-                    }
-                }
+                // for (var i = 0; i < res.banner.length; i++) {
+                //     if (i == 0) {
+                //         $('.swiper-banner .swiper-wrapper').append('<div class="swiper-slide" style="background-image: url(' + CommonJS.ImageCompression(res.banner[i].pic, 554, 255, 60) + ')"><a href="' + res.banner[i].url + '"></a></div>');
+                //     }
+                //     else {
+                //         $('.swiper-banner .swiper-wrapper').append('<div class="swiper-slide swiper-lazy" data-background="' + CommonJS.ImageCompression(res.banner[i].pic, 554, 255, 60) + '"><a href="' + res.banner[i].url + '"></a></div>');
+                //     }
+                // }
                 myBannerSwiper.update();
 
                 //热门直播
@@ -196,7 +198,12 @@
                 var lunar = calendar.solar2lunar();
                 $('.luck-new-date').html(lunar.cYear + '.' + lunar.cMonth + '.' + lunar.cDay + '.' + '&nbsp;' + lunar.ncWeek);
                 $('.luck-old-date').html(lunar.IMonthCn + lunar.IDayCn + '&nbsp;' + lunar.gzYear + '年' + '【' + lunar.Animal + '年' + '】' + lunar.gzMonth + '月' + lunar.gzDay + '日');
-                $('.luck-mask').css({'display':'block'});
+
+
+                // if(!localStorage.getItem('isChecked') || !localStorage.getItem('noCheck')){
+                if (!localStorage.getItem('noCheck')) {
+                    $('.luck-mask').css({ 'display': 'block' });
+                }
             }
             else {
                 CommonJS.Toast(response.msg);
@@ -218,6 +225,9 @@ var myBannerSwiper = new Swiper('.swiper-banner', {
     // autoplay: 1000,
     watchSlidesVisibility: true,
     lazyLoading: true,
+    pagination: {
+        el: '.swiper-pagination',
+      }
     // loop:true
 });
 
@@ -297,7 +307,38 @@ $(document).delegate('.closeIt', 'click', function () {
     myDialog.closeDialog();
 });
 
+
 /* 点击关闭今日运势 */
 $('.rock-and-roll>span').on('click', function () {
     $(this).parent().parent().fadeOut();
+    // localStorage.setItem('noCheck', true);
+    // setLocalStorage('noCheck', true);
+});
+
+$('.rock-and-roll a').on('click', function () {
+    console.log('132456');
+    localStorage.setItem('isChecked', true);
+});
+
+/* localStorage过期 */
+function setLocalStorage(key, value) {
+    var curTime = new Date().getTime();
+    localStorage.setItem(key, JSON.stringify({ data: value, time: curTime }));
+}
+function getLocalStorage(key, exp) {
+    var data = localStorage.getItem(key);
+    var dataObj = JSON.parse(data);
+    if (new Date().getTime() - dataObj.time > exp) {
+        console.log('信息已过期');
+        //alert("信息已过期")
+    } else {
+        //console.log("data="+dataObj.data);
+        //console.log(JSON.parse(dataObj.data));
+        var dataObjDatatoJson = JSON.parse(dataObj.data)
+        return dataObjDatatoJson;
+    }
+}
+
+$('.luck-left').on('click', function () {
+    window.location.href = '../calender.html';
 });

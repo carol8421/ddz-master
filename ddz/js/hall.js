@@ -13,7 +13,7 @@ Date.prototype.Format = function (fmt) {
         if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
     return fmt;
 };
-
+var ischeck;
 var websiteHost = window.location.hostname;
 var isDist = websiteHost.match(/web.ddz.dasheng.tv/);
 var isPreDist = websiteHost.match(/123.207.77.220/);
@@ -380,7 +380,7 @@ var CommonAPP = {
                 html += '<a href="./myLive.html?videoId=' + opt.chatroom_id + '" class="item">';
             }
 
-            
+
             if (lazyload == 1) {
                 html += '<i class="swiper-lazy" data-background="' + opt.poster + '">';
             }

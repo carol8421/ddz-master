@@ -26,6 +26,56 @@
         var FS = (win_width / 1334 > 1 ? 1 : win_width / 1334) * 100;
         document.documentElement.style.fontSize = FS + 'px';
     </script>
+    <style>
+        .nav{
+            height:.75rem;
+            line-height: .75rem;
+            padding:0 .5rem;
+            font-family: YouYuan;
+            background: #fddcc0 !important;
+            color:#801d0b;
+        }
+        .nav-logo {
+            float: left;
+            font-size: .36rem;
+        }
+        .nav-more{
+            float: right;
+            font-size: .30rem;
+        }
+        .nav-more::after{
+            content: '>';
+        }
+        .nav-more>a{
+            color: inherit;
+        }
+        .comic-content{
+            width:100%;
+            height:100%;
+            padding:0 .36rem;
+        }
+        .comic-content ul{
+            display:flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .comic-content ul li{
+            width: 5.6rem;
+            height:3.15rem;
+            /* background-color: #fff; */
+            background-position: center center;
+            background-size: contain;
+            text-align: center;
+            line-height: 3.15rem;
+            margin-bottom: .1rem;
+        }
+
+        .comic-content ul .content-long{
+            width:100%;
+            height:100%;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -33,11 +83,24 @@
     <section class="main">
 
         <nav class="nav">
-            <ul></ul>
-            <!-- <ul><li class="current" data-uid="0_10000107">地主笑哈哈</li><li data-uid="1_10000048" class="">不不不不</li><li data-uid="2_10000024">一个两个三个</li><li data-uid="4_10000086">大圣TV</li></ul> -->
-
+            <!-- <ul></ul> -->
+            <div class="nav-logo">漫画标题</div>
+            <div class="nav-more">
+                <a href="./comic.html">查看更多内容</a>
+            </div>
         </nav>
 
+        <div class="comic-content">
+            <ul>
+                <!-- <li style="background-image:url(./images/0test/1.jpg)" data-src="./images/0test/1.jpg">1</li>
+                <li style="background-image:url(./images/0test/2.jpg)" data-src="./images/0test/2.jpg">2</li>
+                <li style="background-image:url(./images/0test/3.jpg)" data-src="./images/0test/3.jpg">3</li>
+                <li style="background-image:url(./images/0test/4.jpg)" data-src="./images/0test/4.jpg">4</li>  -->
+                <li  class="content-long">
+                    <img src="./images/0test/long.jpg" width="100%">
+                </li>
+            </ul>
+        </div>
 
 
     </section>
@@ -73,7 +136,13 @@
 
     <!-- <script src="./js/hall_video.min.js"></script> -->
     <!-- <script src="./js/hall_video.js"></script> -->
-    <script src="./comic_item.js"></script>
+
+    <script>
+        $('.comic-content ul li').on('click',function () {
+            console.log($(this).data('src')); 
+
+        });
+    </script>
 
     <div style="display: none">
         <script>
