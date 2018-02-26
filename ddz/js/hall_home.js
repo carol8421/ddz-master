@@ -124,14 +124,14 @@
                 }
 
                 //轮播图
-                // for (var i = 0; i < res.banner.length; i++) {
-                //     if (i == 0) {
-                //         $('.swiper-banner .swiper-wrapper').append('<div class="swiper-slide" style="background-image: url(' + CommonJS.ImageCompression(res.banner[i].pic, 554, 255, 60) + ')"><a href="' + res.banner[i].url + '"></a></div>');
-                //     }
-                //     else {
-                //         $('.swiper-banner .swiper-wrapper').append('<div class="swiper-slide swiper-lazy" data-background="' + CommonJS.ImageCompression(res.banner[i].pic, 554, 255, 60) + '"><a href="' + res.banner[i].url + '"></a></div>');
-                //     }
-                // }
+                for (var i = 0; i < res.banner.length; i++) {
+                    if (i == 0) {
+                        $('.swiper-banner .swiper-wrapper').append('<div class="swiper-slide" style="background-image: url(' + CommonJS.ImageCompression(res.banner[i].pic, 554, 255, 60) + ')"><a href="' + res.banner[i].url + '"></a></div>');
+                    }
+                    else {
+                        $('.swiper-banner .swiper-wrapper').append('<div class="swiper-slide swiper-lazy" data-background="' + CommonJS.ImageCompression(res.banner[i].pic, 554, 255, 60) + '"><a href="' + res.banner[i].url + '"></a></div>');
+                    }
+                }
                 myBannerSwiper.update();
 
                 //热门直播
@@ -200,9 +200,8 @@
                 $('.luck-old-date').html(lunar.IMonthCn + lunar.IDayCn + '&nbsp;' + lunar.gzYear + '年' + '【' + lunar.Animal + '年' + '】' + lunar.gzMonth + '月' + lunar.gzDay + '日');
 
 
-                // if(!localStorage.getItem('isChecked') || !localStorage.getItem('noCheck')){
                 if (!localStorage.getItem('noCheck')) {
-                    $('.luck-mask').css({ 'display': 'block' });
+                    // $('.luck-mask').css({ 'display': 'block' });
                 }
             }
             else {
@@ -224,10 +223,8 @@
 var myBannerSwiper = new Swiper('.swiper-banner', {
     // autoplay: 1000,
     watchSlidesVisibility: true,
+    pagination: '.swiper-banner .swiper-pagination',
     lazyLoading: true,
-    pagination: {
-        el: '.swiper-pagination',
-      }
     // loop:true
 });
 

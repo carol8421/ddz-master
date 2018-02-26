@@ -1756,7 +1756,7 @@ aside ul li:nth-child(4) a b:before {
 .rock-and-roll {
     width: 5.2rem;
     height: 3rem;
-    background-image: linear-gradient(#ffefc6,#ffbd7d 50%,#ffbb7b 100%);
+    background-image: linear-gradient(#ffefc6, #ffbd7d 50%, #ffbb7b 100%);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1784,7 +1784,7 @@ aside ul li:nth-child(4) a b:before {
     text-align: center;
     font-size: .36rem;
     font-family: YouYuan;
-    color:#801d0b;
+    color: #801d0b;
     margin-top: .65rem;
 }
 
@@ -1800,16 +1800,18 @@ aside ul li:nth-child(4) a b:before {
     transform: translateX(-50%);
 }
 
+
 /* 轮播图样式 */
-.carousel_footer{
+
+.carousel_footer {
     width: 100%;
     height: .5rem;
     position: absolute;
     bottom: 0;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
 }
 
-.carousel_footer .carousel_title{
+.carousel_footer .carousel_title {
     height: .5rem;
     line-height: .5rem;
     text-indent: 1em;
@@ -1818,10 +1820,21 @@ aside ul li:nth-child(4) a b:before {
     color: #fff;
 }
 
-.swiper-pagination{
+.swiper-pagination {
     height: .5rem;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 0 !important;
+    left: unset;
     z-index: 5;
+    padding-left: 6rem;
+}
+
+.swiper-pagination-bullet{
+    background: #847b77 !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active{
+    background: #fff !important;
 }
